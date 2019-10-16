@@ -116,45 +116,6 @@
     </versions>
   </board>
   <board>
-    <id>CY8CKIT-064S2-4343W</id>
-    <category>PSoC 6 BSPs</category>
-    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064S2-4343W</board_uri>
-    <chips>
-      <mcu>CYB0644ABZI-D44</mcu>
-      <radio>CYW4343WKUBG</radio>
-    </chips>
-    <name>CY8CKIT-064S2-4343W</name>
-    <summary>The PSoC 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 64S2 MCU (CYB0644ABZI-D44) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>mcu_gp secure_boot</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>BLE v5.0</li>
-        <li>Serial memory interface</li>
-        <li>PDM-PCM digital microphone interface</li>
-        <li>Industry-leading CapSense</li>
-        <li>Full-speed USB</li>
-        <li>IEEE 802.11a/b/g/n WLAN</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-064S2-4343W evaluation board</li>
-        <li>TFT display shield with a 2.4" TFT display, light sensor, 6-axis motion sensor, and digital microphone</li>
-        <li>USB cable</li>
-        </ul>
-      ]]></description>
-    <documentation_url>http://www.cypress.com/documentation/development-kitsboards/psoc-6-wifi-bt-pioneer-kit-cy8ckit-064s2-4343w</documentation_url>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </board>
-  <board>
     <id>CY8CPROTO-062-4343W</id>
     <category>PSoC 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W</board_uri>
@@ -219,41 +180,6 @@
         </ul>
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-063-BLE</documentation_url>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </board>
-  <board>
-    <id>CY8CPROTO-064-SB</id>
-    <category>PSoC 6 BSPs</category>
-    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064-SB</board_uri>
-    <chips>
-      <mcu>CYB06447BZI-D54</mcu>
-    </chips>
-    <name>CY8CPROTO-064-SB</name>
-    <summary>CY8CPROTO-064-SB PSoC 64 SecureBoot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 SecureBoot MCU to enable customers to prototype and design with the PSoC 64 SecureBoot device.</summary>
-    <prov_capabilities>mcu_gp secure_boot</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>PSoC 64 Secure MCU</li>
-        <li>128-Mb Serial NOR flash</li>
-        <li>Full-speed USB device interface</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>PSoC 64 SecureBoot Prototyping Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick start guide</li>
-        </ul>
-      ]]></description>
-    <documentation_url>http://www.cypress.com/CY8CPROTO-064-SB</documentation_url>
     <versions>
       <version>
         <num>Latest 1.X release</num>
