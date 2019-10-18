@@ -155,6 +155,44 @@
     </versions>
   </board>
   <board>
+    <id>CY8CPROTO-062S3-4343W</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062S3-4343W</board_uri>
+    <chips>
+      <mcu>CY8C6245LQI-S3D72</mcu>
+      <radio>CYW4343WKUBG</radio>
+    </chips>
+    <name>CY8CPROTO-062S3-4343W</name>
+    <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC 62 MCU (CY8C6245LQI-S3D72) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
+    <prov_capabilities>psoc6 cyw43xxx mcu_gp led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory std_crypto</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>Support of up to 512 KB Flash and 256 KB SRAM</li>
+        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
+        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CapSense.</li>
+        </ul>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>CY8CPROTO-062S3-4343W board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board>
     <id>CY8CPROTO-063-BLE</id>
     <category>PSoC 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE</board_uri>
