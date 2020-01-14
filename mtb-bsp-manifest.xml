@@ -281,4 +281,45 @@
       </version>
     </versions>
   </board>
+  <board>
+    <id>CYW9P62S1-43438EVB-01</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43438EVB-01</board_uri>
+    <chips>
+      <mcu>CY8C6247BZI-D54</mcu>
+      <radio>CYW43438KUBG</radio>
+    </chips>
+    <name>CYW9P62S1-43438EVB-01</name>
+    <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
+    <prov_capabilities>psoc6 cyw43xxx mcu_gp arduino led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory std_crypto</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>Support of up to 1MB Flash and 288KB SRAM</li>
+        <li>BLE v4.2</li>
+        <li>IEEE 802.11a/b/g/n WLAN</li>
+        <li>Full-speed USB</li>
+        <li>Serial memory interface</li>
+        <li>Industry-leading CapSense</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        <li>PSoC 6S2 Wi-Fi BT Pioneer Board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/documentation/development-kitsboards/cyw9p62s1-43438-evb-01</documentation_url>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
