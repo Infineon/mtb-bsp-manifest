@@ -30,6 +30,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -83,6 +87,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -132,6 +140,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
       </version>
       <version>
         <num>1.2.0 release</num>
@@ -185,6 +197,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -229,6 +245,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
       </version>
       <version>
         <num>1.2.0 release</num>
@@ -276,6 +296,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -319,6 +343,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -358,6 +386,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
       </version>
       <version>
         <num>1.2.0 release</num>
@@ -413,6 +445,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -447,6 +483,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
       </version>
       <version>
         <num>1.2.0 release</num>
