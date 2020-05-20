@@ -8,7 +8,7 @@
     </chips>
     <name>CY8CKIT-062-BLE</name>
     <summary>The PSoC 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 63 Line (CY8C6347BZI-BLD53).</summary>
-    <prov_capabilities>psoc6 mcu_gp arduino j2 led switch ble capsense capsense_button capsense_linear_slider qspi memory udb std_crypto</prov_capabilities>
+    <prov_capabilities>psoc6 mcu_gp arduino j2 led rgb_led switch ble capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
@@ -60,8 +60,8 @@
       <radio>CYW43012C0WKWBG</radio>
     </chips>
     <name>CY8CKIT-062S2-43012</name>
-    <summary>The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory std_crypto</prov_capabilities>
+    <summary>The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io sdhc pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -118,7 +118,7 @@
     </chips>
     <name>CY8CKIT-062-WIFI-BT</name>
     <summary>The PSoC 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62 MCU (CY8C6247BZI-D54) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory udb std_crypto</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
@@ -173,7 +173,7 @@
     </chips>
     <name>CY8CPROTO-062-4343W</name>
     <summary>The CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device usb_host sdhc capsense capsense_button capsense_linear_slider qspi memory std_crypto</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device sdhc capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -223,8 +223,8 @@
       <radio>CYW4343WKUBG</radio>
     </chips>
     <name>CY8CPROTO-062S3-4343W</name>
-    <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC 62 MCU (CY8C6245LQI-S3D72) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory std_crypto</prov_capabilities>
+    <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC 6 MCUs.It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, 512-Mb Quad-SPI NOR flash. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently.</summary>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -241,6 +241,7 @@
         <li>Quick Start Guide</li>
         </ul>
       ]]></description>
+    <documentation_url>http://www.cypress.com/CY8CPROTO-062S3-4343W</documentation_url>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -273,7 +274,7 @@
     </chips>
     <name>CY8CPROTO-063-BLE</name>
     <summary>The PSoC 6 BLE Prototyping Kit (CY8CPROTO-063-BLE) is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>psoc6 mcu_gp led switch ble capsense udb std_crypto</prov_capabilities>
+    <prov_capabilities>psoc6 mcu_gp led switch ble capsense udb std_crypto smart_io</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -322,7 +323,7 @@
     </chips>
     <name>CY8CPROTO-064B0S3</name>
     <summary>NOTE: THIS IS A EARLY ACCESS TARGET AND REQUIRES CUSTOM TOOLING FROM CYPRESS TO BUILD. &lt;p&gt;CY8CPROTO-064B0S3 PSoC 64 SecureBoot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 SecureBoot MCU to enable customers to prototype and design with the PSoC 64 SecureBoot device.</summary>
-    <prov_capabilities>psoc6 mcu_gp secure_boot usb_device</prov_capabilities>
+    <prov_capabilities>psoc6 mcu_gp secure_boot usb_device memory memory_qspi nor_flash smart_io</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>PSoC 64 Secure MCU</li>
@@ -362,7 +363,7 @@
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
     <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI  WM-BAC-CYW-50 Module. USI  WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory udb std_crypto</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device capsense capsense_button capsense_linear_slider memory_qspi memory nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -381,7 +382,7 @@
         <li>Two jumper wires (5 inches each)</li>
         </ul>
       ]]></description>
-    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyw9p62s1-43012evb-01-psoc-62s1-wi-fi-bt-pioneer-kit</documentation_url>
+    <documentation_url>https://www.cypress.com/CYW9P62S1-43012EVB-01</documentation_url>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -419,7 +420,7 @@
     </chips>
     <name>CYW9P62S1-43438EVB-01</name>
     <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory udb std_crypto</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -438,7 +439,7 @@
         <li>Two jumper wires (5 inches each)</li>
         </ul>
       ]]></description>
-    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyw9p62s1-43438evb-01-psoc-62s1-wi-fi-bt-pioneer-kit</documentation_url>
+    <documentation_url>https://www.cypress.com/CYW9P62S1-43438EVB-01</documentation_url>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -468,10 +469,12 @@
     <name>PSOC6-GENERIC</name>
     <summary>This board support package is intended for creating custom PSoC 6 BSPs.</summary>
     <prov_capabilities>psoc6</prov_capabilities>
+    <!-- Here are the capabilities that are used by ModusToolbox that can be enabled in the BSP -->
+    <!--prov_capabilities>psoc6 cyw43xxx mcu_gp std_crypto udb secure_boot arduino j2 ble bt wifi usb_device usb_host capsense capsense_button capsense_linear_slider capsense_radial_slider capsense_touchpad sdhc qspi memory led rgb_led switch memory_qspi nor_flash smart_io pdm i2s</prov_capabilities-->
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>This is a generic template, there is no corresponding physical board</li>
-        <li>This is manifest can also be used to allow the board to show up in the ModusToolbox tools</li>
+        <li>This manifest can also be used to allow the board to show up in the ModusToolbox tools</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
