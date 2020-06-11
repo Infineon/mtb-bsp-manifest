@@ -61,7 +61,7 @@
     </chips>
     <name>CY8CKIT-062S2-43012</name>
     <summary>The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io sdhc pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io sdhc pdm i2s anycloud</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -173,7 +173,7 @@
     </chips>
     <name>CY8CPROTO-062-4343W</name>
     <summary>The CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device sdhc capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device sdhc capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io pdm i2s anycloud</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
