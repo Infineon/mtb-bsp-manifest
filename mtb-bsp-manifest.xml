@@ -30,6 +30,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version>
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
       </version>
@@ -87,6 +91,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version>
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
       </version>
@@ -140,6 +148,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version>
         <num>1.2.1 release</num>
@@ -197,6 +209,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version>
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
       </version>
@@ -248,6 +264,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version>
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
       </version>
@@ -295,6 +315,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version>
         <num>1.2.1 release</num>
@@ -363,7 +387,7 @@
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
     <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI  WM-BAC-CYW-50 Module. USI  WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device capsense capsense_button capsense_linear_slider memory_qspi memory nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory_qspi memory nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -387,6 +411,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version>
         <num>1.2.1 release</num>
@@ -446,6 +474,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version>
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
       </version>
@@ -468,9 +500,7 @@
     </chips>
     <name>PSOC6-GENERIC</name>
     <summary>This board support package is intended for creating custom PSoC 6 BSPs.</summary>
-    <prov_capabilities>psoc6</prov_capabilities>
-    <!-- Here are the capabilities that are used by ModusToolbox that can be enabled in the BSP -->
-    <!--prov_capabilities>psoc6 cyw43xxx mcu_gp std_crypto udb secure_boot arduino j2 ble bt wifi usb_device usb_host capsense capsense_button capsense_linear_slider capsense_radial_slider capsense_touchpad sdhc qspi memory led rgb_led switch memory_qspi nor_flash smart_io pdm i2s</prov_capabilities-->
+    <prov_capabilities>psoc6 mcu_gp</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>This is a generic template, there is no corresponding physical board</li>
@@ -486,6 +516,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version>
         <num>1.2.1 release</num>
