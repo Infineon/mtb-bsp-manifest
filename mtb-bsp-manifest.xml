@@ -448,7 +448,7 @@
     </chips>
     <name>CYW9P62S1-43438EVB-01</name>
     <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
