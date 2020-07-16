@@ -176,6 +176,47 @@
     </versions>
   </board>
   <board>
+    <id>CY8CKIT-064B0S2-4343W</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064B0S2-4343W</board_uri>
+    <chips>
+      <mcu>CYB0644ABZI-S2D44</mcu>
+      <radio>CYW4343WKUBG</radio>
+    </chips>
+    <name>CY8CKIT-064B0S2-4343W</name>
+    <summary>The CY8CKIT-064B0S2-4343W PSoC 64 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram secure_boot smart_io pdm i2s</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>Support of up to 2MB Flash and 1MB SRAM</li>
+        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
+        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CapSense, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>PSoC 64 Wi-Fi BT Pioneer Board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/CY8CKIT-064B0S2-4343W</documentation_url>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board>
     <id>CY8CPROTO-062-4343W</id>
     <category>PSoC 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W</board_uri>
@@ -346,8 +387,8 @@
       <mcu>CYB06445LQI-S3D42</mcu>
     </chips>
     <name>CY8CPROTO-064B0S3</name>
-    <summary>NOTE: THIS IS A EARLY ACCESS TARGET AND REQUIRES CUSTOM TOOLING FROM CYPRESS TO BUILD. &lt;p&gt;CY8CPROTO-064B0S3 PSoC 64 SecureBoot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 SecureBoot MCU to enable customers to prototype and design with the PSoC 64 SecureBoot device.</summary>
-    <prov_capabilities>psoc6 mcu_gp secure_boot usb_device memory memory_qspi nor_flash smart_io</prov_capabilities>
+    <summary>CY8CPROTO-064B0S3 PSoC 64 SecureBoot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 SecureBoot MCU to enable customers to prototype and design with the PSoC 64 SecureBoot device.</summary>
+    <prov_capabilities>psoc6 led mcu_gp secure_boot usb_device qspi memory memory_qspi nor_flash smart_io</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>PSoC 64 Secure MCU</li>
@@ -366,6 +407,10 @@
       <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version>
         <num>1.2.1 release</num>
@@ -387,7 +432,7 @@
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
     <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI  WM-BAC-CYW-50 Module. USI  WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory_qspi memory nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory_qspi memory nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -448,7 +493,7 @@
     </chips>
     <name>CYW9P62S1-43438EVB-01</name>
     <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io sdhc pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
