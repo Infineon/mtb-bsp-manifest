@@ -8,7 +8,7 @@
     </chips>
     <name>CY8CKIT-062-BLE</name>
     <summary>The PSoC 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 63 Line (CY8C6347BZI-BLD53).</summary>
-    <prov_capabilities>psoc6 mcu_gp arduino j2 led rgb_led switch ble capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 mcu_gp arduino j2 led rgb_led switch ble capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s cy8ckit_062_ble</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
@@ -25,33 +25,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -65,7 +45,7 @@
     </chips>
     <name>CY8CKIT-062S2-43012</name>
     <summary>The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io sdhc pdm i2s anycloud</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io sdhc pdm i2s anycloud cy8ckit_062s2_43012</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -86,33 +66,51 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CKIT-062S2-43012</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
+    </versions>
+  </board>
+  <board>
+    <id>CY8CKIT-062S4</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S4</board_uri>
+    <chips>
+      <mcu>CY8C6244LQI-S4D92</mcu>
+    </chips>
+    <name>CY8CKIT-062S4</name>
+    <summary>The PSoC 62S4 Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62S4 Line (CY8C6244LQI-S4D92).</summary>
+    <prov_capabilities>psoc6 mcu_gp arduino j2 led rgb_led switch capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io pdm i2s cy8ckit_062s4</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>Serial memory interface</li>
+        <li>Industry-leading CapSense</li>
+        <li>Ambient Light Sensor</li>
+        <li>Thermistor</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        <li>CY8CKIT-062S4 evaluation board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/CY8CKIT-062S4</documentation_url>
+    <versions>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
       </version>
     </versions>
   </board>
@@ -126,7 +124,7 @@
     </chips>
     <name>CY8CKIT-062-WIFI-BT</name>
     <summary>The PSoC 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62 MCU (CY8C6247BZI-D54) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s cy8ckit_062_wifi_bt</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
@@ -145,33 +143,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/documentation/development-kitsboards/psoc-6-wifi-bt-pioneer-kit</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -184,8 +162,8 @@
       <radio>CYW4343WKUBG</radio>
     </chips>
     <name>CY8CKIT-064B0S2-4343W</name>
-    <summary>The CY8CKIT-064B0S2-4343W PSoC 64 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram secure_boot smart_io pdm i2s</prov_capabilities>
+    <summary>The CY8CKIT-064B0S2-4343W PSoC 64 Secure Boot Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 64 MCUs. It comes with a Murata 1LV Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, 4-MBit Quad-SPI FRAM, and a PDM-PCM microphone interface.</summary>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram secure_boot smart_io pdm i2s cy8ckit_064b0s2_4343w</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -206,13 +184,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CKIT-064B0S2-4343W</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -226,7 +204,7 @@
     </chips>
     <name>CY8CPROTO-062-4343W</name>
     <summary>The CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device sdhc capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io pdm i2s anycloud</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device sdhc capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io pdm i2s anycloud cy8cproto_062_4343w</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -245,29 +223,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-062-4343W</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -281,7 +243,7 @@
     </chips>
     <name>CY8CPROTO-062S3-4343W</name>
     <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC 6 MCUs.It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, 512-Mb Quad-SPI NOR flash. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently.</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw4343w mcu_gp led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash std_crypto smart_io cy8cproto_062s3_4343w</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -300,29 +262,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-062S3-4343W</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -335,7 +281,7 @@
     </chips>
     <name>CY8CPROTO-063-BLE</name>
     <summary>The PSoC 6 BLE Prototyping Kit (CY8CPROTO-063-BLE) is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>psoc6 mcu_gp led switch ble capsense udb std_crypto smart_io</prov_capabilities>
+    <prov_capabilities>psoc6 mcu_gp led switch ble capsense udb std_crypto smart_io cy8cproto_063_ble</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -353,29 +299,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-063-BLE</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -387,12 +317,12 @@
       <mcu>CYB06445LQI-S3D42</mcu>
     </chips>
     <name>CY8CPROTO-064B0S3</name>
-    <summary>CY8CPROTO-064B0S3 PSoC 64 SecureBoot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 SecureBoot MCU to enable customers to prototype and design with the PSoC 64 SecureBoot device.</summary>
-    <prov_capabilities>psoc6 led mcu_gp secure_boot usb_device qspi memory memory_qspi nor_flash smart_io</prov_capabilities>
+    <summary>CY8CPROTO-064B0S3 PSoC 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 Secure Boot MCU to enable customers to prototype and design with the PSoC 64 Secure Boot device.</summary>
+    <prov_capabilities>psoc6 led mcu_gp secure_boot usb_device qspi memory memory_qspi nor_flash smart_io cy8cproto_064b0s3</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>PSoC 64 Secure MCU</li>
-        <li>128-Mb Serial NOR flash</li>
+        <li>512-Mb Serial NOR flash</li>
         <li>Full-speed USB device interface</li>
         </ul><p/>
 
@@ -404,21 +334,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-064B0S3</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -432,7 +354,7 @@
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
     <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI  WM-BAC-CYW-50 Module. USI  WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory_qspi memory nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43012 mcu_gp arduino j2 led switch wifi bt usb_device capsense capsense_button capsense_linear_slider qspi memory_qspi memory nor_flash fram udb std_crypto smart_io pdm i2s cyw9p62s1_43012evb_01</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -453,33 +375,13 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/CYW9P62S1-43012EVB-01</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -493,7 +395,7 @@
     </chips>
     <name>CYW9P62S1-43438EVB-01</name>
     <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s</prov_capabilities>
+    <prov_capabilities>psoc6 cyw43xxx cyw43438 mcu_gp arduino j2 led rgb_led switch wifi bt usb_device usb_host capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram udb std_crypto smart_io pdm i2s cyw9p62s1_43438evb_01</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -514,25 +416,13 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/CYW9P62S1-43438EVB-01</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
@@ -558,21 +448,13 @@
     ]]></description>
     <documentation_url>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.1 release</num>
-        <commit>release-v1.2.1</commit>
-      </version>
-      <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </board>
