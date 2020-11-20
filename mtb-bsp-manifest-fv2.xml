@@ -1,5 +1,4 @@
 <boards>
-<!--
   <board>
     <id>CY8CKIT-041-41XX</id>
     <category>PSoC 4 BSPs</category>
@@ -137,7 +136,6 @@
       </version>
     </versions>
   </board>
--->
   <board>
     <id>CY8CKIT-062-BLE</id>
     <category>PSoC 6 BSPs</category>

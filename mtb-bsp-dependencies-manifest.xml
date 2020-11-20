@@ -1,5 +1,4 @@
 <dependencies version="2.0">
-<!--
   <depender>
     <id>CY8CKIT-041-41XX</id>
     <versions>
@@ -244,7 +243,6 @@
       </version>
     </versions>
   </depender>
--->
   <depender>
     <id>CY8CKIT-062-BLE</id>
     <versions>
