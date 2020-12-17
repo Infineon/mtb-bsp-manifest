@@ -607,7 +607,7 @@
       <mcu>XMC4700-F144x2048</mcu>
     </chips>
     <name>KIT_XMC47_RELAX_V1</name>
-    <summary>This is Early Access Software for XMC devices in ModusToolbox. This software is made available for evaluation purposes only and is not recommended for production development. &lt;p&gt;The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino™ Shields.</summary>
+    <summary>This is Early Access Software for XMC devices in ModusToolbox. This software is made available for evaluation purposes only and is not recommended for production development. &lt;p&gt;The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.</summary>
     <prov_capabilities>xmc xmc4000 mcu_gp arduino led switch kit_xmc47_relax_v1</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
