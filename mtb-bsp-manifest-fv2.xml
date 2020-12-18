@@ -447,6 +447,97 @@
       </version>
     </versions>
   </board>
+<!--
+  <board>
+    <id>CYSBSYSKIT-01</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-01</board_uri>
+    <chips>
+      <mcu>CY8C624AFNI-S2D43</mcu>
+    </chips>
+    <name>CYSBSYSKIT-01</name>
+    <summary>The CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit comes with a CYSBSYS-RP01 Rapid IoT Connect module which enables a secure, scalable, and reliable connection to cloud. CYSBSYS-RP01 is a pre-certified 802.11ac-friendly dual-band (2.4 and 5.0 GHz) Wi-Fi and Bluetooth 5.0-compliant combo radio module. CYSBSYS-RP01 when combined with Infineon SubSystems connectivity services enables rapid deployment of devices on to an IoT network.</summary>
+    <prov_capabilities>psoc6 cyw43xxx mcu_gp led switch wifi qspi memory memory_qspi nor_flash smart_io anycloud cysbsyskit_01</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>CYSBSYS-RP01 module</li>
+        <li>512KB Flash and 512KB SRAM for customer application on CM4</li>
+        <li>512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code</li>
+        <li>KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality</li>
+        <li>A user LED, a user button, and a reset button</li>
+        <li>Battery connector, charging IC, and charging indicator LED</li>
+        <li>One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED</li>
+        <li>OPTIGA&#8482; Trust M advanced security controller for secure data storage</li>
+        <li>Thermistor for sensing the ambient temperature</li>
+        <li>16KB of Emulated EEPROM</li>
+        </ul>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit</li>
+        <li>Adafruit 128 x 32 OLED Screen FeatherWing (Adafruit product ID: 2900)</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/CYSBSYSKIT-01</documentation_url>
+    <versions>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board>
+    <id>CYSBSYSKIT-DEV-01</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-DEV-01</board_uri>
+    <chips>
+      <mcu>CY8C624AFNI-S2D43</mcu>
+      <radio>CYW43012TC0KFFBH</radio>
+    </chips>
+    <name>CYSBSYSKIT-DEV-01</name>
+    <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>CYSBSYS-RP01 module</li>
+        <li>Support of up to 2MB Flash and 1MB SRAM</li>
+        <li>512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code</li>
+        <li>KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality</li>
+        <li>A user LED, a user button, and a reset button</li>
+        <li>Battery connector, charging IC, and charging indicator LED</li>
+        <li>One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED</li>
+        <li>OPTIGA&#8482; Trust M advanced security controller for secure data storage</li>
+        <li>Thermistor for sensing the ambient temperature</li>
+        <li>16KB of Emulated EEPROM</li>
+        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
+        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
+        <li>Supports Full-Speed USB, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        </ul>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Edition Kit</li>
+        <li>Adafruit 128 x 32 OLED Screen FeatherWing (Adafruit product ID: 2900)</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/CYSBSYSKIT-DEV-01</documentation_url>
+    <versions>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </board>
+-->
   <board>
     <id>CYW9P62S1-43012EVB-01</id>
     <category>PSoC 6 BSPs</category>
