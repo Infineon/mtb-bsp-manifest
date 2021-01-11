@@ -447,7 +447,6 @@
       </version>
     </versions>
   </board>
-<!--
   <board>
     <id>CYSBSYSKIT-01</id>
     <category>PSoC 6 BSPs</category>
@@ -501,6 +500,7 @@
     </chips>
     <name>CYSBSYSKIT-DEV-01</name>
     <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
+    <prov_capabilities>psoc6 cyw43xxx mcu_gp led switch wifi bt usb_device sdhc qspi memory memory_qspi nor_flash std_crypto smart_io anycloud rtc low_power cysbsyskit_dev_01</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -537,7 +537,6 @@
       </version>
     </versions>
   </board>
--->
   <board>
     <id>CYW9P62S1-43012EVB-01</id>
     <category>PSoC 6 BSPs</category>

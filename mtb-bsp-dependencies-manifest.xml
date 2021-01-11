@@ -803,7 +803,6 @@
       </version>
     </versions>
   </depender>
-<!--
   <depender>
     <id>CYSBSYSKIT-01</id>
     <versions>
@@ -930,7 +929,6 @@
       </version>
     </versions>
   </depender>
--->
   <depender>
     <id>CYW9P62S1-43012EVB-01</id>
     <versions>
