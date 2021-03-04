@@ -836,6 +836,35 @@
         </dependees>
       </version>
       <version>
+      <version>
+        <commit>release-v2.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>scl-mtb-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
