@@ -792,7 +792,7 @@
       <mcu>XMC1404-Q064x0200</mcu>
     </chips>
     <name>KIT_XMC14_BOOT_001</name>
-    <summary>The XMC1400 Boot Kit (CPU-14A-V1) houses the XMC1400 Microcontroller and a 2x30 pin edge for application expansion.</summary>
+    <summary>This is Early Access Software for XMC devices in ModusToolbox. This software is made available for evaluation purposes only and is not recommended for production development. &lt;p&gt;The XMC1400 Boot Kit (CPU-14A-V1) houses the XMC1400 Microcontroller and a 2x30 pin edge for application expansion.</summary>
     <prov_capabilities>adc can cat3 comp i2c i2s kit_xmc14_boot_001 led mcu_gp rtc spi uart xmc xmc1000</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -831,7 +831,7 @@
       <mcu>XMC4700-F144x2048</mcu>
     </chips>
     <name>KIT_XMC47_RELAX_V1</name>
-    <summary>The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.</summary>
+    <summary>This is Early Access Software for XMC devices in ModusToolbox. This software is made available for evaluation purposes only and is not recommended for production development. &lt;p&gt;The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.</summary>
     <prov_capabilities>adc arduino can cat3 dac dma i2c i2s kit_xmc47_relax_v1 led mcu_gp rtc sdhc spi switch usb_device usb_host xmc xmc4000</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
