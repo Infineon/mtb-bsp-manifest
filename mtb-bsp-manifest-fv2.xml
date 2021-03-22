@@ -580,10 +580,11 @@
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
+      <radio>CYW43012TC0KFFBH</radio>
     </chips>
     <name>CYSBSYSKIT-01</name>
     <summary>The CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit comes with a CYSBSYS-RP01 Rapid IoT Connect module which enables a secure, scalable, and reliable connection to cloud. CYSBSYS-RP01 is a pre-certified 802.11ac-friendly dual-band (2.4 and 5.0 GHz) Wi-Fi and Bluetooth 5.0-compliant combo radio module. CYSBSYS-RP01 when combined with Infineon SubSystems connectivity services enables rapid deployment of devices on to an IoT network.</summary>
-    <prov_capabilities>adc anycloud cat1 comp cysbsyskit_01 cyw43xxx dma i2c led lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi smart_io spi switch uart wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud cat1 comp cysbsyskit_01 cyw43xxx dma feather i2c led lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi smart_io spi switch uart wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -597,6 +598,7 @@
         <li>OPTIGA&#8482; Trust M advanced security controller for secure data storage</li>
         <li>Thermistor for sensing the ambient temperature</li>
         <li>16KB of Emulated EEPROM</li>
+        <li>Feather compatible pin header</li>
         </ul>
 
         <div class="category">Kit Contents:</div>
@@ -631,7 +633,7 @@
     </chips>
     <name>CYSBSYSKIT-DEV-01</name>
     <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
-    <prov_capabilities>adc anycloud bt cat1 comp cysbsyskit_dev_01 cyw43xxx dma i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc sdhc smart_io spi std_crypto switch uart wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud bt cat1 comp cysbsyskit_dev_01 cyw43xxx dma feather i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc sdhc smart_io spi std_crypto switch uart wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -645,6 +647,7 @@
         <li>OPTIGA&#8482; Trust M advanced security controller for secure data storage</li>
         <li>Thermistor for sensing the ambient temperature</li>
         <li>16KB of Emulated EEPROM</li>
+        <li>Feather compatible pin header</li>
         <li>Dedicated SDHC to interface with WICED wireless devices.</li>
         <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
         <li>Supports Full-Speed USB, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
@@ -677,7 +680,7 @@
       <radio>CYW43012TC0EKUBG</radio>
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
-    <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI  WM-BAC-CYW-50 Module. USI  WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 ( WiFi + Bluetooth Combo Chip).</summary>
+    <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI WM-BAC-CYW-50 Module. USI WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 (WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43012 cyw43xxx cyw9p62s1_43012evb_01 dac dma fram i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp pdm psoc6 qspi rtc smart_io spi std_crypto switch uart udb usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -792,7 +795,11 @@
       <mcu>XMC1404-Q064x0200</mcu>
     </chips>
     <name>KIT_XMC14_BOOT_001</name>
-    <summary>This is Early Access Software for XMC devices in ModusToolbox. This software is made available for evaluation purposes only and is not recommended for production development. &lt;p&gt;The XMC1400 Boot Kit (CPU-14A-V1) houses the XMC1400 Microcontroller and a 2x30 pin edge for application expansion.</summary>
+    <summary><![CDATA[
+    The XMC1400 Boot Kit (CPU-14A-V1) houses the XMC1400 Microcontroller and a 2x30 pin edge for application expansion.
+    <p><b>Note:</b></p>
+    <p>Programming this kit requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.</p>
+    ]]></summary>
     <prov_capabilities>adc can cat3 comp i2c i2s kit_xmc14_boot_001 led mcu_gp rtc spi uart xmc xmc1000</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -813,6 +820,14 @@
       ]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc14_boot_001/</documentation_url>
     <versions>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
@@ -831,7 +846,11 @@
       <mcu>XMC4700-F144x2048</mcu>
     </chips>
     <name>KIT_XMC47_RELAX_V1</name>
-    <summary>This is Early Access Software for XMC devices in ModusToolbox. This software is made available for evaluation purposes only and is not recommended for production development. &lt;p&gt;The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.</summary>
+    <summary><![CDATA[
+    The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.
+    <p><b>Note:</b></p>
+    <p>Programming this kit requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.</p>
+    ]]></summary>
     <prov_capabilities>adc arduino can cat3 dac dma i2c i2s kit_xmc47_relax_v1 led mcu_gp rtc sdhc spi switch usb_device usb_host xmc xmc4000</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -857,6 +876,14 @@
       ]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc47_relax_v1/</documentation_url>
     <versions>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
@@ -864,6 +891,37 @@
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>XMC-GENERIC</id>
+    <category>XMC BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_XMC-GENERIC</board_uri>
+    <chips>
+      <mcu>XMC1404-Q064x0200</mcu>
+    </chips>
+    <name>XMC-GENERIC</name>
+    <summary>This board support package is intended for creating custom XMC BSPs.</summary>
+    <prov_capabilities>cat3 xmc mcu_gp</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
+        <li>This is manifest can also be used to allow the board to show up in the ModusToolbox tools</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        </ul>
+      ]]></description>
+    <documentation_url>https://github.com/cypresssemiconductorco/TARGET_XMC-GENERIC</documentation_url>
+    <versions>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </board>
