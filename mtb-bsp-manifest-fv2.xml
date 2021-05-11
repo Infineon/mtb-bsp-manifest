@@ -431,6 +431,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -599,6 +603,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -632,6 +640,10 @@
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
@@ -671,6 +683,10 @@
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
@@ -740,7 +756,7 @@
         <li>A user LED, a user button, and a reset button</li>
         <li>Battery connector, charging IC, and charging indicator LED</li>
         <li>One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED</li>
-        <li>OPTIGA&#8482; Trust M advanced security controller for secure data storage</li>
+        <li>OPTIGA Trust M advanced security controller for secure data storage</li>
         <li>Thermistor for sensing the ambient temperature</li>
         <li>16KB of Emulated EEPROM</li>
         <li>Feather compatible pin header</li>
@@ -793,7 +809,7 @@
         <li>A user LED, a user button, and a reset button</li>
         <li>Battery connector, charging IC, and charging indicator LED</li>
         <li>One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED</li>
-        <li>OPTIGA&#8482; Trust M advanced security controller for secure data storage</li>
+        <li>OPTIGA Trust M advanced security controller for secure data storage</li>
         <li>Thermistor for sensing the ambient temperature</li>
         <li>16KB of Emulated EEPROM</li>
         <li>Feather compatible pin header</li>
