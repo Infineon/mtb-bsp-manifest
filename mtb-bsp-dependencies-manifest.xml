@@ -863,6 +863,7 @@
           </dependee>
         </dependees>
       </version>
+    </versions>
   </depender>
   <depender>
     <id>CY8CKIT-062-WIFI-BT</id>
