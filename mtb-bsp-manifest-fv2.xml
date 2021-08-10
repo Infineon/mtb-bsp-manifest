@@ -199,7 +199,7 @@
     </chips>
     <name>PMG1-CY7112</name>
     <summary>The CY7112 EZ-PD PMG1-S2 Prototyping Kit is a low cost prototyping platform which enables design and development of EZ-PD PMG1-S2 (CYPM1211-40LQXIT) based embedded applications with USB PD Sink capability.</summary>
-    <prov_capabilities>cat2 flash_128k hal i2c j2 led mcu_gp pmg1 pmg1_cy7112 spi sram_8k switch uart usbpd</prov_capabilities>
+    <prov_capabilities>cat2 flash_128k hal i2c j2 led mcu_gp pmg1 pmg1_cy7112 spi sram_8k switch uart usb_device usbpd</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -249,7 +249,7 @@
         <li>NA</li>
         </ul>
     ]]></description>
-    <documentation_url>https://github.com/cypresssemiconductorco/TARGET_PSOC4-GENERIC</documentation_url>
+    <documentation_url>https://github.com/infineon/TARGET_PSOC4-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
@@ -274,7 +274,7 @@
     </chips>
     <name>CY8CKIT-062-BLE</name>
     <summary>The PSoC 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 63 Line (CY8C6347BZI-BLD53).</summary>
-    <prov_capabilities>adc arduino ble capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_ble dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
+    <prov_capabilities>adc arduino ble capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_ble dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
@@ -315,7 +315,7 @@
     </chips>
     <name>CY8CKIT-062S2-43012</name>
     <summary>The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
-    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062s2_43012 cyw43012 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062s2_43012 cyw43012 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -359,7 +359,7 @@
     </chips>
     <name>CY8CKIT-062S4</name>
     <summary>The PSoC 62S4 Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62S4 Line (CY8C6244LQI-S4D92).</summary>
-    <prov_capabilities>adc arduino can capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062s4 dac dma flash_256k hal i2c j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp psoc6 qspi rgb_led rtc smart_io spi sram_128k std_crypto switch uart usb_device usb_host</prov_capabilities>
+    <prov_capabilities>adc arduino can capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062s4 dac dma flash_256k hal i2c j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp psoc6 qspi rgb_led rtc smart_io spi sram_128k std_crypto switch uart usb_device usb_host</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor. </li>
@@ -411,7 +411,7 @@
     </chips>
     <name>CY8CKIT-062-WIFI-BT</name>
     <summary>The PSoC 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62 MCU (CY8C6247BZI-D54) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_wifi_bt cyw4343w cyw43xxx dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_wifi_bt cyw4343w cyw43xxx dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
@@ -454,7 +454,7 @@
     </chips>
     <name>CY8CKIT-064B0S2-4343W</name>
     <summary>The CY8CKIT-064B0S2-4343W PSoC 64 Secure Boot Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 64 MCUs. It comes with a Murata LBEE5KL1DX Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, 4-MBit Quad-SPI F-RAM, and a PDM-PCM microphone interface.</summary>
-    <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_064b0s2_4343w cyw4343w cyw43xxx dma fram flash_1856k hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k switch uart usb_device usb_host wifi</prov_capabilities>
+    <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_064b0s2_4343w cyw4343w cyw43xxx dma fram flash_1856k hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -503,7 +503,7 @@
     </chips>
     <name>CY8CPROTO-062-4343W</name>
     <summary>The CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
-    <prov_capabilities>adc anycloud bt capsense capsense_button capsense_linear_slider cat1 comp cy8cproto_062_4343w cyw4343w cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud bt capsense capsense_button capsense_linear_slider cat1 comp cy8cproto_062_4343w cyw4343w cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -546,7 +546,7 @@
     </chips>
     <name>CY8CPROTO-062S3-4343W</name>
     <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC 6 MCUs.It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, 512-Mb Quad-SPI NOR flash. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently.</summary>
-    <prov_capabilities>adc bt capsense capsense_button capsense_linear_slider cat1 comp cy8cproto_062s3_4343w cyw4343w cyw43xxx dma flash_512k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc smart_io spi sram_256k std_crypto switch uart usb_device wifi</prov_capabilities>
+    <prov_capabilities>adc bt capsense capsense_button capsense_linear_slider cat1 comp cy8cproto_062s3_4343w cyw4343w cyw43xxx dma flash_512k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash psoc6 qspi rtc smart_io spi sram_256k std_crypto switch uart usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -588,7 +588,7 @@
     </chips>
     <name>CY8CPROTO-063-BLE</name>
     <summary>The PSoC 6 BLE Prototyping Kit (CY8CPROTO-063-BLE) is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>adc ble capsense cat1 comp cy8cproto_063_ble dac dma flash_1024k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
+    <prov_capabilities>adc ble capsense cat1 comp cy8cproto_063_ble dac dma flash_1024k hal i2c led low_power lptimer mcu_gp multi_core opamp psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -629,7 +629,7 @@
     </chips>
     <name>CY8CPROTO-064B0S1-BLE</name>
     <summary>The PSoC 64 Secure Boot BLE Prototyping Kit (CY8CPROTO-064B0S1-BLE) is a low-cost hardware platform that enables design and debug of PSoC 64 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>adc ble cat1 comp cy8cproto_064B0S1_ble dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc secure_boot smart_io spi sram_288k switch uart</prov_capabilities>
+    <prov_capabilities>adc ble cat1 comp cy8cproto_064B0S1_ble dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc secure_boot smart_io spi sram_288k std_crypto switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -670,7 +670,7 @@
     </chips>
     <name>CY8CPROTO-064B0S3</name>
     <summary>CY8CPROTO-064B0S3 PSoC 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 Secure Boot MCU to enable customers to prototype and design with the PSoC 64 Secure Boot device.</summary>
-    <prov_capabilities>adc cat1 comp cy8cproto_064b0s3 dma flash_448k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc secure_boot smart_io spi sram_256k uart usb_device</prov_capabilities>
+    <prov_capabilities>adc cat1 comp cy8cproto_064b0s3 dma flash_448k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc secure_boot smart_io spi sram_256k std_crypto uart usb_device</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>PSoC 64 Secure MCU</li>
@@ -713,7 +713,7 @@
     </chips>
     <name>CY8CPROTO-064S1-SB</name>
     <summary>CY8CPROTO-064S1-SB PSoC 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 Secure Boot MCU to enable customers to prototype and design with the PSoC 64 Secure Boot device.</summary>
-    <prov_capabilities>adc cat1 comp cy8cproto_064s1_sb dac dma flash_832k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp psoc6 qspi rtc secure_boot spi sram_288k switch uart usb_device</prov_capabilities>
+    <prov_capabilities>adc cat1 comp cy8cproto_064s1_sb dac dma flash_832k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp psoc6 qspi rtc secure_boot spi sram_288k std_crypto switch uart usb_device</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>PSoC 64 Secure MCU</li>
@@ -752,7 +752,7 @@
     </chips>
     <name>CYBLE-416045-EVAL</name>
     <summary>The EZ-BLE Arduino Evaluation Board (CYBLE-416045-EVAL) enables you to evaluate and develop applications on the CYBLE-416045-02 EZ-BLE Creator Module. CYBLE-416045-EVAL can be used as a standalone evaluation kit or can be combined with Arduino compatible shields.</summary>
-    <prov_capabilities>adc arduino ble cat1 comp cyble_416045_eval dac dma flash_1024k hal i2c i2s j2 led low_power lptimer mcu_gp opamp qspi pdm psoc6 rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
+    <prov_capabilities>adc arduino ble cat1 comp cyble_416045_eval dac dma flash_1024k hal i2c i2s j2 led low_power lptimer mcu_gp multi_core opamp qspi pdm psoc6 rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -847,7 +847,7 @@
     </chips>
     <name>CYSBSYSKIT-DEV-01</name>
     <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
-    <prov_capabilities>adc anycloud bt cat1 comp cysbsyskit_dev_01 cyw43xxx dma feather flash_2048k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud bt cat1 comp cysbsyskit_dev_01 cyw43xxx dma feather flash_2048k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
@@ -899,7 +899,7 @@
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
     <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI WM-BAC-CYW-50 Module. USI WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 (WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43012 cyw43xxx cyw9p62s1_43012evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp pdm psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb usb_device wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43012 cyw43xxx cyw9p62s1_43012evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -944,7 +944,7 @@
     </chips>
     <name>CYW9P62S1-43438EVB-01</name>
     <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
-    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43438 cyw43xxx cyw9p62s1_43438evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp pdm pot psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43438 cyw43xxx cyw9p62s1_43438evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm pot psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>Support of up to 1MB Flash and 288KB SRAM</li>
@@ -1001,7 +1001,7 @@
         <li>NA</li>
         </ul>
     ]]></description>
-    <documentation_url>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</documentation_url>
+    <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -1143,7 +1143,7 @@
         <div class="category">Kit Contents:</div><ul>
         </ul>
       ]]></description>
-    <documentation_url>https://github.com/cypresssemiconductorco/TARGET_XMC-GENERIC</documentation_url>
+    <documentation_url>https://github.com/infineon/TARGET_XMC-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
