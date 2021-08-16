@@ -33,6 +33,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -70,6 +74,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -105,6 +113,10 @@
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
@@ -148,6 +160,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -183,6 +199,10 @@
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
@@ -222,8 +242,50 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>PMG1-CY7113</id>
+    <category>PMG1 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7113</board_uri>
+    <chips>
+      <mcu>CYPM1311-48LQXI</mcu>
+    </chips>
+    <name>PMG1-CY7113</name>
+    <summary>The CY7113 EZ-PD PMG1-S3 Prototyping Kit is a development platform to design products which can be powered from a high-voltage USB PD port, and also need a microcontroller with CapSense capability to implement different applications.</summary>
+    <prov_capabilities>adc capsense capsense_button capsense_linear_slider cat2 comp dma flash_256k hal i2c j2 led lptimer mcu_gp opamp pmg1 pmg1_cy7113 spi sram_32k switch uart usb_device usbpd</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.</li>
+        <li>Support for two self-capacitance based CapSense buttons and one 5-segment slider.</li>
+        <li>USB bus powered operation.</li>
+        <li>KitProg3 based programming and debug interface.</li>
+        <li>Access to the pins of PMG1-S3 silicon (CYPM1311-48LQXI) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.</li>
+        </ul>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>EZ-PD CYPM1311-48LQXI based board</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/CY7113</documentation_url>
+    <versions>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
     </versions>
   </board>
@@ -254,6 +316,10 @@
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
