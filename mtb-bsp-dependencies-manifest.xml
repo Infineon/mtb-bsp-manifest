@@ -3912,7 +3912,6 @@
     <id>CYSBSYSKIT-DEV-01</id>
     <versions>
       <version>
-      <version>
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
