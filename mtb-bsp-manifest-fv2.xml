@@ -57,7 +57,7 @@
   <board default_location="local">
     <id>CY8CKIT-041S-MAX</id>
     <category>PSoC 4 BSPs</category>
-    <board_uri>http://git-ore.aus.cypress.com/repo-staging/TARGET_CY8CKIT-041S-MAX</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041S-MAX</board_uri>
     <chips>
       <mcu>CY8C4149AZI-S598</mcu>
     </chips>
