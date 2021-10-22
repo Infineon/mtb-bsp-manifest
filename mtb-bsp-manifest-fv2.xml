@@ -1,24 +1,24 @@
 <boards>
   <board default_location="local">
     <id>CY8CKIT-041-41XX</id>
-    <category>PSoC 4 BSPs</category>
+    <category>PSoC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041-41XX</board_uri>
     <chips>
       <mcu>CY8C4146AZI-S433</mcu>
     </chips>
     <name>CY8CKIT-041-41XX</name>
-    <summary>The PSoC 4100S Pioneer Kit enables you to evaluate and develop with Cypress's fourth-generation, low-power CapSense solution using the PSoC 4100S device.</summary>
+    <summary>The PSoC&#8482; 4100S Pioneer Kit enables you to evaluate and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution using the PSoC&#8482; 4100S device.</summary>
     <prov_capabilities>adc arduino ble capsense capsense_button capsense_touchpad cat2 comp cy8ckit_041_41xx flash_32k fram hal i2c j2 led lptimer mcu_gp memory memory_i2c opamp pot psoc4 rgb_led smart_io spi sram_4k switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
-        <li>Ready-to-Use CapSense Trackpad</li>
+        <li>Ready-to-Use CAPSENSE&#8482; Trackpad</li>
         <li>EZ-BLE PRoC module</li>
         <li>Potentiometer</li>
         <li>Rechargeable coin-cell battery</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-041-41XX PSoC 4100S Pioneer board</li>
+        <li>CY8CKIT-041-41XX PSoC&#8482; 4100S Pioneer board</li>
         <li>USB Standad-A to Micro-B cable</li>
         <li>Water dropper</li>
         <li>Four press-fit connectors (for Arduino headers)</li>
@@ -56,27 +56,27 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-041S-MAX</id>
-    <category>PSoC 4 BSPs</category>
+    <category>PSoC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041S-MAX</board_uri>
     <chips>
       <mcu>CY8C4149AZI-S598</mcu>
     </chips>
     <name>CY8CKIT-041S-MAX</name>
-    <summary>The PSoC 4100S Max Pioneer Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CAPSENSE solution using the PSoC 4100S Max device.</summary>
+    <summary>The PSoC&#8482; 4100S Max Pioneer Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CAPSENSE&#8482; solution using the PSoC&#8482; 4100S Max device.</summary>
     <prov_capabilities>adc arduino can capsense cat2 comp cy8ckit_041s_max dma flash_384k hal i2c j2 led lin lptimer mcu_gp memory memory_i2c msc msc_button msc_proximity msc_slider msc_touchpad opamp psoc4 smart_io spi sram_32k std_crypto switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
-        <li>World's Most Reliable, Lowest Power CAPSENSE Solution</li>
+        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
         <li>On-board Programmer and Debugger</li>
-        <li>Ready-to-Use CAPSENSE Buttons</li>
-        <li>Ready-to-Use CAPSENSE Touchpad</li>
-        <li>Ready-to-Use CAPSENSE Slider</li>
-        <li>Ready-to-Use CAPSENSE Proximity</li>
+        <li>Ready-to-Use CAPSENSE&#8482; Buttons</li>
+        <li>Ready-to-Use CAPSENSE&#8482; Touchpad</li>
+        <li>Ready-to-Use CAPSENSE&#8482; Slider</li>
+        <li>Ready-to-Use CAPSENSE&#8482; Proximity</li>
         <li>Thermistor</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-041S-Max PSoC 4100S Max Pioneer Board</li>
+        <li>CY8CKIT-041S-Max PSoC&#8482; 4100S Max Pioneer Board</li>
         <li>CY8CKIT-041S-Max Capacitive Sensing Expansion Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Six jumper wires</li>
@@ -97,23 +97,71 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CKIT-045S</id>
+    <category>PSoC&#8482; 4 BSPs</category>
+    <board_uri>https://github.com/infineon/TARGET_CY8CKIT-045S</board_uri>
+    <chips>
+      <mcu>CY8C4548AZI-S485</mcu>
+    </chips>
+    <name>CY8CKIT-045S</name>
+    <summary>The PSoC&#8482; 4500S Pioneer Kit (CY8CKIT-045S) is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 4500S device which is for power and motor control applications. The PSoC&#8482; 4500S Pioneer Kit enables you to evaluate and develop motor control applications along with CY8CKIT-037.</summary>
+    <prov_capabilities>adc arduino capsense capsense_button capsense_slider cat2 comp cy8ckit_045s dma flash_256k hal i2c j2 led lptimer mcu_gp opamp psoc4 rgb_led smart_io spi sram_32k switch uart</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>High Performance Analog with Dual ADCs
+        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
+        <li>On-board Programmer and Debugger</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        <li>CY8CKIT-045S PSoC&#8482; 4500S Pioneer board</li>
+        <li>USB Standad-A to Micro-B cable</li>
+        <li>Six jumper wires</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-045s</documentation_url>
+    <versions>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CKIT-145-40XX</id>
-    <category>PSoC 4 BSPs</category>
+    <category>PSoC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-145-40XX</board_uri>
     <chips>
       <mcu>CY8C4045AZI-S413</mcu>
     </chips>
     <name>CY8CKIT-145-40XX</name>
-    <summary>The PSoC 4000S Prototyping Kit enables you to evaluate and develop with Cypress's fourth-generation, low-power CapSense solution using the PSoC 4000S device.</summary>
+    <summary>The PSoC&#8482; 4000S Prototyping Kit enables you to evaluate and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution using the PSoC&#8482; 4000S device.</summary>
     <prov_capabilities>ble capsense capsense_button capsense_linear_slider cat2 comp cy8ckit_145_40xx flash_64k hal i2c j2 led mcu_gp psoc4 smart_io spi sram_8k switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
-        <li>World's Most Reliable, Lowest Power CapSense Solution</li>
+        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
         <li>On-board Programmer and Debugger</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-145-40XX PSoC 4000S Prototyping board</li>
+        <li>CY8CKIT-145-40XX PSoC&#8482; 4000S Prototyping board</li>
         <li>Quick Start Guide</li>
         </ul>
       ]]></description>
@@ -147,22 +195,22 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-149</id>
-    <category>PSoC 4 BSPs</category>
+    <category>PSoC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-149</board_uri>
     <chips>
       <mcu>CY8C4147AZI-S475</mcu>
     </chips>
     <name>CY8CKIT-149</name>
-    <summary>The PSoC 4100S Plus Prototyping Kit enables you to evaluate the PSoC 4100S Plus device and develop with Cypress's fourth-generation, low-power CapSense solution.</summary>
+    <summary>The PSoC&#8482; 4100S Plus Prototyping Kit enables you to evaluate the PSoC&#8482; 4100S Plus device and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution.</summary>
     <prov_capabilities>adc ble can capsense capsense_button capsense_linear_slider cat2 comp cy8ckit_149 flash_128k dma hal i2c j2 led lptimer mcu_gp opamp psoc4 smart_io spi sram_16k switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
-        <li>World's Most Reliable, Lowest Power CapSense Solution</li>
+        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
         <li>On-board Programmer and Debugger</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-149 PSoC 4100S Plus Prototyping board</li>
+        <li>CY8CKIT-149 PSoC&#8482; 4100S Plus Prototyping board</li>
         <li>Quick Start Guide</li>
         </ul>
       ]]></description>
@@ -344,18 +392,18 @@
   <board default_location="local">
     <id>PMG1-CY7113</id>
     <category>PMG1 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7113</board_uri>
+    <board_uri>https://github.com/infineon/TARGET_PMG1-CY7113</board_uri>
     <chips>
       <mcu>CYPM1311-48LQXI</mcu>
     </chips>
     <name>PMG1-CY7113</name>
-    <summary>The CY7113 EZ-PD PMG1-S3 Prototyping Kit is a development platform to design products which can be powered from a high-voltage USB PD port, and also need a microcontroller with CapSense capability to implement different applications.</summary>
+    <summary>The CY7113 EZ-PD PMG1-S3 Prototyping Kit is a development platform to design products which can be powered from a high-voltage USB PD port, and also need a microcontroller with CAPSENSE&#8482; capability to implement different applications.</summary>
     <prov_capabilities>adc capsense capsense_button capsense_linear_slider cat2 comp dma flash_256k hal i2c j2 led lptimer mcu_gp opamp pmg1 pmg1_cy7113 spi sram_32k switch uart usb_device usbpd</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
         <li>USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.</li>
-        <li>Support for two self-capacitance based CapSense buttons and one 5-segment slider.</li>
+        <li>Support for two self-capacitance based CAPSENSE&#8482; buttons and one 5-segment slider.</li>
         <li>USB bus powered operation.</li>
         <li>KitProg3 based programming and debug interface.</li>
         <li>Access to the pins of PMG1-S3 silicon (CYPM1311-48LQXI) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.</li>
@@ -389,16 +437,14 @@
   </board>
   <board default_location="local">
     <id>PSOC4-GENERIC</id>
-    <category>PSoC 4 BSPs</category>
+    <category>PSoC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC4-GENERIC</board_uri>
     <chips>
       <mcu>CY8C4548AZI-S485</mcu>
     </chips>
     <name>PSOC4-GENERIC</name>
-    <summary>This board support package is intended for creating custom PSoC 4 BSPs.</summary>
+    <summary>This board support package is intended for creating custom PSoC&#8482; 4 BSPs.</summary>
     <prov_capabilities>cat2 hal mcu_gp psoc4</prov_capabilities>
-    <!-- Here are the capabilities that are used by ModusToolbox that can be enabled in the BSP -->
-    <!--prov_capabilities>psoc4 mcu_gp std_crypto arduino j2 adc capsense capsense_button capsense_linear_slider capsense_radial_slider capsense_touchpad comp dma hal i2c lptimer opamp spi uart led rgb_led switch pdm i2s fram smart_io ble memory memory_i2c</prov_capabilities-->
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
@@ -438,21 +484,130 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CEVAL-062S2</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/infineon/TARGET_CY8CEVAL-062S2</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+    </chips>
+    <name>CY8CEVAL-062S2</name>
+    <summary><![CDATA[
+    The CY8CEVAL-062S2 PSoC&#8482; 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC&#8482; 62 MCU. The PSoC&#8482; 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC&#8482; Wi-Fi/Bluetooth combo devices. It comes with industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.
+    <p><b>Note:</b></p>
+    <p>This BSP does not support Wi-Fi/BT Connectivity examples. To run Wi-Fi/Bluetooth Connectivity examples on this kit, choose a BSP with the appropriate connectivity M.2 module.</p>
+    ]]></summary>
+    <prov_capabilities>adc arduino capsense capsense_button capsense_linear_slider cat1 comp cy8ceval_062s2 dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>Support of up to 2MB Flash and 1MB SRAM</li>
+        <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&#8482; Wi-Fi/Bluetooth combo devices.</li>
+        <li>mikroBUS add-on board interface for peripheral expansion.</li>
+        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>PSoC&#8482; 62S2 Evaluation Board</li>
+        <li>Laird Connectivity Sterling-LWB5+ Wi-Fi/Bluetooth M.2 radio module</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        <li>Quick start guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-62s2-evaluation-kit-cy8ceval-062s2</documentation_url>
+    <versions>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>CY8CEVAL-062S2-LAI-4373M2</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/infineon/TARGET_CY8CEVAL-062S2-LAI-4373M2</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+      <radio>CYW4373EUBGT</radio>
+    </chips>
+    <name>CY8CEVAL-062S2-LAI-4373M2</name>
+    <summary><![CDATA[
+    The CY8CEVAL-062S2 PSoC&#8482; 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC&#8482; 62 MCU. The PSoC&#8482; 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC&#8482; Wi-Fi/Bluetooth combo devices. It comes with industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.
+    <p><b>Note:</b></p>
+    <p>CY8CEVAL-062S2-LAI-4373M2 is the board support package for the PSoC&#8482; 62S2 Evaluation Kit in combination with the Sterling-LWB5+ M.2 radio module and supports PSoC&#8482; 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.</p>
+    ]]></summary>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ceval_062s2 cy8ceval_062_s2_lai_4373m2 cyw4373 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>Support of up to 2MB Flash and 1MB SRAM</li>
+        <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&#8482; Wi-Fi/Bluetooth combo devices.</li>
+        <li>mikroBUS add-on board interface for peripheral expansion.</li>
+        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>PSoC&#8482; 62S2 Evaluation Board</li>
+        <li>Laird Connectivity Sterling-LWB5+ Wi-Fi/Bluetooth M.2 radio module</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        <li>Quick start guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-62s2-evaluation-kit-cy8ceval-062s2</documentation_url>
+    <versions>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CKIT-062-BLE</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
     <name>CY8CKIT-062-BLE</name>
-    <summary>The PSoC 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 63 Line (CY8C6347BZI-BLD53).</summary>
+    <summary>The PSoC&#8482; 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 63 Line (CY8C6347BZI-BLD53).</summary>
     <prov_capabilities>adc arduino ble capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_ble dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
         <li>Serial memory interface</li>
         <li>PDM-PCM digital microphone interface</li>
-        <li>Industry-leading CapSense</li>
+        <li>Industry-leading CAPSENSE</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
@@ -479,7 +634,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -492,14 +646,14 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062S2-43012</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S2-43012</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
       <radio>CYW43012C0WKWBG</radio>
     </chips>
     <name>CY8CKIT-062S2-43012</name>
-    <summary>The CY8CKIT-062S2-43012 PSoC 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
+    <summary>The CY8CKIT-062S2-43012 PSoC&#8482; 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062s2_43012 cyw43012 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
@@ -507,12 +661,12 @@
         <li>Support of up to 2MB Flash and 1MB SRAM</li>
         <li>Dedicated SDHC to interface with WICED wireless devices.</li>
         <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CapSense, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div>
         <ul>
-        <li>PSoC 6S2 Wi-Fi BT Pioneer Board</li>
+        <li>PSoC&#8482; 6S2 Wi-Fi BT Pioneer Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         <li>Four jumper wires (4 inches each)</li>
@@ -537,7 +691,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -550,13 +703,13 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062S4</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S4</board_uri>
     <chips>
       <mcu>CY8C6244LQI-S4D92</mcu>
     </chips>
     <name>CY8CKIT-062S4</name>
-    <summary>The PSoC 62S4 Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62S4 Line (CY8C6244LQI-S4D92).</summary>
+    <summary>The PSoC&#8482; 62S4 Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 62S4 Line (CY8C6244LQI-S4D92).</summary>
     <prov_capabilities>adc arduino can capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062s4 dac dma flash_256k hal i2c j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp psoc6 qspi rgb_led rtc smart_io spi sram_128k std_crypto switch uart usb_device usb_host</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -567,7 +720,7 @@
         <li>Two opamps with low-power operation modes and Two low-power comparators available in Deep Sleep and Hibernate modes</li>
         <li>Onboard Thermistor and Ambient Light Sensor. </li>
         <li>Serial memory interface</li>
-        <li>Industry-leading CapSense</li>
+        <li>Industry-leading CAPSENSE</li>
         <li>Ambient Light Sensor</li>
         <li>Thermistor</li>
         </ul><p/>
@@ -597,7 +750,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -614,21 +766,21 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062-WIFI-BT</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT</board_uri>
     <chips>
       <mcu>CY8C6247BZI-D54</mcu>
       <radio>CYW4343WKUBG</radio>
     </chips>
     <name>CY8CKIT-062-WIFI-BT</name>
-    <summary>The PSoC 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62 MCU (CY8C6247BZI-D54) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
+    <summary>The PSoC&#8482; 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 62 MCU (CY8C6247BZI-D54) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_wifi_bt cyw4343w cyw43xxx dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>BLE v5.0</li>
         <li>Serial memory interface</li>
         <li>PDM-PCM digital microphone interface</li>
-        <li>Industry-leading CapSense</li>
+        <li>Industry-leading CAPSENSE</li>
         <li>Full-speed USB</li>
         <li>IEEE 802.11a/b/g/n WLAN</li>
         </ul><p/>
@@ -657,7 +809,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -670,35 +821,33 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-064B0S2-4343W</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064B0S2-4343W</board_uri>
     <chips>
       <mcu>CYB0644ABZI-S2D44</mcu>
       <radio>CYW4343WKUBG</radio>
     </chips>
     <name>CY8CKIT-064B0S2-4343W</name>
-    <summary>The CY8CKIT-064B0S2-4343W PSoC 64 Secure Boot Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC 64 MCUs. It comes with a Murata LBEE5KL1DX Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, 4-MBit Quad-SPI F-RAM, and a PDM-PCM microphone interface.</summary>
+    <summary>The CY8CKIT-064B0S2-4343W PSoC&#8482; 64 Secure Boot Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 64 MCUs. It comes with a Murata LBEE5KL1DX Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, 4-MBit Quad-SPI F-RAM, and a PDM-PCM microphone interface.</summary>
     <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_064b0s2_4343w cyw4343w cyw43xxx dma fram flash_1856k hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
-    <description>
-      <![CDATA[
+    <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
         <li>Support of up to 2MB Flash and 1MB SRAM</li>
         <li>Dedicated SDHC to interface with WICED wireless devices.</li>
         <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CapSense, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div>
         <ul>
-        <li>PSoC 64 Wi-Fi BT Pioneer Board</li>
+        <li>PSoC&#8482; 64 Wi-Fi BT Pioneer Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         <li>Four jumper wires (4 inches each)</li>
         <li>Two jumper wires (5 inches each)</li>
         </ul>
-      ]]>
-    </description>
+      ]]></description>
     <documentation_url>http://www.cypress.com/CY8CKIT-064B0S2-4343W</documentation_url>
     <versions>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
@@ -733,14 +882,14 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-062-4343W</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
       <radio>CYW4343WKUBG</radio>
     </chips>
     <name>CY8CPROTO-062-4343W</name>
-    <summary>The CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
+    <summary>The CY8CPROTO-062-4343W PSoC&#8482; 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
     <prov_capabilities>adc anycloud bt capsense capsense_button capsense_linear_slider cat1 comp cy8cproto_062_4343w cyw4343w cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
@@ -748,12 +897,12 @@
         <li>Support of up to 2MB Flash and 1MB SRAM</li>
         <li>Dedicated SDHC to interface with WICED wireless devices.</li>
         <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CapSense, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
         </ul>
 
         <div class="category">Kit Contents:</div>
         <ul>
-        <li>PSoC 6 Wi-Fi BT Prototyping Board</li>
+        <li>PSoC&#8482; 6 Wi-Fi BT Prototyping Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         </ul>
@@ -776,7 +925,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -789,14 +937,14 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-062S3-4343W</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062S3-4343W</board_uri>
     <chips>
       <mcu>CY8C6245LQI-S3D72</mcu>
       <radio>CYW4343WKUBG</radio>
     </chips>
     <name>CY8CPROTO-062S3-4343W</name>
-    <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC 6 MCUs.It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CapSense for touch buttons and slider, on-board debugger/programmer with KitProg3, 512-Mb Quad-SPI NOR flash. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently.</summary>
+    <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 6 MCUs.It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, 512-Mb Quad-SPI NOR flash. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently.</summary>
     <prov_capabilities>adc bt capsense capsense_button capsense_linear_slider cat1 comp cy8cproto_062s3_4343w cyw4343w cyw43xxx dma flash_512k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash psoc6 qspi rtc smart_io spi sram_256k std_crypto switch uart usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
@@ -804,7 +952,7 @@
         <li>Support of up to 512 KB Flash and 256 KB SRAM</li>
         <li>Dedicated SDHC to interface with WICED wireless devices.</li>
         <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CapSense.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE.</li>
         </ul>
 
         <div class="category">Kit Contents:</div>
@@ -832,7 +980,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -845,25 +992,25 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-063-BLE</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE</board_uri>
     <chips>
       <mcu>CYBLE-416045-02</mcu>
     </chips>
     <name>CY8CPROTO-063-BLE</name>
-    <summary>The PSoC 6 BLE Prototyping Kit (CY8CPROTO-063-BLE) is a low-cost hardware platform that enables design and debug of PSoC 6 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
+    <summary>The PSoC&#8482; 6 BLE Prototyping Kit (CY8CPROTO-063-BLE) is a low-cost hardware platform that enables design and debug of PSoC&#8482; 6 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
     <prov_capabilities>adc ble capsense cat1 comp cy8cproto_063_ble dac dma flash_1024k hal i2c led low_power lptimer mcu_gp multi_core opamp psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
-        <li>BLE 5.0 certified Cypress CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC 63 MCU</li>
+        <li>BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&#8482; 63 MCU</li>
         <li>Up to 36 GPIOs in a 14x18.5x2 mm package</li>
-        <li>Supports digital programmable logic, capacitive-sensing with CapSense, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
+        <li>Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
         </ul>
 
         <div class="category">Kit Contents:</div>
         <ul>
-        <li>PSoC 6 BLE Prototyping Board</li>
+        <li>PSoC&#8482; 6 BLE Prototyping Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         </ul>
@@ -886,7 +1033,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -899,25 +1045,25 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-064B0S1-BLE</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064B0S1-BLE</board_uri>
     <chips>
       <mcu>CYB06447BZI-BLD53</mcu>
     </chips>
     <name>CY8CPROTO-064B0S1-BLE</name>
-    <summary>The PSoC 64 Secure Boot BLE Prototyping Kit (CY8CPROTO-064B0S1-BLE) is a low-cost hardware platform that enables design and debug of PSoC 64 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
+    <summary>The PSoC&#8482; 64 Secure Boot BLE Prototyping Kit (CY8CPROTO-064B0S1-BLE) is a low-cost hardware platform that enables design and debug of PSoC&#8482; 64 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
     <prov_capabilities>adc ble cat1 comp cy8cproto_064B0S1_ble dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc secure_boot smart_io spi sram_288k std_crypto switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
-        <li>BLE 5.0 certified Cypress CYBLE-4xxxx-xx EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC 64 MCU</li>
+        <li>BLE 5.0 certified CYBLE-4xxxx-xx EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&#8482; 64 MCU</li>
         <li>Up to 36 GPIOs in a 14x18.5x2 mm package</li>
-        <li>Supports digital programmable logic, capacitive-sensing with CapSense, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
+        <li>Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
         </ul>
 
         <div class="category">Kit Contents:</div>
         <ul>
-        <li>2x PSoC 64 BLE Prototyping Board</li>
+        <li>2x PSoC&#8482; 64 BLE Prototyping Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         </ul>
@@ -952,23 +1098,23 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-064B0S3</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064B0S3</board_uri>
     <chips>
       <mcu>CYB06445LQI-S3D42</mcu>
     </chips>
     <name>CY8CPROTO-064B0S3</name>
-    <summary>CY8CPROTO-064B0S3 PSoC 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 Secure Boot MCU to enable customers to prototype and design with the PSoC 64 Secure Boot device.</summary>
+    <summary>CY8CPROTO-064B0S3 PSoC&#8482; 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC&#8482; 64 Secure Boot MCU to enable customers to prototype and design with the PSoC&#8482; 64 Secure Boot device.</summary>
     <prov_capabilities>adc cat1 comp cy8cproto_064b0s3 dma flash_448k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc secure_boot smart_io spi sram_256k std_crypto uart usb_device</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
-        <li>PSoC 64 Secure MCU</li>
+        <li>PSoC&#8482; 64 Secure MCU</li>
         <li>512-Mb Serial NOR flash</li>
         <li>Full-speed USB device interface</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>PSoC 64 SecureBoot Prototyping Board</li>
+        <li>PSoC&#8482; 64 SecureBoot Prototyping Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick start guide</li>
         </ul>
@@ -1007,23 +1153,23 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-064S1-SB</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064S1-SB</board_uri>
     <chips>
       <mcu>CYB06447BZI-D54</mcu>
     </chips>
     <name>CY8CPROTO-064S1-SB</name>
-    <summary>CY8CPROTO-064S1-SB PSoC 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC 64 Secure Boot MCU to enable customers to prototype and design with the PSoC 64 Secure Boot device.</summary>
+    <summary>CY8CPROTO-064S1-SB PSoC&#8482; 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC&#8482; 64 Secure Boot MCU to enable customers to prototype and design with the PSoC&#8482; 64 Secure Boot device.</summary>
     <prov_capabilities>adc cat1 comp cy8cproto_064s1_sb dac dma flash_832k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp psoc6 qspi rtc secure_boot spi sram_288k std_crypto switch uart usb_device</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
-        <li>PSoC 64 Secure MCU</li>
+        <li>PSoC&#8482; 64 Secure MCU</li>
         <li>512-Mb Serial NOR flash</li>
         <li>Full-speed USB device interface</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>PSoC 64 SecureBoot Prototyping Board</li>
+        <li>PSoC&#8482; 64 SecureBoot Prototyping Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick start guide</li>
         </ul>
@@ -1058,7 +1204,7 @@
   </board>
   <board default_location="local">
     <id>CYBLE-416045-EVAL</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYBLE-416045-EVAL</board_uri>
     <chips>
       <mcu>CYBLE-416045-02</mcu>
@@ -1069,7 +1215,7 @@
     <description><![CDATA[
         <div class="category">Kit Features:</div>
         <ul>
-        <li>BLE 5.0 certified Cypress CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC 63 MCU</li>
+        <li>BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&#8482; 63 MCU</li>
         <li>Up to 36 Arduino-compatible GPIO headers</li>
         <li>Supports digital programmable logic, a PDM-PCM digital microphone interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
         </ul>
@@ -1099,7 +1245,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1112,7 +1257,7 @@
   </board>
   <board default_location="local">
     <id>CYSBSYSKIT-01</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
@@ -1161,7 +1306,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1178,7 +1322,7 @@
   </board>
   <board default_location="local">
     <id>CYSBSYSKIT-DEV-01</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-DEV-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
@@ -1230,7 +1374,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1243,14 +1386,14 @@
   </board>
   <board default_location="local">
     <id>CYW9P62S1-43012EVB-01</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43012EVB-01</board_uri>
     <chips>
       <mcu>CY8C6247FDI-D52</mcu>
       <radio>CYW43012TC0EKUBG</radio>
     </chips>
     <name>CYW9P62S1-43012EVB-01</name>
-    <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI WM-BAC-CYW-50 Module. USI WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 (WiFi + Bluetooth Combo Chip).</summary>
+    <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI WM-BAC-CYW-50 Module. USI WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC&#8482; 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 (WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43012 cyw43xxx cyw9p62s1_43012evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb usb_device wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -1259,11 +1402,11 @@
         <li>IEEE 802.11n, 802.11ac friendly WLAN</li>
         <li>Full-speed USB</li>
         <li>Serial memory interface</li>
-        <li>Industry-leading CapSense</li>
+        <li>Industry-leading CAPSENSE</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>PSoC 6S2 Wi-Fi BT Pioneer Board</li>
+        <li>PSoC&#8482; 6S2 Wi-Fi BT Pioneer Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         <li>Four jumper wires (4 inches each)</li>
@@ -1288,7 +1431,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1301,14 +1443,14 @@
   </board>
   <board default_location="local">
     <id>CYW9P62S1-43438EVB-01</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43438EVB-01</board_uri>
     <chips>
       <mcu>CY8C6247BZI-D54</mcu>
       <radio>CYW43438KUBG</radio>
     </chips>
     <name>CYW9P62S1-43438EVB-01</name>
-    <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
+    <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC&#8482; 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cyw43438 cyw43xxx cyw9p62s1_43438evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm pot psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
@@ -1317,11 +1459,11 @@
         <li>IEEE 802.11a/b/g/n WLAN</li>
         <li>Full-speed USB</li>
         <li>Serial memory interface</li>
-        <li>Industry-leading CapSense</li>
+        <li>Industry-leading CAPSENSE</li>
         </ul><p/>
 
         <div class="category">Kit Contents:</div><ul>
-        <li>PSoC 6S2 Wi-Fi BT Pioneer Board</li>
+        <li>PSoC&#8482; 6S2 Wi-Fi BT Pioneer Board</li>
         <li>USB Type-A to Micro-B cable</li>
         <li>Quick Start Guide</li>
         <li>Four jumper wires (4 inches each)</li>
@@ -1346,7 +1488,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1359,16 +1500,14 @@
   </board>
   <board default_location="local">
     <id>PSOC6-GENERIC</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
     <name>PSOC6-GENERIC</name>
-    <summary>This board support package is intended for creating custom PSoC 6 BSPs.</summary>
+    <summary>This board support package is intended for creating custom PSoC&#8482; 6 BSPs.</summary>
     <prov_capabilities>cat1 hal low_power mcu_gp psoc6 rtc</prov_capabilities>
-    <!-- Here are the capabilities that are used by ModusToolbox that can be enabled in the BSP -->
-    <!--prov_capabilities>psoc6 cyw43xxx mcu_gp adc comp dma hal i2c low_power lptimer spi uart rtc std_crypto udb secure_boot arduino j2 ble bt wifi usb_device usb_host capsense capsense_button capsense_linear_slider capsense_radial_slider capsense_touchpad sdhc qspi memory led rgb_led switch memory_qspi nor_flash smart_io pdm i2s</prov_capabilities-->
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
@@ -1397,7 +1536,6 @@
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1410,7 +1548,7 @@
   </board>
   <board default_location="local">
     <id>KIT_XMC14_BOOT_001</id>
-    <category>XMC BSPs</category>
+    <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_KIT_XMC14_BOOT_001</board_uri>
     <chips>
       <mcu>XMC1404-Q064x0200</mcu>
@@ -1461,7 +1599,7 @@
   </board>
   <board default_location="local">
     <id>KIT_XMC47_RELAX_V1</id>
-    <category>XMC BSPs</category>
+    <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_KIT_XMC47_RELAX_V1</board_uri>
     <chips>
       <mcu>XMC4700-F144x2048</mcu>
@@ -1517,13 +1655,13 @@
   </board>
   <board default_location="local">
     <id>XMC-GENERIC</id>
-    <category>XMC BSPs</category>
+    <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_XMC-GENERIC</board_uri>
     <chips>
       <mcu>XMC1404-Q064x0200</mcu>
     </chips>
     <name>XMC-GENERIC</name>
-    <summary>This board support package is intended for creating custom XMC BSPs.</summary>
+    <summary>This board support package is intended for creating custom XMC&#8482; BSPs.</summary>
     <prov_capabilities>cat3 xmc mcu_gp</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
