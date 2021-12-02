@@ -1,4 +1,84 @@
 <boards>
+  <board>
+    <id>CYW943907AEVAL1F</id>
+    <category>AIROC&#8482; Connectivity BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW943907AEVAL1F</board_uri>
+    <chips>
+      <mcu>CYW43907KWBG</mcu>
+    </chips>
+    <name>CYW943907AEVAL1F</name>
+    <summary>The CYW943907AEVAL1F Evaluation kit enables you to evaluate and develop single-chip Wi-Fi applications using CYW43907 devices. The kit uses a module based on CYW43907 device. CYW43907 is a single-chip 802.11n dual-band (2.4 GHz and 5 GHz) Wi-Fi SoC that features 320-MHz Arm Cortex-R4 MCU for application subsystem and various on-chip interfaces like Ethernet (RMII/MII), UART, SPI/QSPI and I2C that in totality offers a very small-footprint IoT solution.</summary>
+    <prov_capabilities>anycloud arduino ble bt cat4 cyw943907aeval1f dma flash_0k hal i2c led low_power lptimer mcu_gp spi sram_2048k switch uart wifi</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>CYW43907 based module</li>
+        <li>On-board PCB antenna with an option to connect external antenna</li>
+        <li>Arduino compatible headers for hardware expansion</li>
+        <li>Custom header to bring out additional GPIOs (WICED header)</li>
+        <li>User switches and LEDs</li>
+        <li>On-board programmer and debugger using USB interface and USB-UART bridge</li>
+        <li>RJ45 connector for Ethernet</li>
+        <li>5 V to 12 V input using USB connector or power jack</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        <li>CYW943907AEVAL1F Evaluation board</li>
+        <li>USB Standard-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyw943907aeval1f-evaluation-kit</documentation_url>
+    <versions>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board>
+    <id>CYW954907AEVAL1F</id>
+    <category>AIROC&#8482; Connectivity BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW954907AEVAL1F</board_uri>
+    <chips>
+      <mcu>CYW54907KWBG</mcu>
+    </chips>
+    <name>CYW954907AEVAL1F</name>
+    <summary>The CYW954907AEVAL1F Evaluation kit enables you to evaluate and develop single-chip Wi-Fi applications using CYW54907 devices. The kit uses a module based on CYW54907 device. CYW54907 is a single-chip 802.11n dual-band (2.4 GHz and 5 GHz) Wi-Fi SoC that features 320-MHz Arm Cortex-R4 MCU for application subsystem and various on-chip interfaces like Ethernet (RMII/MII), UART, SPI/QSPI and I2C that in totality offers a very small-footprint IoT solution.</summary>
+    <prov_capabilities>anycloud arduino ble bt cat4 cyw954907aeval1f dma flash_0k hal i2c led low_power lptimer mcu_gp spi sram_2048k switch uart wifi</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>CYW54907 based module</li>
+        <li>On-board PCB antenna with an option to connect external antenna</li>
+        <li>Arduino compatible headers for hardware expansion</li>
+        <li>Custom header to bring out additional GPIOs (WICED header)</li>
+        <li>User switches and LEDs</li>
+        <li>On-board programmer and debugger using USB interface and USB-UART bridge</li>
+        <li>RJ45 connector for Ethernet</li>
+        <li>5 V to 12 V input using USB connector or power jack</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        <li>CYW954907AEVAL1F Evaluation board</li>
+        <li>USB Standard-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyw954907aeval1f-evaluation-kit</documentation_url>
+    <versions>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
   <board default_location="local">
     <id>CY8CKIT-041-41XX</id>
     <category>PSoC&#8482; 4 BSPs</category>
