@@ -673,6 +673,52 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CEVAL-062S2-MUR-43439M2</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-43439M2</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+      <radio>CYW43439KUBG</radio>
+    </chips>
+    <name>CY8CEVAL-062S2-MUR-43439M2</name>
+    <summary><![CDATA[
+    The CY8CEVAL-062S2 PSoC&#8482; 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC&#8482; 62 MCU. The PSoC&#8482; 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC&#8482; Wi-Fi/Bluetooth combo devices. It comes with industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.
+    <p><b>Note:</b></p>
+    <p>CY8CEVAL-062S2-MUR-43439M2 is the board support package for the PSoC&#8482; 62S2 Evaluation Kit in combination with the 1YN radio module and supports PSoC&#8482; 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.</p>
+    ]]></summary>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 comp cy8ceval_062s2 cy8ceval_062_mur_43439m2 cyw43439 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div>
+        <ul>
+        <li>Support of up to 2MB Flash and 1MB SRAM</li>
+        <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&#8482; Wi-Fi/Bluetooth combo devices.</li>
+        <li>mikroBUS add-on board interface for peripheral expansion.</li>
+        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
+        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
+        </ul><p/>
+        <div class="category">Kit Contents:</div>
+        <ul>
+        <li>PSoC&#8482; 62S2 Evaluation Board</li>
+        <li>Embedded Artists 1YN Wi-Fi/Bluetooth M.2 radio module</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        <li>Quick start guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-62s2-evaluation-kit-cy8ceval-062s2</documentation_url>
+    <versions>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CKIT-062-BLE</id>
     <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE</board_uri>
