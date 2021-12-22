@@ -1009,7 +1009,7 @@
   <board default_location="local">
     <id>CY8CKIT-064S0S2-4343W</id>
     <category>PSoC&#8482; 6 BSPs</category>
-    <board_uri>http://github.com/Infineon/TARGET_CY8CKIT-064S0S2-4343W</board_uri>
+    <board_uri>http://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064S0S2-4343W</board_uri>
     <chips>
       <mcu>CYS0644ABZI-S2D44</mcu>
       <radio>CYW4343WKUBG</radio>
