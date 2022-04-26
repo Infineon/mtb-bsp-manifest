@@ -1546,6 +1546,39 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -1683,6 +1716,39 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -1788,6 +1854,39 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>capsense</id>
@@ -2094,6 +2193,39 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -2265,6 +2397,39 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>capsense</id>
@@ -2537,6 +2702,43 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>udb-sdio-whd</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -2728,6 +2930,39 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>capsense</id>
@@ -2996,6 +3231,39 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>trusted-firmware-m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -3063,6 +3331,39 @@
           <dependee>
             <id>recipe-make-cat1a</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -3238,6 +3539,39 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>capsense</id>
@@ -3648,6 +3982,35 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -3799,6 +4162,35 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>core-lib</id>
@@ -4007,6 +4399,35 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>core-lib</id>
@@ -4393,6 +4814,35 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>scl-mtb-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -4601,6 +5051,35 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -4752,6 +5231,43 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>udb-sdio-whd</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>capsense</id>
@@ -5015,6 +5531,43 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>udb-sdio-whd</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -5206,6 +5759,35 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
             <id>core-lib</id>
