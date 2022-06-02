@@ -556,7 +556,7 @@
         <li>NA</li>
         </ul>
     ]]></description>
-    <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
+    <documentation_url>https://github.com/Infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
       <version flow_version="1.0" prov_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
