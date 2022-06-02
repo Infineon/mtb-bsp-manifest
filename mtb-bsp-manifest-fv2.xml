@@ -179,7 +179,7 @@
   <board default_location="local">
     <id>CY8CKIT-045S</id>
     <category>PSoC&#8482; 4 BSPs</category>
-    <board_uri>https://github.com/infineon/TARGET_CY8CKIT-045S</board_uri>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-045S</board_uri>
     <chips>
       <mcu>CY8C4548AZI-S485</mcu>
     </chips>
@@ -472,7 +472,7 @@
   <board default_location="local">
     <id>PMG1-CY7113</id>
     <category>PMG1 BSPs</category>
-    <board_uri>https://github.com/infineon/TARGET_PMG1-CY7113</board_uri>
+    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7113</board_uri>
     <chips>
       <mcu>CYPM1311-48LQXI</mcu>
     </chips>
@@ -535,7 +535,7 @@
         <li>NA</li>
         </ul>
     ]]></description>
-    <documentation_url>https://github.com/infineon/TARGET_PSOC4-GENERIC</documentation_url>
+    <documentation_url>https://github.com/Infineon/TARGET_PSOC4-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
@@ -566,7 +566,7 @@
   <board default_location="local">
     <id>CY8CEVAL-062S2</id>
     <category>PSoC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/infineon/TARGET_CY8CEVAL-062S2</board_uri>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
     </chips>
@@ -624,7 +624,7 @@
   <board default_location="local">
     <id>CY8CEVAL-062S2-LAI-4373M2</id>
     <category>PSoC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/infineon/TARGET_CY8CEVAL-062S2-LAI-4373M2</board_uri>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-LAI-4373M2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
       <radio>CYW4373EUBGT</radio>
@@ -1775,7 +1775,7 @@
         <li>NA</li>
         </ul>
     ]]></description>
-    <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
+    <documentation_url>https://github.com/Infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
@@ -2021,7 +2021,7 @@
         <div class="category">Kit Contents:</div><ul>
         </ul>
       ]]></description>
-    <documentation_url>https://github.com/infineon/TARGET_XMC-GENERIC</documentation_url>
+    <documentation_url>https://github.com/Infineon/TARGET_XMC-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
