@@ -6314,6 +6314,53 @@
     </versions>
   </depender>
   <depender>
+    <id>WLC1115-68LQXQ</id>
+    <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat2</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat2</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat2</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat2</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>XMC-GENERIC</id>
     <versions>
       <version>
