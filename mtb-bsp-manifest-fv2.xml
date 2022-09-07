@@ -756,9 +756,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit</documentation_url>
     <versions>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 ble bt">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 ble bt">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
@@ -1223,9 +1227,13 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-063-BLE</documentation_url>
     <versions>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 ble bt">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 ble bt">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
@@ -1447,9 +1455,13 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyble-416045-eval-ez-ble-arduino-evaluation-board</documentation_url>
     <versions>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 ble bt">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 ble bt">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
