@@ -1993,6 +1993,10 @@
         <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
+            <id>capsense</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
             <id>core-lib</id>
             <commit>latest-v1.X</commit>
           </dependee>
