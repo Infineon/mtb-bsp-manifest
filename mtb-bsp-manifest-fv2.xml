@@ -108,6 +108,14 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-041-41xx-psoc-4100s-capsense-pioneer-kit</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -166,6 +174,14 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-4100s-max-pioneer-kit-cy8ckit-041s-max</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -247,6 +263,14 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-145-40xx-psoc-4000s-capsense-prototyping-kit</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -282,7 +306,7 @@
     </chips>
     <name>CY8CKIT-149</name>
     <summary>The PSoC&#8482; 4100S Plus Prototyping Kit enables you to evaluate the PSoC&#8482; 4100S Plus device and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution.</summary>
-    <prov_capabilities>adc ble can capsense capsense_button capsense_linear_slider cat2 comp csd cy8ckit_149 flash_128k dma hal i2c j2 led lptimer mcu_gp opamp psoc4 smart_io spi sram_16k switch uart</prov_capabilities>
+    <prov_capabilities>adc ble can capsense capsense_button capsense_linear_slider cat2 comp csd cy8ckit_149 dma flash_128k hal i2c j2 led lptimer mcu_gp opamp psoc4 smart_io spi sram_16k switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
@@ -296,6 +320,14 @@
       ]]></description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-149-psoc-4100s-plus-prototyping-kit</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -349,6 +381,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY7110</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -398,6 +438,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY7111</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -447,6 +495,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY7112</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -497,6 +553,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY7113</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -537,6 +601,14 @@
     ]]></description>
     <documentation_url>https://github.com/Infineon/TARGET_PSOC4-GENERIC</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2149,10 +2221,18 @@
     </chips>
     <name>WLC1115-68LQXQ</name>
     <summary>BSP for WLC1 15W Solution</summary>
-    <prov_capabilities>psoc4 led usbpd mcu_gp j2</prov_capabilities>
+    <prov_capabilities>j2 led mcu_gp psoc4 usbpd</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
