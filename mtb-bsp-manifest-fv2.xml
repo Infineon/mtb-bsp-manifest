@@ -2138,6 +2138,14 @@
       ]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc14_boot_001/</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2169,7 +2177,7 @@
     <p><b>Note:</b></p>
     <p>Programming this kit requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.</p>
     ]]></summary>
-    <prov_capabilities>adc arduino can cat3 dac dma flash_2048k i2c i2s kit_xmc47_relax_v1 led mcu_gp rtc sdhc spi sram_352k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_2048k i2c i2s kit_xmc47_relax_v1 led mcu_gp rtc sdhc spi sram_352k switch usb_device usb_host xmc xmc4000</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>XMC4700 (ARM Cortex-M4 based) Microcontroller in a LQFP144 package</li>
@@ -2194,6 +2202,14 @@
       ]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc47_relax_v1/</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2252,7 +2268,7 @@
     </chips>
     <name>XMC-GENERIC</name>
     <summary>This board support package is intended for creating custom XMC&#8482; BSPs.</summary>
-    <prov_capabilities>cat3 xmc mcu_gp</prov_capabilities>
+    <prov_capabilities>cat3 mcu_gp xmc</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
@@ -2264,6 +2280,14 @@
       ]]></description>
     <documentation_url>https://github.com/Infineon/TARGET_XMC-GENERIC</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version tools_min_version="2.3.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
