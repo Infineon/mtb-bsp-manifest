@@ -2283,7 +2283,7 @@
     </chips>
     <name>WLC1115-68LQXQ</name>
     <summary>BSP for WLC1 15W Solution</summary>
-    <prov_capabilities>j2 led mcu_gp psoc4 usbpd</prov_capabilities>
+    <prov_capabilities>j2 led mcu_gp psoc4 usbpd wlc1</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1</documentation_url>
     <versions>
