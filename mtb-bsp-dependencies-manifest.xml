@@ -4173,7 +4173,7 @@
           </dependee>
           <dependee>
             <id>trusted-firmware-m</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.3.5</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat1a</id>
@@ -4206,7 +4206,7 @@
           </dependee>
           <dependee>
             <id>trusted-firmware-m</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.3.5</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat1a</id>
@@ -4239,7 +4239,7 @@
           </dependee>
           <dependee>
             <id>trusted-firmware-m</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.3.5</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat1a</id>
@@ -7563,7 +7563,7 @@
           </dependee>
           <dependee>
             <id>mtb-hal-cat1</id>
-            <commit>latest-v2.X</commit>
+            <commit>release-v2.1.0</commit>
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
@@ -7588,7 +7588,7 @@
           </dependee>
           <dependee>
             <id>mtb-hal-cat1</id>
-            <commit>latest-v2.X</commit>
+            <commit>release-v2.1.0</commit>
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
@@ -7618,7 +7618,7 @@
           </dependee>
           <dependee>
             <id>mtb-hal-cat1</id>
-            <commit>latest-v2.X</commit>
+            <commit>release-v2.1.0</commit>
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
