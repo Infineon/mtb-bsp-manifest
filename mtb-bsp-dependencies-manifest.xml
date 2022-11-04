@@ -423,6 +423,48 @@
     <id>CY8CKIT-045S</id>
     <versions>
       <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat2</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat2</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat2</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat2</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
@@ -7643,7 +7685,7 @@
           </dependee>
           <dependee>
             <id>mtb-hal-cat1</id>
-            <commit>latest-v2.X</commit>
+            <commit>release-v2.1.0</commit>
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
