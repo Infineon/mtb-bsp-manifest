@@ -588,6 +588,29 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>PMG1S3DUAL</id>
+    <category>PMG BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_PMG1S3DUAL</board_uri>
+    <chips>
+      <mcu>CYPM1322-97BZXIT</mcu>
+    </chips>
+    <name>PMG1S3DUAL</name>
+    <summary>The PMG1S3DUAL BSP enables you to design and develop embedded USB-C Power Delivery (PD) applications for the PMG1-S3 device (CYPM1322-97BZXIT). The application note **AN235644 - USB PD DRP (dual-role power) schematics using EZ-PD™ PMG1 MCUs**  provides a detailed information to design products which can provide/consume a high voltage power to/from USB PD port.</summary>
+    <prov_capabilities>adc bsp_gen4 cat2 comp csd dma flash_256k i2c led lptimer mcu_gp opamp pmg1 pmg1s3dual spi sram_32k uart usb_device usbpd</prov_capabilities>
+    <description>        &lt;div class=&quot;category&quot;&gt;Key Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.1 compliant DRP on both the ports.&lt;/li&gt;         &lt;li&gt;EPR (Extended Power Range) which can support up to 140W (28V, 5A) power on both ports.&lt;/li&gt;         &lt;li&gt;USB Type-C alternate mode support.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;SWD based programming and debug interface.&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/dgdl/Infineon-USB_PD_DRP_dual-role_power_schematics_using_EZ-PD_PMG1_MCUs-ApplicationNotes-v02_00-EN.pdf?fileId=8ac78c8c83cd30810183ea6518841d1e</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>PSOC4-GENERIC</id>
     <category>PSoC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC4-GENERIC</board_uri>
