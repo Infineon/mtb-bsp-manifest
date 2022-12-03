@@ -2135,6 +2135,7 @@
     </versions>
   </board>
   <board>
+    <board default_location="local">
     <id>CYW920829-VR</id>
     <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CYW920829-VR</board_uri>
@@ -2183,6 +2184,7 @@
     </versions>
   </board>
   <board>
+    <board default_location="local">
     <id>CYW920829M2EVB-01</id>
     <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CYW920829M2EVB-01</board_uri>
