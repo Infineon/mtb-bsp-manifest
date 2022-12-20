@@ -707,6 +707,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -772,6 +776,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -840,6 +848,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -886,6 +898,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>4.0.0 release</num>
@@ -955,6 +971,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -1028,6 +1048,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -1083,6 +1107,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1099,11 +1127,15 @@
     <summary>The KIT_XMC72_EVK, a 272-pin evaluation board is based on the XMC7000 family of devices. XMC7000 MCU is designed for industrial applications. The evaluation board carries a XMC7000D microcontroller, a M.2 interface connector for interfacing radio modules based on AIROC&#8482; Wi-Fi and Bluetooth&#174; combos (currently not supported), SMIF dual header compatible with Digilent Pmod for interfacing HYPERBUS&#8482; memories (currently not supported), and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3), a 512-Mbit QSPI NOR flash, CAN FD transceiver, Gigabit Ethernet PHY transceiver with RJ45 connector interface, a micro-B connector for USB device interface, three user LEDs, one potentiometer, and two push buttons. The board supports operating voltages from 3.3 V to 5.0 V for XMC7000D device.</summary>
     <prov_capabilities>arduino bsp_gen4 cat1 cat1c ethernet flash_8384k hal i2c kit_xmc72_evk led low_power mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_1024k std_crypto switch uart xmc7000</prov_capabilities>
     <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200D-E272K8384 8MB Flash 272-pin BGA device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&#174; Standard JTAG, Cortex Debug + ETM with Arm&#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7000D device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the XMC7000D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200 evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/KIT_XMC72_EVK</documentation_url>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.0.0 release</num>
@@ -1143,6 +1175,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -1209,6 +1245,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CKIT-064B0S2-4343W</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1273,6 +1317,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CKIT-064S0S2-4343W</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1319,6 +1371,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -1386,6 +1442,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -1458,6 +1518,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -1518,6 +1582,14 @@
       ]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-064b0s1-ble/</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1573,6 +1645,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-064B0S3</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1632,6 +1712,14 @@
       ]]></description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-064S1-SB</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1695,6 +1783,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -1737,32 +1829,19 @@
       <radio>CYW43012TC0KFFBH</radio>
     </chips>
     <name>CYSBSYSKIT-01</name>
-    <summary>The CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit comes with a CYSBSYS-RP01 Rapid IoT Connect module which enables a secure, scalable, and reliable connection to cloud. CYSBSYS-RP01 is a pre-certified 802.11ac-friendly dual-band (2.4 and 5.0 GHz) Wi-Fi and Bluetooth 5.0-compliant combo radio module. CYSBSYS-RP01 when combined with Infineon SubSystems connectivity services enables rapid deployment of devices on to an IoT network.</summary>
-    <prov_capabilities>adc anycloud bt cat1 comp cysbsyskit_01 cyw43xxx dma feather flash_2048k hal i2c led lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi smart_io spi sram_1024k switch uart wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>CYSBSYS-RP01 module</li>
-        <li>512KB Flash and 512KB SRAM for customer application on CM4</li>
-        <li>512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code</li>
-        <li>KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality</li>
-        <li>A user LED, a user button, and a reset button</li>
-        <li>Battery connector, charging IC, and charging indicator LED</li>
-        <li>One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED</li>
-        <li>OPTIGA Trust M advanced security controller for secure data storage</li>
-        <li>Thermistor for sensing the ambient temperature</li>
-        <li>16KB of Emulated EEPROM</li>
-        <li>Feather compatible pin header</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit</li>
-        <li>Adafruit 128 x 32 OLED Screen FeatherWing (Adafruit product ID: 2900)</li>
-        </ul>
-      ]]></description>
+    <summary>CYSBSYSKIT-01: Pre-configured Rapid IoT Connect Platform RP01 Feather Kit with a CYSBSYS-RP01 Rapid IoT Connect module which enables a secure, scalable, and reliable connection to cloud. CYSBSYS-RP01 is a pre-certified 802.11ac-friendly dual- band (2.4 and 5.0 GHz) Wi-Fi and Bluetooth 5.0-compliant combo radio module. </summary>
+    <prov_capabilities>adc anycloud bt cat1 cat1a comp cysbsyskit_01 cyw43012 cyw43xxx dma feather flash_2048k hal i2c led lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi smart_io spi sram_1024k switch uart wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYS-RP01 module with managed firmware for device management and radio chip. &lt;/li&gt;         &lt;li&gt;512KB Flash and 512KB SRAM for customer application on CM4&lt;/li&gt;         &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;         &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;Battery connector, charging IC, and charging indicator LED&lt;/li&gt;         &lt;li&gt;One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED&lt;/li&gt;         &lt;li&gt;OPTIGA Trust M advanced security controller for secure data storage&lt;/li&gt;         &lt;li&gt;Thermistor for sensing the ambient temperature&lt;/li&gt;         &lt;li&gt;16KB of Emulated EEPROM&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/CYSBSYSKIT-01</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1807,34 +1886,18 @@
     </chips>
     <name>CYSBSYSKIT-DEV-01</name>
     <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
-    <prov_capabilities>adc anycloud bt cat1 comp cysbsyskit_dev_01 cyw43xxx dma feather flash_2048k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>CYSBSYS-RP01 module</li>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code</li>
-        <li>KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality</li>
-        <li>A user LED, a user button, and a reset button</li>
-        <li>Battery connector, charging IC, and charging indicator LED</li>
-        <li>One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED</li>
-        <li>OPTIGA Trust M advanced security controller for secure data storage</li>
-        <li>Thermistor for sensing the ambient temperature</li>
-        <li>16KB of Emulated EEPROM</li>
-        <li>Feather compatible pin header</li>
-        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Edition Kit</li>
-        <li>Adafruit 128 x 32 OLED Screen FeatherWing (Adafruit product ID: 2900)</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc anycloud bt cat1 cat1a comp cysbsyskit_dev_01 cyw43012 cyw43xxx dma feather flash_2048k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYS-RP01 module&lt;/li&gt;         &lt;li&gt;Free application processor (150-MHz Arm&amp;#174; Cortex&amp;#174;-M4) and secondary processor (100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+)&lt;/li&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;         &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;Battery connector, charging IC, and charging indicator LED&lt;/li&gt;         &lt;li&gt;One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED&lt;/li&gt;         &lt;li&gt;OPTIGA Trust M advanced security controller for secure data storage&lt;/li&gt;         &lt;li&gt;Thermistor for sensing the ambient temperature&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Edition Kit&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/CYSBSYSKIT-DEV-01</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
       <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1881,6 +1944,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -1930,6 +1997,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -1999,6 +2070,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
