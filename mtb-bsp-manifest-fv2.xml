@@ -2187,6 +2187,10 @@
         <num>1.0.0-Beta1 release</num>
         <commit>release-v1.0.0-Beta1</commit>
       </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.0-Beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
+      </version>
     </versions>
   </board>
   <board default_location="local">
@@ -2206,6 +2210,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.0.0-Beta1 release</num>
         <commit>release-v1.0.0-Beta1</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.0-Beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
       </version>
     </versions>
   </board>
@@ -2255,6 +2263,10 @@
         <num>1.0.0-Beta1 release</num>
         <commit>release-v1.0.0-Beta1</commit>
       </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.0-Beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
+      </version>
     </versions>
   </board>
   <board default_location="local">
@@ -2302,6 +2314,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.0.0-Beta1 release</num>
         <commit>release-v1.0.0-Beta1</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.0-Beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
       </version>
     </versions>
   </board>
