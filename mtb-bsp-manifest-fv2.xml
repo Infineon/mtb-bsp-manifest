@@ -2322,6 +2322,75 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_XMC11_BOOT_001</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC11_BOOT_001</board_uri>
+    <chips>
+      <mcu>XMC1100-T038x0064</mcu>
+    </chips>
+    <name>KIT_XMC11_BOOT_001</name>
+    <summary>    The XMC1100 CPU Card for Arduino has two rows of pin headers which fully compatible with Arduino shield.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc cat3 flash_64k i2c kit_xmc11_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1100 Microcontroller in TSSOP-38 with 64 KB Flash and full peripheral set of XMC1100 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC11_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc11_boot_001/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC12_BOOT_001</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC12_BOOT_001</board_uri>
+    <chips>
+      <mcu>XMC1200-T038x0200</mcu>
+    </chips>
+    <name>KIT_XMC12_BOOT_001</name>
+    <summary>    The XMC1200 CPU Card (CPU-12 A-V1) houses the XMC1200 Microcontroller and a 2x30 pin edge for application expansion. This board along with application cards (e.g. LED Lighting Application Card) demonstrates the capabilities of XMC1200. The main use case for this board is to demonstrate the generic features of XMC1200 device including tool chain. The focus is safe operation under evaluation conditions. The board is neither cost nor size optimized and does not serve as a reference design.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc can cat3 comp flash_200k i2c i2s kit_xmc12_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1200 Microcontroller in TSSOP-38 with 200KB Flash and full peripheral set of XMC1200 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC12_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc12_boot_001/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC13_BOOT_001</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC13_BOOT_001</board_uri>
+    <chips>
+      <mcu>XMC1302-T038x0200</mcu>
+    </chips>
+    <name>KIT_XMC13_BOOT_001</name>
+    <summary>    The XMC1300 CPU board (CPU-13 A-V1) houses the XMC1300 Microcontroller and a 2x30 pin edge for application expansion. The board along with application cards (e.g. Color LED Card, White LED Card) demonstrates the capabilities of XMC1300. The main use case for this board is to demonstrate the generic features of XMC1300 device including tool chain. The focus is safe operation under evaluation conditions. The board is neither cost nor size optimized and does not serve as a reference design.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc can cat3 comp flash_200k i2c i2s kit_xmc13_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1302 Microcontroller in TSSOP-38 with 200KB Flash and full peripheral set of XMC1300 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC13_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc13_boot_001/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC14_BOOT_001</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_KIT_XMC14_BOOT_001</board_uri>
@@ -2329,34 +2398,18 @@
       <mcu>XMC1404-Q064x0200</mcu>
     </chips>
     <name>KIT_XMC14_BOOT_001</name>
-    <summary><![CDATA[
-    The XMC1400 Boot Kit (CPU-14A-V1) houses the XMC1400 Microcontroller and a 2x30 pin edge for application expansion.
-    <p><b>Note:</b></p>
-    <p>Programming this kit requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.</p>
-    ]]></summary>
+    <summary>    The XMC1400 Boot Kit (CPU-14A-V1) houses the XMC1400 Microcontroller and a 2x30 pin edge for application expansion.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
     <prov_capabilities>adc can cat3 comp flash_200k i2c i2s kit_xmc14_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>XMC1400 (ARM Cortex-M0 based) Microcontroller in a VQFN64 package</li>
-        <li>On board Debugger for downloading and debugging of application code</li>
-        <li>Virtual COM port for UART communication with terminal program e.g. Hyperterminal</li>
-        <li>2x30 card edge connector for extension to application card e.g. Colour LED Card and White LED Card</li>
-        <li>4 User LEDs connected to GPIO P4.0, P4.1, P4.2, P4.3</li>
-        <li>Variable resistor R110 connected to analog input P2.5</li>
-        <li>All the pins of XMC1400 are accessible via the connector JP101, JP103, JP104 and JP105</li>
-        <li>CAN interface with CAN transceiver mounted</li>
-        <li>External crystal 20 MHz and 32.768 kHz mounted</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>KIT_XMC14_BOOT_001 evaluation board</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1400 (ARM&amp;#174; Cortex&amp;#174;-M0 based) Microcontroller in a VQFN64 package&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;li&gt;2x30 card edge connector for extension to application card e.g. Colour LED Card and White LED Card&lt;/li&gt;         &lt;li&gt;4 User LEDs connected to GPIO P4.0, P4.1, P4.2, P4.3&lt;/li&gt;         &lt;li&gt;Variable resistor R110 connected to analog input P2.5&lt;/li&gt;         &lt;li&gt;All the pins of XMC1400 are accessible via the connector JP101, JP103, JP104 and JP105&lt;/li&gt;         &lt;li&gt;CAN interface with CAN transceiver mounted&lt;/li&gt;         &lt;li&gt;External crystal 20 MHz and 32.768 kHz mounted&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC14_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc14_boot_001/</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 posif">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -2381,6 +2434,98 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_XMC_PLT2GO_XMC4200</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC_PLT2GO_XMC4200</board_uri>
+    <chips>
+      <mcu>XMC4200-F64x256</mcu>
+    </chips>
+    <name>KIT_XMC_PLT2GO_XMC4200</name>
+    <summary>    Kit Platform2GO XTREME XMC4200 kit - This kit has the XMC4200 device with debugger plus CAN, Arduino, MikroBUS and Shields2Go form factor. Equipped with an ARM&amp;#174; Cortex&amp;#174;-M4 based XMC&amp;#8482; Microcontroller from Infineon Technologies AG, the XMC4200 Platform2Go is designed to evaluate the capabilities of Infineon's XMC4200 Microcontroller.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_256k i2c i2s kit_xmc_plt2go_xmc4200 led mcu_gp pot rtc sdhc spi sram_40k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4200 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Arduino Uno compatibility&lt;/li&gt;         &lt;li&gt;Shields2Go connectivity&lt;/li&gt;         &lt;li&gt;Ethernet-enabled communication option&lt;/li&gt;         &lt;li&gt;Additional voltage level shifters&lt;/li&gt;         &lt;li&gt;Available in four different assembly versions: 3.3V Shields (Lite), 5V (Lite)&lt;/li&gt;         &lt;li&gt;CAN connectivity&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC_PLT2GO_XMC4200 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_plt2go_xmc4200/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC43_RELAX_ECAT_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC43_RELAX_ECAT_V1</board_uri>
+    <chips>
+      <mcu>XMC4300-F100x256</mcu>
+    </chips>
+    <name>KIT_XMC43_RELAX_ECAT_V1</name>
+    <summary>    The XMC4300 microcontroller series further reduces complexity in EtherCAT implementation and cost in factory automation, industrial motor control, I/O modules and robotics. The XMC4300 series was specifically developed for EtherCAT industrial applications, where cost pressure places a premium on design flexibility, connectivity and performance without compromise to EtherCAT communication features.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc arduino can cat3 dac dma flash_256k i2c i2s kit_xmc43_relax_ecat_v1 led mcu_gp rtc sdhc spi sram_128k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4300-F100 Microcontroller based on ARM&amp;#174; Cortex&amp;#174;-M4@144MHZ, integrated EtherCAT Slave Controller, 256kB Flash and 128kB RAM&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Power over USB&lt;/li&gt;         &lt;li&gt;ESD and reverse current protection&lt;/li&gt;         &lt;li&gt;2x user button and 2x user LED&lt;/li&gt;         &lt;li&gt;Arduino hardware compatible 3.3V and 5V pinout&lt;/li&gt;         &lt;li&gt;mikroBUS hardware compatible for click boards&lt;/li&gt;         &lt;li&gt;CAN node with D-SUB 9 plug&lt;/li&gt;         &lt;li&gt;EtherCAT node with standard plug&lt;/li&gt;         &lt;li&gt;EtherCAT node with PHY to PHY connection (optional)&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC43_RELAX_ECAT_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc43_relax_ecat_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory qspi">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory qspi">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC_PLT2GO_XMC4400</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC_PLT2GO_XMC4400</board_uri>
+    <chips>
+      <mcu>XMC4400-F100x512</mcu>
+    </chips>
+    <name>KIT_XMC_PLT2GO_XMC4400</name>
+    <summary>    Kit Platform2GO XTREME XMC4400 kit - This kit has the XMC4400 device with debugger plus ETHERNET, CAN, ARDUINO, MikroBUS and Shields2Go form factor. Equipped with an ARM&amp;#174; Cortex&amp;#174;-M4 based XMC&amp;#8482; Microcontroller from Infineon Technologies AG, the XMC4400 Platform2Go is designed to evaluate the capabilities of Infineon's XMC4400 Microcontroller.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_512k i2c i2s kit_xmc_plt2go_xmc4400 led mcu_gp rtc sdhc spi sram_80k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4400 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Arduino Uno compatibility&lt;/li&gt;         &lt;li&gt;Shields2Go connectivity&lt;/li&gt;         &lt;li&gt;Ethernet-enabled communication option&lt;/li&gt;         &lt;li&gt;Additional voltage level shifters&lt;/li&gt;         &lt;li&gt;Available in four different assembly versions: 3.3V Shields (Lite), 5V (Lite)&lt;/li&gt;         &lt;li&gt;CAN connectivity&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC_PLT2GO_XMC4400 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_plt2go_xmc4400/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC45_RELAX_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC45_RELAX_V1</board_uri>
+    <chips>
+      <mcu>XMC4500-F100x1024</mcu>
+    </chips>
+    <name>KIT_XMC45_RELAX_V1</name>
+    <summary>    XMC4500 Microcontroller - Detachable on-board debugger - Power over USB - ESD and reverse current protection - 2 x user button and 2 x user LED - 4 x SPI-Master, 3x I2C, 3 x I2S, 3 x UART, 2 x CAN, 17 x ADC (12 bit), 2 x DAC, 31x PMW mapped on 2 Pin Headers 2 x 20 0.1" - Micro-USB plug - Ethernet PHY and RJ45 jack - Real Time Clock crystal - 32 Mbit Quad-SPI Flash - microSD card slot.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_1024k i2c i2s kit_xmc45_relax_v1 led mcu_gp rtc sdhc spi sram_160k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4500 Microcontroller (ARM&amp;#174; Cortex&amp;#174;-M4F based)&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Power over USB&lt;/li&gt;         &lt;li&gt;ESD and reverse current protection&lt;/li&gt;         &lt;li&gt;2x user button and 2x user LED&lt;/li&gt;         &lt;li&gt;4x SPI-Master, 3x I2C, 3x I2S, 3x UART, 2x CAN, 17x ADC&lt;/li&gt;         &lt;li&gt;(12 bit), 2x DAC, 31x PWM mapped on 2 Pin Headers 2x 20 0.1"&lt;/li&gt;         &lt;li&gt;Micro-USB plug&lt;/li&gt;         &lt;li&gt;Ethernet PHY and RJ45 Jack&lt;/li&gt;         &lt;li&gt;Real Time Clock crystal&lt;/li&gt;         &lt;li&gt;32 Mbit Quad-SPI Flash&lt;/li&gt;         &lt;li&gt;microSD card slot&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC45_RELAX_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc45_relax_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory posif qspi">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory posif qspi">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC47_RELAX_V1</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_KIT_XMC47_RELAX_V1</board_uri>
@@ -2388,39 +2533,18 @@
       <mcu>XMC4700-F144x2048</mcu>
     </chips>
     <name>KIT_XMC47_RELAX_V1</name>
-    <summary><![CDATA[
-    The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.
-    <p><b>Note:</b></p>
-    <p>Programming this kit requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.</p>
-    ]]></summary>
+    <summary>    The XMC4700 Relax Kit is an XMC4700 based microcontroller evaluation kit with Ethernet connection, CAN node and microSD Card slot included. It is hardware compatible with 3.3V Arduino Shields.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
     <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_2048k i2c i2s kit_xmc47_relax_v1 led mcu_gp rtc sdhc spi sram_352k switch usb_device usb_host xmc xmc4000</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>XMC4700 (ARM Cortex-M4 based) Microcontroller in a LQFP144 package</li>
-        <li>On-board Debug Probe with USB interface supporting SWD + SWO</li>
-        <li>Detachable J-Link debugger and UART virtual COM port, with micro USB connector</li>
-        <li>Virtual COM Port via Debug Probe</li>
-        <li>2 x User Push-Buttons and 2 x User LED and 1 x Reset Push-Button</li>
-        <li>Voltage Regulator 5 V -&gt; 3.3 V</li>
-        <li>USB (Micro USB Plug)</li>
-        <li>12 MHz Crystal</li>
-        <li>32.768 kHz RTC Crystal</li>
-        <li>0 Ohm Bridges for 3.3 V Arduino shields</li>
-        <li>Ethernet PHY and RJ45 Jack</li>
-        <li>32 Mbit Quad-SPI Flash Memory</li>
-        <li>microSD Card Slot</li>
-        <li>CAN Transceiver</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>KIT_XMC47_RELAX_V1 evaluation board</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4700 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller in a LQFP144 package&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;2 x User Push-Buttons and 2 x User LED and 1 x Reset Push-Button&lt;/li&gt;         &lt;li&gt;Voltage Regulator 5 V -&amp;gt; 3.3 V&lt;/li&gt;         &lt;li&gt;USB (Micro USB Plug)&lt;/li&gt;         &lt;li&gt;12 MHz Crystal&lt;/li&gt;         &lt;li&gt;32.768 kHz RTC Crystal&lt;/li&gt;         &lt;li&gt;0 Ohm Bridges for 3.3 V Arduino shields&lt;/li&gt;         &lt;li&gt;Ethernet PHY and RJ45 Jack&lt;/li&gt;         &lt;li&gt;32 Mbit Quad-SPI Flash Memory&lt;/li&gt;         &lt;li&gt;microSD Card Slot&lt;/li&gt;         &lt;li&gt;CAN Transceiver&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC47_RELAX_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc47_relax_v1/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 memory posif qspi">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 memory posif qspi">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -2441,6 +2565,29 @@
       <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC48_RELAX_ECAT_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC48_RELAX_ECAT_V1</board_uri>
+    <chips>
+      <mcu>XMC4800-F144x2048</mcu>
+    </chips>
+    <name>KIT_XMC48_RELAX_ECAT_V1</name>
+    <summary>    The XMC4800 Microcontroller evaluation kit; EtherCAT node; Ethernet connection; CAN node and microSD Card slot included; Hardware compatible with compatible with 3.3V Arduino Shields.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_2048k i2c i2s kit_xmc48_relax_ecat_v1 led mcu_gp rtc sdhc spi sram_352k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4800-F144 Microcontroller based on ARM&amp;#174; Cortex&amp;#174;-M4 @144MHz, integrated EtherCAT Slave Controller, 2MB Flash and 352KB RAM&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Power over USB&lt;/li&gt;         &lt;li&gt;ESD and reverse current protection&lt;/li&gt;         &lt;li&gt;2 x user button and 2 x user LED&lt;/li&gt;         &lt;li&gt;Arduino hardware compatible 3.3V pinout&lt;/li&gt;         &lt;li&gt;Real Time Clock crystal&lt;/li&gt;         &lt;li&gt;Quad SPI Flash&lt;/li&gt;         &lt;li&gt;microSD Card Slot&lt;/li&gt;         &lt;li&gt;Ethernet PHY and RJ45 Jack&lt;/li&gt;         &lt;li&gt;CAN node&lt;/li&gt;         &lt;li&gt;EtherCAT node&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC48_RELAX_ECAT_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc48_relax_ecat_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 memory posif qspi">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 memory posif qspi">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
     </versions>
   </board>
