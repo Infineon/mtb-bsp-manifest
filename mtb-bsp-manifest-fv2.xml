@@ -2685,4 +2685,27 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>WLC1150-68LQXQ</id>
+    <category>Wireless Charging BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_WLC1150-68LQXQ</board_uri>
+    <chips>
+      <mcu>WLC1150-68LQXQ</mcu>
+    </chips>
+    <name>WLC1150-68LQXQ</name>
+    <summary>BSP for WLC1 50W Solution</summary>
+    <prov_capabilities>j2 led mcu_gp usbpd</prov_capabilities>
+    <description>The solution board is Qi v1.3.2 compliant Extended Power Profile transmitter.</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
