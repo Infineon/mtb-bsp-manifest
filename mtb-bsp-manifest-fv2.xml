@@ -1498,6 +1498,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CPROTO-062S2-43439</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-062S2-43439</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+      <radio>LBEE5KL1YN (CYW43439KUBG)</radio>
+    </chips>
+    <name>CY8CPROTO-062S2-43439</name>
+    <summary>The CY8CPROTO-062S2-43439 PSoC&amp;#8482; 62S2 Wi-Fi Bluetooth&amp;#174; Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC&amp;#8482; 6 MCUs. It comes with a Murata LBEE5KL1YN module, based on the CYW43439 combo device, industry-leading CAPSENSE&amp;#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad- SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
+    <prov_capabilities>adc anycloud bsp_gen4 bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8cproto_062s2_43439 cyw43439 cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with AIROC&amp;#8482; wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Wi-Fi Bluetooth&amp;#174; Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/CY8CPROTO-062S2-43439</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CPROTO-062S3-4343W</id>
     <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062S3-4343W</board_uri>
