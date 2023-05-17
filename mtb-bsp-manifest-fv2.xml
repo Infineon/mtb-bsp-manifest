@@ -2857,4 +2857,27 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>EVAL_IMD700A_FOC_3SH</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_EVAL_IMD700A_FOC_3SH</board_uri>
+    <chips>
+      <mcu>IMD701A-Q064x128 (XMC1404-Q064x0128)</mcu>
+    </chips>
+    <name>EVAL_IMD700A_FOC_3SH</name>
+    <summary>    The EVAL_IMD700A_FOC_3SH houses the IMD701A-Q064x128 three-phase smart motor driver IC with on board debugger.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc bsp_gen4 cat3 ccu4 eval_imd700a_foc_3sh flash_128k led mcu_gp sram_16k uart xmc xmc1000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;IMD701A three-phase smart motor driver IC with integrated XMC1404 (ARM&amp;#174; Cortex&amp;#174;-M0 based) Microcontroller&lt;/li&gt;         &lt;li&gt;IQE013N04LM6 (OptiMOS&amp;#8482; 6 40 V/1.5 m&amp;#937; 3x3 corner gate, source down)&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Two user LEDs connected to GPIO P4.7, P4.8&lt;/li&gt;         &lt;li&gt;Speed POT to set speed reference of motor connected to analog input P2.5&lt;/li&gt;         &lt;li&gt;8-pin XMC&amp;#8482; MCU Debug Connector to external debugger&lt;/li&gt;         &lt;li&gt;5-pin HALL connector inputs for motor position feedback connected to GPIO P4.1, P4.2, P4.3&lt;/li&gt;         &lt;li&gt;On board temperature sensor connected to analog input P2.4&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;EVAL_IMD700A_FOC_3SH evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/eval_imd700a_foc_3sh/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
