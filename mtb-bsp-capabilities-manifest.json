@@ -1,1688 +1,1687 @@
 {
-    "capabilities": [
-        {
-            "category": "Chip Families",
-            "description": "This chip is a member of the 208XX family (20819, 20820, 20829, 20835, etc.)",
-            "name": "CYW208XX",
-            "token": "CYW208XX",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 208XX family with a 62-FBGA pin package (CYW20819A1KFBG, CYW20820A1KFBG)",
-            "name": "CYW208XX_62fbga",
-            "token": "CYW208XX_62fbga",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Sensors",
-            "description": "This board contains an Analog Devices MAX44009EDT ambient light sensor.",
-            "name": "MAX44009EDT",
-            "token": "MAX44009EDT",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This device contains at least one programmable Analog to Digital Converter block.",
-            "name": "adc",
-            "token": "adc",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Miscellaneous",
-            "description": "This board has been tested with anycloud code examples.",
-            "name": "anycloud",
-            "token": "anycloud",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Ports",
-            "description": "This board has the necessary ports to attach an Arduino-compatible shield.",
-            "name": "arduino",
-            "token": "arduino",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This board supports audio over Bluetooth.",
-            "name": "audio",
-            "token": "audio",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip supports Bluetooth Low Energy networking.",
-            "name": "ble",
-            "token": "ble",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip supports Bluetooth Classic (Basic Rate / Enhanced Data Rate).",
-            "name": "br_edr",
-            "token": "br_edr",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "BSP",
-            "description": "This board support package is from the first generation of BSPs supported by ModusToolbox.",
-            "name": "bsp_gen1",
-            "token": "bsp_gen1",
-            "types": [
-                "generation"
-            ]
-        },
-        {
-            "category": "BSP",
-            "description": "This board support package is from the second generation of BSPs supported by ModusToolbox.",
-            "name": "bsp_gen2",
-            "token": "bsp_gen2",
-            "types": [
-                "generation"
-            ]
-        },
-        {
-            "category": "BSP",
-            "description": "This board support package is from the third generation of BSPs supported by ModusToolbox.",
-            "name": "bsp_gen3",
-            "token": "bsp_gen3",
-            "types": [
-                "generation"
-            ]
-        },
-        {
-            "category": "BSP",
-            "description": "This board support package is from the fourth generation of BSPs supported by ModusToolbox.",
-            "name": "bsp_gen4",
-            "token": "bsp_gen4",
-            "types": [
-                "generation"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip supports Bluetooth.",
-            "name": "bt",
-            "token": "bt",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip is supported by the Infineon Bluetooth Software Development Kit.",
-            "name": "btsdk",
-            "token": "btsdk",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Software/Firmware Support",
-            "description": "This board supports BTSTACK 1.0 code, used by older board support packages.",
-            "name": "btstack10",
-            "token": "btstack10",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Software/Firmware Support",
-            "description": "This board supports BTSTACK 3.0 code, used by newer board support packages.",
-            "name": "btstack30",
-            "token": "btstack30",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one button.",
-            "name": "button",
-            "token": "button",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one Controller Area Network block.",
-            "name": "can",
-            "token": "can",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports CapSense.",
-            "name": "capsense",
-            "token": "capsense",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one CapSense button.",
-            "name": "capsense_button",
-            "token": "capsense_button",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one CapSense linear slider.",
-            "name": "capsense_linear_slider",
-            "token": "capsense_linear_slider",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one CapSense linear slider.",
-            "name": "capsense_slider",
-            "token": "capsense_slider",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one CapSense touchpad.",
-            "name": "capsense_touchpad",
-            "token": "capsense_touchpad",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT1 family (PSoC 6, XMC7200, etc).",
-            "name": "cat1",
-            "token": "cat1",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT1A family (PSoC 6, FX3G2).",
-            "name": "cat1a",
-            "token": "cat1a",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT1B family (20829, etc).",
-            "name": "cat1b",
-            "token": "cat1b",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT1C family (XMC7100, etc).",
-            "name": "cat1c",
-            "token": "cat1c",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT1D family.",
-            "name": "cat1d",
-            "token": "cat1d",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT2 family (PSoC 4, etc).",
-            "name": "cat2",
-            "token": "cat2",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT3 family (XMC1?00, etc).",
-            "name": "cat3",
-            "token": "cat3",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT4 family (43907, 54907, etc).",
-            "name": "cat4",
-            "token": "cat4",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT5 family (55513, 55913, etc).",
-            "name": "cat5",
-            "token": "cat5",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the CAT6 family (iMotion, etc).",
-            "name": "cat6",
-            "token": "cat6",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one Compare Capture Unit from the ccu4 family.",
-            "name": "ccu4",
-            "token": "ccu4",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one Compare Capture Unit from the ccu8 family.",
-            "name": "ccu8",
-            "token": "ccu8",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one analog comparator block.",
-            "name": "comp",
-            "token": "comp",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports capacitive sensing using a Delta-Sigma Modulator.",
-            "name": "csd",
-            "token": "csd",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20706 family.",
-            "name": "cyw20706",
-            "token": "cyw20706",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20707 family.",
-            "name": "cyw20707",
-            "token": "cyw20707",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20719 family.",
-            "name": "cyw20719",
-            "token": "cyw20719",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20721 family.",
-            "name": "cyw20721",
-            "token": "cyw20721",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20735 family.",
-            "name": "cyw20735",
-            "token": "cyw20735",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20736 family.",
-            "name": "cyw20736",
-            "token": "cyw20736",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20737 family.",
-            "name": "cyw20737",
-            "token": "cyw20737",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20819 family.",
-            "name": "cyw20819",
-            "token": "cyw20819",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20820 family.",
-            "name": "cyw20820",
-            "token": "cyw20820",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20829 family.",
-            "name": "cyw20829",
-            "token": "cyw20829",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 20835 family",
-            "name": "cyw20835",
-            "token": "cyw20835",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in one of the 207?? or 208?? families.",
-            "name": "cyw20xxx",
-            "token": "cyw20xxx",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 30739 family.",
-            "name": "cyw30739",
-            "token": "cyw30739",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in one of the 20??? families.",
-            "name": "cyw30xxx",
-            "token": "cyw30xxx",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 43012 family.",
-            "name": "cyw43012",
-            "token": "cyw43012",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 43022 family.",
-            "name": "cyw43022",
-            "token": "cyw43022",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 43438 family.",
-            "name": "cyw43438",
-            "token": "cyw43438",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 43439 family.",
-            "name": "cyw43439",
-            "token": "cyw43439",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 4343W family.",
-            "name": "cyw4343w",
-            "token": "cyw4343w",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 4373 family.",
-            "name": "cyw4373",
-            "token": "cyw4373",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 4373E family.",
-            "name": "cyw4373E",
-            "token": "cyw4373E",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 4373E family.",
-            "name": "cyw4373e",
-            "token": "cyw4373e",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 43xxx family.",
-            "name": "cyw43xxx",
-            "token": "cyw43xxx",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 55513 family.",
-            "name": "cyw55513",
-            "token": "cyw55513",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 55572 family.",
-            "name": "cyw55572",
-            "token": "cyw55572",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 55913 family.",
-            "name": "cyw55913",
-            "token": "cyw55913",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the 55xxx family.",
-            "name": "cyw55xxx",
-            "token": "cyw55xxx",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Digital to Analog Converter block.",
-            "name": "dac",
-            "token": "dac",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable DMA block.",
-            "name": "dma",
-            "token": "dma",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Miscellaneous",
-            "description": "This board is sealed in an enclosure to improve liquid tolerance.",
-            "name": "enclosure",
-            "token": "enclosure",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip is capable of supporting a physical Ethernet port.",
-            "name": "ethernet",
-            "token": "ethernet",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Ports",
-            "description": "This board has headers that are compatible with Adafruit Feather components.",
-            "name": "feather",
-            "token": "feather",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 0K of flash memory.",
-            "name": "flash_0k",
-            "token": "flash_0k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 1024K of flash memory.",
-            "name": "flash_1024k",
-            "token": "flash_1024k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 1088K of flash memory.",
-            "name": "flash_1088k",
-            "token": "flash_1088k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 128K of flash memory.",
-            "name": "flash_128k",
-            "token": "flash_128k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 1536K of flash memory.",
-            "name": "flash_1536k",
-            "token": "flash_1536k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 16K of flash memory.",
-            "name": "flash_16k",
-            "token": "flash_16k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 1856K of flash memory.",
-            "name": "flash_1856k",
-            "token": "flash_1856k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 192K of flash memory.",
-            "name": "flash_192k",
-            "token": "flash_192k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 200K of flash memory.",
-            "name": "flash_200k",
-            "token": "flash_200k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 2048K of flash memory.",
-            "name": "flash_2048k",
-            "token": "flash_2048k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 2112K of flash memory.",
-            "name": "flash_2112k",
-            "token": "flash_2112k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 256K of flash memory.",
-            "name": "flash_256k",
-            "token": "flash_256k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 32K of flash memory.",
-            "name": "flash_32k",
-            "token": "flash_32k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 384K of flash memory.",
-            "name": "flash_384k",
-            "token": "flash_384k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 4160K of flash memory.",
-            "name": "flash_4160k",
-            "token": "flash_4160k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 4192K of flash memory.",
-            "name": "flash_4192k",
-            "token": "flash_4192k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 448K of flash memory.",
-            "name": "flash_448k",
-            "token": "flash_448k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 512K of flash memory.",
-            "name": "flash_512k",
-            "token": "flash_512k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 64K of flash memory.",
-            "name": "flash_64k",
-            "token": "flash_64k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 768K of flash memory.",
-            "name": "flash_768k",
-            "token": "flash_768k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 832K of flash memory.",
-            "name": "flash_832k",
-            "token": "flash_832k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 8384K of flash memory.",
-            "name": "flash_8384k",
-            "token": "flash_8384k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip has 8K of flash memory.",
-            "name": "flash_8k",
-            "token": "flash_8k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This board contains at least one memory device that is FRAM",
-            "name": "fram",
-            "token": "fram",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Software/Firmware Support",
-            "description": "This board supports FW2 firmware.",
-            "name": "fw2",
-            "token": "fw2",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Software/Firmware Support",
-            "description": "This chip is supported by the Infineon Hardware Abstraction Layer.",
-            "name": "hal",
-            "token": "hal",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Software/Firmware Support",
-            "description": "This board supports Bluetooth Human Interface Devices peripherals.",
-            "name": "hid",
-            "token": "hid",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Inter-Integrated Circuit block.",
-            "name": "i2c",
-            "token": "i2c",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Inter-IC Sound block.",
-            "name": "i2s",
-            "token": "i2s",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Improved Inter-Integration Circuit block.",
-            "name": "i3c",
-            "token": "i3c",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Ports",
-            "description": "This board has the necessary ports to attach an Arduino-compatible shield with the additional J2 pins.",
-            "name": "j2",
-            "token": "j2",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one user-controllable LED.",
-            "name": "led",
-            "token": "led",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least two user-controllable LEDs.",
-            "name": "led2x",
-            "token": "led2x",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Local Interconnect Network block.",
-            "name": "lin",
-            "token": "lin",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Miscellaneous",
-            "description": "This chip is capable of running in low-power mode.",
-            "name": "low_power",
-            "token": "low_power",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Low-Power Timer block.",
-            "name": "lptimer",
-            "token": "lptimer",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Sensors",
-            "description": "This board contains an STMicroelectronics LSM9DS1 motion sensor.",
-            "name": "lsm9ds1",
-            "token": "lsm9ds1",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is a general-purpose MCU.",
-            "name": "mcu_gp",
-            "token": "mcu_gp",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This board contains external memory.",
-            "name": "memory",
-            "token": "memory",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This board contains external memory accessible over I2C.",
-            "name": "memory_i2c",
-            "token": "memory_i2c",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This board contains external memory accessible over QSPI.",
-            "name": "memory_qspi",
-            "token": "memory_qspi",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip supports mesh networking over Bluetooth.",
-            "name": "mesh",
-            "token": "mesh",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports MultiSense.",
-            "name": "msc",
-            "token": "msc",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains a MultiSense button.",
-            "name": "msc_button",
-            "token": "msc_button",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains a MultiSense proximity sensor.",
-            "name": "msc_proximity",
-            "token": "msc_proximity",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains a MultiSense slider.",
-            "name": "msc_slider",
-            "token": "msc_slider",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains a MultiSense touchpad.",
-            "name": "msc_touchpad",
-            "token": "msc_touchpad",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Miscellaneous",
-            "description": "This chip supports MultiSense Low-Power.",
-            "name": "msclp",
-            "token": "msclp",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip has multiple user-configurable cores.",
-            "name": "multi_core",
-            "token": "multi_core",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the MXS40Sv2 family (20829, etc).",
-            "name": "mxsv2",
-            "token": "mxsv2",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Sensors",
-            "description": "This board contains a Murata NCP15XV103 temperature sensor.",
-            "name": "ncp15xv103",
-            "token": "ncp15xv103",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Sensors",
-            "description": "This board contains a Murata NCU15WF104 temperature sensor.",
-            "name": "ncu15wf104",
-            "token": "ncu15wf104",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the NEO family.",
-            "name": "neo",
-            "token": "neo",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This board contains at least one memory device that is NOR flash.",
-            "name": "nor_flash",
-            "token": "nor_flash",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Operational Amplifier block.",
-            "name": "opamp",
-            "token": "opamp",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Authentication",
-            "description": "The board contains an Infineon OPTIGA Trust B chip.",
-            "name": "optiga_trust_b",
-            "token": "optiga_trust_b",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Authentication",
-            "description": "The board contains an Infineon OPTICA Trust M chip.",
-            "name": "optiga_trust_m",
-            "token": "optiga_trust_m",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This board supports firmware updates Over-The-Air using Bluetooth.",
-            "name": "ota",
-            "token": "ota",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip is capable of supporting Pulse-Density Modulated microphones.",
-            "name": "pdm",
-            "token": "pdm",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This board can support Passive Entry Passive Start automotive keyless entry applications.",
-            "name": "peps",
-            "token": "peps",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the PMG1 family (CCG3, CCG6, etc).",
-            "name": "pmg1",
-            "token": "pmg1",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one Position Interface block.",
-            "name": "posif",
-            "token": "posif",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains an analog Potentiometer that can be accessed via a GPIO.",
-            "name": "pot",
-            "token": "pot",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the PSoC 4 family.",
-            "name": "psoc4",
-            "token": "psoc4",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the PSoC 6 family.",
-            "name": "psoc6",
-            "token": "psoc6",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Quad SPI block.",
-            "name": "qspi",
-            "token": "qspi",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one RGB LED.",
-            "name": "rgb_led",
-            "token": "rgb_led",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Real Time Clock.",
-            "name": "rtc",
-            "token": "rtc",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip is capable of supporting Secure Digital High Capacity memory cards.",
-            "name": "sdhc",
-            "token": "sdhc",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Ports",
-            "description": "This chip is capable of communicating using the Secure Digital Input Output interface.",
-            "name": "sdio",
-            "token": "sdio",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Authentication",
-            "description": "This chip is capable of booting into a secure environment.",
-            "name": "secure_boot",
-            "token": "secure_boot",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one RGB LED driven serially using a SPI interface.",
-            "name": "serial_led",
-            "token": "serial_led",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip is capable of accessing Smart I/O capable pins.",
-            "name": "smart_io",
-            "token": "smart_io",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip has at least one programmable Serial Peripheral Interface block.",
-            "name": "spi",
-            "token": "spi",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains Static Random Access Memory.",
-            "name": "sram",
-            "token": "sram",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 1024K of Static Random Access Memory.",
-            "name": "sram_1024k",
-            "token": "sram_1024k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 1280K of Static Random Access Memory.",
-            "name": "sram_1280k",
-            "token": "sram_1280k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 128K of Static Random Access Memory.",
-            "name": "sram_128k",
-            "token": "sram_128k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 12K of Static Random Access Memory.",
-            "name": "sram_12k",
-            "token": "sram_12k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 160K of Static Random Access Memory.",
-            "name": "sram_160k",
-            "token": "sram_160k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 16K of Static Random Access Memory.",
-            "name": "sram_16k",
-            "token": "sram_16k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 192K of Static Random Access Memory.",
-            "name": "sram_192k",
-            "token": "sram_192k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 200K of Static Random Access Memory.",
-            "name": "sram_200k",
-            "token": "sram_200k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 2048K of Static Random Access Memory.",
-            "name": "sram_2048k",
-            "token": "sram_2048k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 20K of Static Random Access Memory.",
-            "name": "sram_20k",
-            "token": "sram_20k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 256K of Static Random Access Memory.",
-            "name": "sram_256k",
-            "token": "sram_256k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 276K of Static Random Access Memory.",
-            "name": "sram_276k",
-            "token": "sram_276k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 288K of Static Random Access Memory.",
-            "name": "sram_288k",
-            "token": "sram_288k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 2K of Static Random Access Memory.",
-            "name": "sram_2k",
-            "token": "sram_2k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 32K of Static Random Access Memory.",
-            "name": "sram_32k",
-            "token": "sram_32k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 352K of Static Random Access Memory.",
-            "name": "sram_352k",
-            "token": "sram_352k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 384K of Static Random Access Memory.",
-            "name": "sram_384k",
-            "token": "sram_384k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 40K of Static Random Access Memory.",
-            "name": "sram_40k",
-            "token": "sram_40k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 4K of Static Random Access Memory.",
-            "name": "sram_4k",
-            "token": "sram_4k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 512K of Static Random Access Memory.",
-            "name": "sram_512k",
-            "token": "sram_512k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 60K of Static Random Access Memory.",
-            "name": "sram_60k",
-            "token": "sram_60k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 64K of Static Random Access Memory.",
-            "name": "sram_64k",
-            "token": "sram_64k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 768K of Static Random Access Memory.",
-            "name": "sram_768k",
-            "token": "sram_768k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 80K of Static Random Access Memory.",
-            "name": "sram_80k",
-            "token": "sram_80k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 896K of Static Random Access Memory.",
-            "name": "sram_896k",
-            "token": "sram_896k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Memory",
-            "description": "This chip contains 8K of Static Random Access Memory.",
-            "name": "sram_8k",
-            "token": "sram_8k",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Authentication",
-            "description": "This chip supports standard cryptography APIs.",
-            "name": "std_crypto",
-            "token": "std_crypto",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Human Interface Devices",
-            "description": "This board contains at least one switch/button.",
-            "name": "switch",
-            "token": "switch",
-            "types": [
-                "board"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the TRAVEO T2G-B-E family.",
-            "name": "t2gbe",
-            "token": "t2gbe",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the TRAVEO T2G-B-H family.",
-            "name": "t2gbh",
-            "token": "t2gbh",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports Time-Division Multiplexing.",
-            "name": "tdm",
-            "token": "tdm",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip contains at least one programmable Universal Asynchronous Receiver Transmitter block.",
-            "name": "uart",
-            "token": "uart",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip has a device that supports configurable Universal Digital Blocks.",
-            "name": "udb",
-            "token": "udb",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports USB device operation.",
-            "name": "usb_device",
-            "token": "usb_device",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports USB host operation.",
-            "name": "usb_host",
-            "token": "usb_host",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports USB power delivery.",
-            "name": "usbpd",
-            "token": "usbpd",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Networking",
-            "description": "This chip supports WiFi.",
-            "name": "wifi",
-            "token": "wifi",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Hardware Blocks",
-            "description": "This chip supports wireless charging.",
-            "name": "wlc1",
-            "token": "wlc1",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the XMC family.",
-            "name": "xmc",
-            "token": "xmc",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the XMC1000 family.",
-            "name": "xmc1000",
-            "token": "xmc1000",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the XMC4000 family.",
-            "name": "xmc4000",
-            "token": "xmc4000",
-            "types": [
-                "chip"
-            ]
-        },
-        {
-            "category": "Chip Families",
-            "description": "This chip is in the XMC7000 family.",
-            "name": "xmc7000",
-            "token": "xmc7000",
-            "types": [
-                "chip"
-            ]
-        }
-    ]
- }
- 
+   "capabilities": [
+      {
+         "category": "Chip Families",
+         "description": "This chip is a member of the 208XX family (20819, 20820, 20829, 20835, etc.)",
+         "name": "CYW208XX",
+         "token": "CYW208XX",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 208XX family with a 62-FBGA pin package (CYW20819A1KFBG, CYW20820A1KFBG)",
+         "name": "CYW208XX_62fbga",
+         "token": "CYW208XX_62fbga",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Sensors",
+         "description": "This board contains an Analog Devices MAX44009EDT ambient light sensor.",
+         "name": "MAX44009EDT",
+         "token": "MAX44009EDT",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This device contains at least one programmable Analog to Digital Converter block.",
+         "name": "adc",
+         "token": "adc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This board has been tested with anycloud code examples.",
+         "name": "anycloud",
+         "token": "anycloud",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Ports",
+         "description": "This board has the necessary ports to attach an Arduino-compatible shield.",
+         "name": "arduino",
+         "token": "arduino",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This board supports audio over Bluetooth.",
+         "name": "audio",
+         "token": "audio",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports Bluetooth Low Energy networking.",
+         "name": "ble",
+         "token": "ble",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports Bluetooth Classic (Basic Rate / Enhanced Data Rate).",
+         "name": "br_edr",
+         "token": "br_edr",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "BSP",
+         "description": "This board support package is from the first generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen1",
+         "token": "bsp_gen1",
+         "types": [
+            "generation"
+         ]
+      },
+      {
+         "category": "BSP",
+         "description": "This board support package is from the second generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen2",
+         "token": "bsp_gen2",
+         "types": [
+            "generation"
+         ]
+      },
+      {
+         "category": "BSP",
+         "description": "This board support package is from the third generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen3",
+         "token": "bsp_gen3",
+         "types": [
+            "generation"
+         ]
+      },
+      {
+         "category": "BSP",
+         "description": "This board support package is from the fourth generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen4",
+         "token": "bsp_gen4",
+         "types": [
+            "generation"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports Bluetooth.",
+         "name": "bt",
+         "token": "bt",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip is supported by the Infineon Bluetooth Software Development Kit.",
+         "name": "btsdk",
+         "token": "btsdk",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports BTSTACK 1.0 code, used by older board support packages.",
+         "name": "btstack10",
+         "token": "btstack10",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports BTSTACK 3.0 code, used by newer board support packages.",
+         "name": "btstack30",
+         "token": "btstack30",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one button.",
+         "name": "button",
+         "token": "button",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Controller Area Network block.",
+         "name": "can",
+         "token": "can",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports CapSense.",
+         "name": "capsense",
+         "token": "capsense",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one CapSense button.",
+         "name": "capsense_button",
+         "token": "capsense_button",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one CapSense linear slider.",
+         "name": "capsense_linear_slider",
+         "token": "capsense_linear_slider",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one CapSense linear slider.",
+         "name": "capsense_slider",
+         "token": "capsense_slider",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one CapSense touchpad.",
+         "name": "capsense_touchpad",
+         "token": "capsense_touchpad",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1 family (PSoC 6, XMC7200, etc).",
+         "name": "cat1",
+         "token": "cat1",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1A family (PSoC 6, FX3G2).",
+         "name": "cat1a",
+         "token": "cat1a",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1B family (20829, etc).",
+         "name": "cat1b",
+         "token": "cat1b",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1C family (XMC7100, etc).",
+         "name": "cat1c",
+         "token": "cat1c",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1D family.",
+         "name": "cat1d",
+         "token": "cat1d",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT2 family (PSoC 4, etc).",
+         "name": "cat2",
+         "token": "cat2",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT3 family (XMC1?00, etc).",
+         "name": "cat3",
+         "token": "cat3",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT4 family (43907, 54907, etc).",
+         "name": "cat4",
+         "token": "cat4",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT5 family (55513, 55913, etc).",
+         "name": "cat5",
+         "token": "cat5",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT6 family (iMotion, etc).",
+         "name": "cat6",
+         "token": "cat6",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Compare Capture Unit from the ccu4 family.",
+         "name": "ccu4",
+         "token": "ccu4",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Compare Capture Unit from the ccu8 family.",
+         "name": "ccu8",
+         "token": "ccu8",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one analog comparator block.",
+         "name": "comp",
+         "token": "comp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports capacitive sensing using a Delta-Sigma Modulator.",
+         "name": "csd",
+         "token": "csd",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20706 family.",
+         "name": "cyw20706",
+         "token": "cyw20706",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20707 family.",
+         "name": "cyw20707",
+         "token": "cyw20707",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20719 family.",
+         "name": "cyw20719",
+         "token": "cyw20719",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20721 family.",
+         "name": "cyw20721",
+         "token": "cyw20721",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20735 family.",
+         "name": "cyw20735",
+         "token": "cyw20735",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20736 family.",
+         "name": "cyw20736",
+         "token": "cyw20736",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20737 family.",
+         "name": "cyw20737",
+         "token": "cyw20737",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20819 family.",
+         "name": "cyw20819",
+         "token": "cyw20819",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20820 family.",
+         "name": "cyw20820",
+         "token": "cyw20820",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20829 family.",
+         "name": "cyw20829",
+         "token": "cyw20829",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 20835 family",
+         "name": "cyw20835",
+         "token": "cyw20835",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in one of the 207?? or 208?? families.",
+         "name": "cyw20xxx",
+         "token": "cyw20xxx",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 30739 family.",
+         "name": "cyw30739",
+         "token": "cyw30739",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in one of the 20??? families.",
+         "name": "cyw30xxx",
+         "token": "cyw30xxx",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 43012 family.",
+         "name": "cyw43012",
+         "token": "cyw43012",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 43022 family.",
+         "name": "cyw43022",
+         "token": "cyw43022",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 43438 family.",
+         "name": "cyw43438",
+         "token": "cyw43438",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 43439 family.",
+         "name": "cyw43439",
+         "token": "cyw43439",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 4343W family.",
+         "name": "cyw4343w",
+         "token": "cyw4343w",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 4373 family.",
+         "name": "cyw4373",
+         "token": "cyw4373",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 4373E family.",
+         "name": "cyw4373E",
+         "token": "cyw4373E",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 4373E family.",
+         "name": "cyw4373e",
+         "token": "cyw4373e",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 43xxx family.",
+         "name": "cyw43xxx",
+         "token": "cyw43xxx",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 55513 family.",
+         "name": "cyw55513",
+         "token": "cyw55513",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 55572 family.",
+         "name": "cyw55572",
+         "token": "cyw55572",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 55913 family.",
+         "name": "cyw55913",
+         "token": "cyw55913",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 55xxx family.",
+         "name": "cyw55xxx",
+         "token": "cyw55xxx",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Digital to Analog Converter block.",
+         "name": "dac",
+         "token": "dac",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable DMA block.",
+         "name": "dma",
+         "token": "dma",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This board is sealed in an enclosure to improve liquid tolerance.",
+         "name": "enclosure",
+         "token": "enclosure",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip is capable of supporting a physical Ethernet port.",
+         "name": "ethernet",
+         "token": "ethernet",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Ports",
+         "description": "This board has headers that are compatible with Adafruit Feather components.",
+         "name": "feather",
+         "token": "feather",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 0K of flash memory.",
+         "name": "flash_0k",
+         "token": "flash_0k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 1024K of flash memory.",
+         "name": "flash_1024k",
+         "token": "flash_1024k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 1088K of flash memory.",
+         "name": "flash_1088k",
+         "token": "flash_1088k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 128K of flash memory.",
+         "name": "flash_128k",
+         "token": "flash_128k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 1536K of flash memory.",
+         "name": "flash_1536k",
+         "token": "flash_1536k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 16K of flash memory.",
+         "name": "flash_16k",
+         "token": "flash_16k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 1856K of flash memory.",
+         "name": "flash_1856k",
+         "token": "flash_1856k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 192K of flash memory.",
+         "name": "flash_192k",
+         "token": "flash_192k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 200K of flash memory.",
+         "name": "flash_200k",
+         "token": "flash_200k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 2048K of flash memory.",
+         "name": "flash_2048k",
+         "token": "flash_2048k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 2112K of flash memory.",
+         "name": "flash_2112k",
+         "token": "flash_2112k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 256K of flash memory.",
+         "name": "flash_256k",
+         "token": "flash_256k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 32K of flash memory.",
+         "name": "flash_32k",
+         "token": "flash_32k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 384K of flash memory.",
+         "name": "flash_384k",
+         "token": "flash_384k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 4160K of flash memory.",
+         "name": "flash_4160k",
+         "token": "flash_4160k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 4192K of flash memory.",
+         "name": "flash_4192k",
+         "token": "flash_4192k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 448K of flash memory.",
+         "name": "flash_448k",
+         "token": "flash_448k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 512K of flash memory.",
+         "name": "flash_512k",
+         "token": "flash_512k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 64K of flash memory.",
+         "name": "flash_64k",
+         "token": "flash_64k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 768K of flash memory.",
+         "name": "flash_768k",
+         "token": "flash_768k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 832K of flash memory.",
+         "name": "flash_832k",
+         "token": "flash_832k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 8384K of flash memory.",
+         "name": "flash_8384k",
+         "token": "flash_8384k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 8K of flash memory.",
+         "name": "flash_8k",
+         "token": "flash_8k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains at least one memory device that is FRAM",
+         "name": "fram",
+         "token": "fram",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports FW2 firmware.",
+         "name": "fw2",
+         "token": "fw2",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This chip is supported by the Infineon Hardware Abstraction Layer.",
+         "name": "hal",
+         "token": "hal",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports Bluetooth Human Interface Devices peripherals.",
+         "name": "hid",
+         "token": "hid",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Inter-Integrated Circuit block.",
+         "name": "i2c",
+         "token": "i2c",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Inter-IC Sound block.",
+         "name": "i2s",
+         "token": "i2s",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Improved Inter-Integration Circuit block.",
+         "name": "i3c",
+         "token": "i3c",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Ports",
+         "description": "This board has the necessary ports to attach an Arduino-compatible shield with the additional J2 pins.",
+         "name": "j2",
+         "token": "j2",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one user-controllable LED.",
+         "name": "led",
+         "token": "led",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least two user-controllable LEDs.",
+         "name": "led2x",
+         "token": "led2x",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Local Interconnect Network block.",
+         "name": "lin",
+         "token": "lin",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This chip is capable of running in low-power mode.",
+         "name": "low_power",
+         "token": "low_power",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Low-Power Timer block.",
+         "name": "lptimer",
+         "token": "lptimer",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Sensors",
+         "description": "This board contains an STMicroelectronics LSM9DS1 motion sensor.",
+         "name": "lsm9ds1",
+         "token": "lsm9ds1",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is a general-purpose MCU.",
+         "name": "mcu_gp",
+         "token": "mcu_gp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains external memory.",
+         "name": "memory",
+         "token": "memory",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains external memory accessible over I2C.",
+         "name": "memory_i2c",
+         "token": "memory_i2c",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains external memory accessible over QSPI.",
+         "name": "memory_qspi",
+         "token": "memory_qspi",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports mesh networking over Bluetooth.",
+         "name": "mesh",
+         "token": "mesh",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports MultiSense.",
+         "name": "msc",
+         "token": "msc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains a MultiSense button.",
+         "name": "msc_button",
+         "token": "msc_button",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains a MultiSense proximity sensor.",
+         "name": "msc_proximity",
+         "token": "msc_proximity",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains a MultiSense slider.",
+         "name": "msc_slider",
+         "token": "msc_slider",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains a MultiSense touchpad.",
+         "name": "msc_touchpad",
+         "token": "msc_touchpad",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This chip supports MultiSense Low-Power.",
+         "name": "msclp",
+         "token": "msclp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip has multiple user-configurable cores.",
+         "name": "multi_core",
+         "token": "multi_core",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the MXS40Sv2 family (20829, etc).",
+         "name": "mxsv2",
+         "token": "mxsv2",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Sensors",
+         "description": "This board contains a Murata NCP15XV103 temperature sensor.",
+         "name": "ncp15xv103",
+         "token": "ncp15xv103",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Sensors",
+         "description": "This board contains a Murata NCU15WF104 temperature sensor.",
+         "name": "ncu15wf104",
+         "token": "ncu15wf104",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the NEO family.",
+         "name": "neo",
+         "token": "neo",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains at least one memory device that is NOR flash.",
+         "name": "nor_flash",
+         "token": "nor_flash",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Operational Amplifier block.",
+         "name": "opamp",
+         "token": "opamp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Authentication",
+         "description": "The board contains an Infineon OPTIGA Trust B chip.",
+         "name": "optiga_trust_b",
+         "token": "optiga_trust_b",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Authentication",
+         "description": "The board contains an Infineon OPTICA Trust M chip.",
+         "name": "optiga_trust_m",
+         "token": "optiga_trust_m",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This board supports firmware updates Over-The-Air using Bluetooth.",
+         "name": "ota",
+         "token": "ota",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip is capable of supporting Pulse-Density Modulated microphones.",
+         "name": "pdm",
+         "token": "pdm",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This board can support Passive Entry Passive Start automotive keyless entry applications.",
+         "name": "peps",
+         "token": "peps",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the PMG1 family (CCG3, CCG6, etc).",
+         "name": "pmg1",
+         "token": "pmg1",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Position Interface block.",
+         "name": "posif",
+         "token": "posif",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains an analog Potentiometer that can be accessed via a GPIO.",
+         "name": "pot",
+         "token": "pot",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the PSoC 4 family.",
+         "name": "psoc4",
+         "token": "psoc4",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the PSoC 6 family.",
+         "name": "psoc6",
+         "token": "psoc6",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Quad SPI block.",
+         "name": "qspi",
+         "token": "qspi",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one RGB LED.",
+         "name": "rgb_led",
+         "token": "rgb_led",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Real Time Clock.",
+         "name": "rtc",
+         "token": "rtc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip is capable of supporting Secure Digital High Capacity memory cards.",
+         "name": "sdhc",
+         "token": "sdhc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Ports",
+         "description": "This chip is capable of communicating using the Secure Digital Input Output interface.",
+         "name": "sdio",
+         "token": "sdio",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Authentication",
+         "description": "This chip is capable of booting into a secure environment.",
+         "name": "secure_boot",
+         "token": "secure_boot",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one RGB LED driven serially using a SPI interface.",
+         "name": "serial_led",
+         "token": "serial_led",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip is capable of accessing Smart I/O capable pins.",
+         "name": "smart_io",
+         "token": "smart_io",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip has at least one programmable Serial Peripheral Interface block.",
+         "name": "spi",
+         "token": "spi",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains Static Random Access Memory.",
+         "name": "sram",
+         "token": "sram",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 1024K of Static Random Access Memory.",
+         "name": "sram_1024k",
+         "token": "sram_1024k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 1280K of Static Random Access Memory.",
+         "name": "sram_1280k",
+         "token": "sram_1280k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 128K of Static Random Access Memory.",
+         "name": "sram_128k",
+         "token": "sram_128k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 12K of Static Random Access Memory.",
+         "name": "sram_12k",
+         "token": "sram_12k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 160K of Static Random Access Memory.",
+         "name": "sram_160k",
+         "token": "sram_160k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 16K of Static Random Access Memory.",
+         "name": "sram_16k",
+         "token": "sram_16k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 192K of Static Random Access Memory.",
+         "name": "sram_192k",
+         "token": "sram_192k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 200K of Static Random Access Memory.",
+         "name": "sram_200k",
+         "token": "sram_200k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 2048K of Static Random Access Memory.",
+         "name": "sram_2048k",
+         "token": "sram_2048k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 20K of Static Random Access Memory.",
+         "name": "sram_20k",
+         "token": "sram_20k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 256K of Static Random Access Memory.",
+         "name": "sram_256k",
+         "token": "sram_256k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 276K of Static Random Access Memory.",
+         "name": "sram_276k",
+         "token": "sram_276k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 288K of Static Random Access Memory.",
+         "name": "sram_288k",
+         "token": "sram_288k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 2K of Static Random Access Memory.",
+         "name": "sram_2k",
+         "token": "sram_2k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 32K of Static Random Access Memory.",
+         "name": "sram_32k",
+         "token": "sram_32k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 352K of Static Random Access Memory.",
+         "name": "sram_352k",
+         "token": "sram_352k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 384K of Static Random Access Memory.",
+         "name": "sram_384k",
+         "token": "sram_384k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 40K of Static Random Access Memory.",
+         "name": "sram_40k",
+         "token": "sram_40k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 4K of Static Random Access Memory.",
+         "name": "sram_4k",
+         "token": "sram_4k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 512K of Static Random Access Memory.",
+         "name": "sram_512k",
+         "token": "sram_512k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 60K of Static Random Access Memory.",
+         "name": "sram_60k",
+         "token": "sram_60k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 64K of Static Random Access Memory.",
+         "name": "sram_64k",
+         "token": "sram_64k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 768K of Static Random Access Memory.",
+         "name": "sram_768k",
+         "token": "sram_768k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 80K of Static Random Access Memory.",
+         "name": "sram_80k",
+         "token": "sram_80k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 896K of Static Random Access Memory.",
+         "name": "sram_896k",
+         "token": "sram_896k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 8K of Static Random Access Memory.",
+         "name": "sram_8k",
+         "token": "sram_8k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Authentication",
+         "description": "This chip supports standard cryptography APIs.",
+         "name": "std_crypto",
+         "token": "std_crypto",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one switch/button.",
+         "name": "switch",
+         "token": "switch",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the TRAVEO T2G-B-E family.",
+         "name": "t2gbe",
+         "token": "t2gbe",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the TRAVEO T2G-B-H family.",
+         "name": "t2gbh",
+         "token": "t2gbh",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports Time-Division Multiplexing.",
+         "name": "tdm",
+         "token": "tdm",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Universal Asynchronous Receiver Transmitter block.",
+         "name": "uart",
+         "token": "uart",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip has a device that supports configurable Universal Digital Blocks.",
+         "name": "udb",
+         "token": "udb",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports USB device operation.",
+         "name": "usb_device",
+         "token": "usb_device",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports USB host operation.",
+         "name": "usb_host",
+         "token": "usb_host",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports USB power delivery.",
+         "name": "usbpd",
+         "token": "usbpd",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports WiFi.",
+         "name": "wifi",
+         "token": "wifi",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports wireless charging.",
+         "name": "wlc1",
+         "token": "wlc1",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the XMC family.",
+         "name": "xmc",
+         "token": "xmc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the XMC1000 family.",
+         "name": "xmc1000",
+         "token": "xmc1000",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the XMC4000 family.",
+         "name": "xmc4000",
+         "token": "xmc4000",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the XMC7000 family.",
+         "name": "xmc7000",
+         "token": "xmc7000",
+         "types": [
+            "chip"
+         ]
+      }
+   ]
+}
