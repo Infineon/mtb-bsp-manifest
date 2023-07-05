@@ -9,29 +9,16 @@
     <name>CYW943907AEVAL1F</name>
     <summary>The CYW943907AEVAL1F Evaluation kit enables you to evaluate and develop single-chip Wi-Fi applications using CYW43907 devices. The kit uses a module based on CYW43907 device. CYW43907 is a single-chip 802.11n dual-band (2.4 GHz and 5 GHz) Wi-Fi SoC that features 320-MHz Arm Cortex-R4 MCU for application subsystem and various on-chip interfaces like Ethernet (RMII/MII), UART, SPI/QSPI and I2C that in totality offers a very small-footprint IoT solution.</summary>
     <prov_capabilities>anycloud arduino ble bt cat4 cyw943907aeval1f dma flash_0k hal i2c led low_power lptimer mcu_gp spi sram_2048k switch uart wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>CYW43907 based module</li>
-        <li>On-board PCB antenna with an option to connect external antenna</li>
-        <li>Arduino compatible headers for hardware expansion</li>
-        <li>Custom header to bring out additional GPIOs (WICED header)</li>
-        <li>User switches and LEDs</li>
-        <li>On-board programmer and debugger using USB interface and USB-UART bridge</li>
-        <li>RJ45 connector for Ethernet</li>
-        <li>5 V to 12 V input using USB connector or power jack</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CYW943907AEVAL1F Evaluation board</li>
-        <li>USB Standard-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW43907 based module&lt;/li&gt;         &lt;li&gt;On-board PCB antenna with an option to connect external antenna&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;Custom header to bring out additional GPIOs (WICED header)&lt;/li&gt;         &lt;li&gt;User switches and LEDs&lt;/li&gt;         &lt;li&gt;On-board programmer and debugger using USB interface and USB-UART bridge&lt;/li&gt;         &lt;li&gt;RJ45 connector for Ethernet&lt;/li&gt;         &lt;li&gt;5 V to 12 V input using USB connector or power jack&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW943907AEVAL1F Evaluation board&lt;/li&gt;         &lt;li&gt;USB Standard-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyw943907aeval1f-evaluation-kit</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
@@ -57,29 +44,16 @@
     <name>CYW954907AEVAL1F</name>
     <summary>The CYW954907AEVAL1F Evaluation kit enables you to evaluate and develop single-chip Wi-Fi applications using CYW54907 devices. The kit uses a module based on CYW54907 device. CYW54907 is a single-chip 802.11n dual-band (2.4 GHz and 5 GHz) Wi-Fi SoC that features 320-MHz Arm Cortex-R4 MCU for application subsystem and various on-chip interfaces like Ethernet (RMII/MII), UART, SPI/QSPI and I2C that in totality offers a very small-footprint IoT solution.</summary>
     <prov_capabilities>anycloud arduino ble bt cat4 cyw954907aeval1f dma flash_0k hal i2c led low_power lptimer mcu_gp spi sram_2048k switch uart wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>CYW54907 based module</li>
-        <li>On-board PCB antenna with an option to connect external antenna</li>
-        <li>Arduino compatible headers for hardware expansion</li>
-        <li>Custom header to bring out additional GPIOs (WICED header)</li>
-        <li>User switches and LEDs</li>
-        <li>On-board programmer and debugger using USB interface and USB-UART bridge</li>
-        <li>RJ45 connector for Ethernet</li>
-        <li>5 V to 12 V input using USB connector or power jack</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CYW954907AEVAL1F Evaluation board</li>
-        <li>USB Standard-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW54907 based module&lt;/li&gt;         &lt;li&gt;On-board PCB antenna with an option to connect external antenna&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;Custom header to bring out additional GPIOs (WICED header)&lt;/li&gt;         &lt;li&gt;User switches and LEDs&lt;/li&gt;         &lt;li&gt;On-board programmer and debugger using USB interface and USB-UART bridge&lt;/li&gt;         &lt;li&gt;RJ45 connector for Ethernet&lt;/li&gt;         &lt;li&gt;5 V to 12 V input using USB connector or power jack&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW954907AEVAL1F Evaluation board&lt;/li&gt;         &lt;li&gt;USB Standard-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyw954907aeval1f-evaluation-kit</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
@@ -104,29 +78,17 @@
     </chips>
     <name>CY8CKIT-041-41XX</name>
     <summary>The PSoC&#8482; 4100S Pioneer Kit enables you to evaluate and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution using the PSoC&#8482; 4100S device.</summary>
-    <prov_capabilities>adc arduino ble capsense capsense_button capsense_touchpad cat2 comp csd cy8ckit_041_41xx flash_32k fram hal i2c j2 led lptimer mcu_gp memory memory_i2c opamp pot psoc4 rgb_led smart_io spi sram_4k switch uart</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>Ready-to-Use CAPSENSE&#8482; Trackpad</li>
-        <li>EZ-BLE PRoC module</li>
-        <li>Potentiometer</li>
-        <li>Rechargeable coin-cell battery</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-041-41XX PSoC&#8482; 4100S Pioneer board</li>
-        <li>USB Standad-A to Micro-B cable</li>
-        <li>Water dropper</li>
-        <li>Four press-fit connectors (for Arduino headers)</li>
-        <li>Four jumper wires</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc arduino capsense capsense_button capsense_touchpad cat2 comp csd cy8ckit_041_41xx fram hal i2c j2 led lptimer mcu_gp memory memory_i2c opamp pot psoc4 rgb_led smart_io spi switch uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Trackpad&lt;/li&gt;         &lt;li&gt;EZ-BLE PRoC module&lt;/li&gt;         &lt;li&gt;Potentiometer&lt;/li&gt;         &lt;li&gt;Rechargeable coin-cell battery&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-041-41XX PSoC&amp;#8482; 4100S Pioneer board&lt;/li&gt;         &lt;li&gt;USB Standad-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Water dropper&lt;/li&gt;         &lt;li&gt;Four press-fit connectors (for Arduino headers)&lt;/li&gt;         &lt;li&gt;Four jumper wires&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-041-41xx-psoc-4100s-capsense-pioneer-kit</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_64k low_power sram_8k">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_64k low_power sram_8k">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -167,32 +129,17 @@
     </chips>
     <name>CY8CKIT-041S-MAX</name>
     <summary>The PSoC&#8482; 4100S Max Pioneer Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CAPSENSE&#8482; solution using the PSoC&#8482; 4100S Max device.</summary>
-    <prov_capabilities>adc arduino can capsense cat2 comp cy8ckit_041s_max dma flash_384k hal i2c j2 led lin lptimer mcu_gp memory memory_i2c msc msc_button msc_proximity msc_slider msc_touchpad opamp psoc4 smart_io spi sram_32k std_crypto switch uart</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
-        <li>On-board Programmer and Debugger</li>
-        <li>Ready-to-Use CAPSENSE&#8482; Buttons</li>
-        <li>Ready-to-Use CAPSENSE&#8482; Touchpad</li>
-        <li>Ready-to-Use CAPSENSE&#8482; Slider</li>
-        <li>Ready-to-Use CAPSENSE&#8482; Proximity</li>
-        <li>Thermistor</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-041S-Max PSoC&#8482; 4100S Max Pioneer Board</li>
-        <li>CY8CKIT-041S-Max Capacitive Sensing Expansion Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Six jumper wires</li>
-        <li>40 pin FFC cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc arduino can capsense cat2 comp cy8ckit_041s_max dma flash_384k hal i2c j2 led lptimer mcu_gp memory memory_i2c msc msc_button msc_proximity msc_slider msc_touchpad opamp psoc4 smart_io spi sram_32k std_crypto switch uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Buttons&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Touchpad&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Slider&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Proximity&lt;/li&gt;         &lt;li&gt;Thermistor&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-041S-Max PSoC&amp;#8482; 4100S Max Pioneer Board&lt;/li&gt;         &lt;li&gt;CY8CKIT-041S-Max Capacitive Sensing Expansion Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires&lt;/li&gt;         &lt;li&gt;40 pin FFC cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-4100s-max-pioneer-kit-cy8ckit-041s-max</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -218,25 +165,16 @@
     <name>CY8CKIT-045S</name>
     <summary>The PSoC&#8482; 4500S Pioneer Kit (CY8CKIT-045S) is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 4500S device which is for power and motor control applications. The PSoC&#8482; 4500S Pioneer Kit enables you to evaluate and develop motor control applications along with CY8CKIT-037.</summary>
     <prov_capabilities>adc arduino capsense capsense_button capsense_slider cat2 comp csd cy8ckit_045s dma flash_256k hal i2c j2 led lptimer mcu_gp opamp psoc4 rgb_led smart_io spi sram_32k switch uart</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>High Performance Analog with Dual ADCs
-        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
-        <li>On-board Programmer and Debugger</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-045S PSoC&#8482; 4500S Pioneer board</li>
-        <li>USB Standad-A to Micro-B cable</li>
-        <li>Six jumper wires</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;High Performance Analog with Dual ADCs         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-045S PSoC&amp;#8482; 4500S Pioneer board&lt;/li&gt;         &lt;li&gt;USB Standad-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-045s/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -273,23 +211,17 @@
     </chips>
     <name>CY8CKIT-145-40XX</name>
     <summary>The PSoC&#8482; 4000S Prototyping Kit enables you to evaluate and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution using the PSoC&#8482; 4000S device.</summary>
-    <prov_capabilities>ble capsense capsense_button capsense_linear_slider cat2 comp csd cy8ckit_145_40xx flash_64k hal i2c j2 led mcu_gp psoc4 smart_io spi sram_8k switch uart</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
-        <li>On-board Programmer and Debugger</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-145-40XX PSoC&#8482; 4000S Prototyping board</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>capsense capsense_button capsense_linear_slider cat2 comp csd cy8ckit_145_40xx hal i2c j2 led mcu_gp psoc4 smart_io spi switch uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-145-40XX PSoC&amp;#8482; 4000S Prototyping board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-145-40xx-psoc-4000s-capsense-prototyping-kit</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_32k low_power lptimer sram_4k">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_32k low_power lptimer sram_4k">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -330,23 +262,17 @@
     </chips>
     <name>CY8CKIT-149</name>
     <summary>The PSoC&#8482; 4100S Plus Prototyping Kit enables you to evaluate the PSoC&#8482; 4100S Plus device and develop with Cypress's fourth-generation, low-power CAPSENSE&#8482; solution.</summary>
-    <prov_capabilities>adc ble can capsense capsense_button capsense_linear_slider cat2 comp csd cy8ckit_149 dma flash_128k hal i2c j2 led lptimer mcu_gp opamp psoc4 smart_io spi sram_16k switch uart</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>World's Most Reliable, Lowest Power CAPSENSE&#8482; Solution</li>
-        <li>On-board Programmer and Debugger</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-149 PSoC&#8482; 4100S Plus Prototyping board</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc can capsense capsense_button capsense_linear_slider cat2 comp csd cy8ckit_149 dma flash_128k hal i2c j2 led lptimer mcu_gp opamp psoc4 smart_io spi sram_16k switch uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-149 PSoC&amp;#8482; 4100S Plus Prototyping board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cy8ckit-149-psoc-4100s-plus-prototyping-kit</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -388,26 +314,16 @@
     <name>PMG1-CY7110</name>
     <summary>The CY7110 EZ-PD PMG1-S0 Prototyping Kit is a low cost prototyping platform which enables design and development of EZ-PD PMG1-S0 (CYPM1011-24LQXI) based embedded applications with USB PD Sink capability.</summary>
     <prov_capabilities>cat2 flash_64k hal i2c j2 led mcu_gp pmg1 pmg1_cy7110 spi sram_8k switch uart usbpd</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.</li>
-        <li>USB bus powered operation.</li>
-        <li>KitProg3 based programming and debug interface.</li>
-        <li>Access to the pins of PMG1-S0 silicon (CYPM1011-24LQXI) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>EZ-PD CYPM1011-24LQXI based board</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
-    <documentation_url>http://www.cypress.com/CY7110</documentation_url>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S0 silicon (CYPM1011-24LQXI) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD CYPM1011-24LQXI based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.cypress.com/CY7110</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -445,26 +361,16 @@
     <name>PMG1-CY7111</name>
     <summary>The CY7111 EZ-PD PMG1-S1 Prototyping Kit is a low cost prototyping platform which enables design and development of EZ-PD PMG1-S1 (CYPM1111-40LQXIT) based embedded applications with USB PD Sink capability.</summary>
     <prov_capabilities>cat2 flash_128k hal i2c j2 led mcu_gp pmg1 pmg1_cy7111 spi sram_12k switch uart usbpd</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.</li>
-        <li>USB bus powered operation.</li>
-        <li>KitProg3 based programming and debug interface.</li>
-        <li>Access to the pins of PMG1-S1 silicon (CYPM1111-40LQXIT) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>EZ-PD CYPM1111-40LQXIT based board</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S1 silicon (CYPM1111-40LQXIT) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD CYPM1111-40LQXIT based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY7111</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -502,26 +408,16 @@
     <name>PMG1-CY7112</name>
     <summary>The CY7112 EZ-PD PMG1-S2 Prototyping Kit is a low cost prototyping platform which enables design and development of EZ-PD PMG1-S2 (CYPM1211-40LQXIT) based embedded applications with USB PD Sink capability.</summary>
     <prov_capabilities>cat2 flash_128k hal i2c j2 led mcu_gp pmg1 pmg1_cy7112 spi sram_8k switch uart usb_device usbpd</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.</li>
-        <li>USB bus powered operation.</li>
-        <li>KitProg3 based programming and debug interface.</li>
-        <li>Access to the pins of PMG1-S2 silicon (CYPM1211-40LQXIT) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>EZ-PD CYPM1211-40LQXIT based board</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S2 silicon (CYPM1211-40LQXIT) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD CYPM1211-40LQXIT based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY7112</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -558,28 +454,17 @@
     </chips>
     <name>PMG1-CY7113</name>
     <summary>The CY7113 EZ-PD PMG1-S3 Prototyping Kit is a development platform to design products which can be powered from a high-voltage USB PD port, and also need a microcontroller with CAPSENSE&#8482; capability to implement different applications.</summary>
-    <prov_capabilities>adc capsense capsense_button capsense_linear_slider cat2 comp csd dma flash_256k hal i2c j2 led lptimer mcu_gp opamp pmg1 pmg1_cy7113 spi sram_32k switch uart usb_device usbpd</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.</li>
-        <li>Support for two self-capacitance based CAPSENSE&#8482; buttons and one 5-segment slider.</li>
-        <li>USB bus powered operation.</li>
-        <li>KitProg3 based programming and debug interface.</li>
-        <li>Access to the pins of PMG1-S3 silicon (CYPM1311-48LQXI) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>EZ-PD CYPM1311-48LQXI based board</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc capsense capsense_button capsense_linear_slider cat2 comp csd flash_256k hal i2c j2 led mcu_gp opamp pmg1 pmg1_cy7113 spi sram_32k switch uart usb_device usbpd</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;Support for two self-capacitance based CAPSENSE&amp;#8482; buttons and one 5-segment slider.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S3 silicon (CYPM1311-48LQXI) in hardware and support for BSP, HAL, PDL and Middleware in Modus Toolbox.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD CYPM1311-48LQXI based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY7113</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -616,9 +501,13 @@
     <description>        &lt;div class="category"&gt;Key Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.1 compliant DRP on both the ports.&lt;/li&gt;         &lt;li&gt;EPR (Extended Power Range) which can support up to 140W (28V, 5A) power on both ports.&lt;/li&gt;         &lt;li&gt;USB Type-C alternate mode support.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;SWD based programming and debug interface.&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/dgdl/Infineon-USB_PD_DRP_dual-role_power_schematics_using_EZ-PD_PMG1_MCUs-ApplicationNotes-v02_00-EN.pdf?fileId=8ac78c8c83cd30810183ea6518841d1e</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="capsense hal low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="capsense hal low_power">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.0.0 release</num>
@@ -636,21 +525,16 @@
     <name>PSOC4-GENERIC</name>
     <summary>This board support package is intended for creating custom PSoC&#8482; 4 BSPs.</summary>
     <prov_capabilities>cat2 hal mcu_gp psoc4</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
-        <li>This is manifest can also be used to allow the board to show up in the ModusToolbox tools</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>NA</li>
-        </ul>
-    ]]></description>
-    <documentation_url>https://github.com/Infineon/TARGET_PSOC4-GENERIC</documentation_url>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.&lt;/li&gt;         &lt;li&gt;This is manifest can also be used to allow the board to show up in the ModusToolbox tools&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;NA&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://github.com/infineon/TARGET_PSOC4-GENERIC</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc4_generic">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc4_generic">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -696,31 +580,16 @@
     <p>This BSP does not support Wi-Fi/BT Connectivity examples. To run Wi-Fi/Bluetooth Connectivity examples on this kit, choose a BSP with the appropriate connectivity M.2 module.</p>
     ]]></summary>
     <prov_capabilities>adc arduino capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ceval_062s2 dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&#8482; Wi-Fi/Bluetooth combo devices.</li>
-        <li>mikroBUS add-on board interface for peripheral expansion.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 62S2 Evaluation Board</li>
-        <li>Laird Connectivity Sterling-LWB5+ Wi-Fi/Bluetooth M.2 radio module</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        <li>Quick start guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices.&lt;/li&gt;         &lt;li&gt;mikroBUS add-on board interface for peripheral expansion.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Evaluation Board&lt;/li&gt;         &lt;li&gt;Laird Connectivity Sterling-LWB5+ Wi-Fi/Bluetooth M.2 radio module&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-62s2-evaluation-kit-cy8ceval-062s2</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -766,32 +635,17 @@
     <p><b>Note:</b></p>
     <p>CY8CEVAL-062S2-LAI-4373M2 is the board support package for the PSoC&#8482; 62S2 Evaluation Kit in combination with the Sterling-LWB5+ M.2 radio module and supports PSoC&#8482; 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.</p>
     ]]></summary>
-    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ceval_062_s2_lai_4373m2 cyw4373 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&#8482; Wi-Fi/Bluetooth combo devices.</li>
-        <li>mikroBUS add-on board interface for peripheral expansion.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 62S2 Evaluation Board</li>
-        <li>Laird Connectivity Sterling-LWB5+ Wi-Fi/Bluetooth M.2 radio module</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        <li>Quick start guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ceval_062_s2_lai_4373m2 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices.&lt;/li&gt;         &lt;li&gt;mikroBUS add-on board interface for peripheral expansion.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Evaluation Board&lt;/li&gt;         &lt;li&gt;Laird Connectivity Sterling-LWB5+ Wi-Fi/Bluetooth M.2 radio module&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-62s2-evaluation-kit-cy8ceval-062s2</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_lai_4373m2">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_lai_4373m2 cyw4373e">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_lai_4373m2 cyw4373e">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_lai_4373m2">
         <num>4.1.0 release</num>
@@ -833,13 +687,17 @@
     </chips>
     <name>CY8CEVAL-062S2-MUR-4373EM2</name>
     <summary>    The CY8CEVAL-062S2 PSoC&amp;#8482; 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC&amp;#8482; 62 MCU. The PSoC&amp;#8482; 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices. It comes with industry-leading CAPSENSE&amp;#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;CY8CEVAL-062S2-MUR-4373EM2 is the board support package for the PSoC&amp;#8482; 62S2 Evaluation Kit in combination with the 2AE radio module and supports PSoC&amp;#8482; 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.&lt;/p&gt;</summary>
-    <prov_capabilities>adc anycloud arduino bsp_gen4 bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cyw4373E cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud arduino bsp_gen4 bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ceval_062s2_mur_4373em2 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices.&lt;/li&gt;         &lt;li&gt;mikroBUS add-on board interface for peripheral expansion.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Evaluation Board&lt;/li&gt;         &lt;li&gt;Embedded Artists 2AE Wi-Fi/Bluetooth M.2 radio module&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8ceval-062s2/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="cyw4373e">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="cyw4373e">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>4.1.0 release</num>
@@ -866,6 +724,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
       </version>
@@ -886,30 +748,16 @@
     <p>CY8CEVAL-062S2-MUR-43439M2 is the board support package for the PSoC&#8482; 62S2 Evaluation Kit in combination with the 1YN radio module and supports PSoC&#8482; 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.</p>
     ]]></summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ceval_062_mur_43439m2 cyw43439 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&#8482; Wi-Fi/Bluetooth combo devices.</li>
-        <li>mikroBUS add-on board interface for peripheral expansion.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul><p/>
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 62S2 Evaluation Board</li>
-        <li>Embedded Artists 1YN Wi-Fi/Bluetooth M.2 radio module</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        <li>Quick start guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices.&lt;/li&gt;         &lt;li&gt;mikroBUS add-on board interface for peripheral expansion.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Evaluation Board&lt;/li&gt;         &lt;li&gt;Embedded Artists 1YN Wi-Fi/Bluetooth M.2 radio module&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-62s2-evaluation-kit-cy8ceval-062s2</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_mur_43439m2">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_mur_43439m2">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8ceval_062s2_mur_43439m2">
         <num>4.1.0 release</num>
@@ -943,25 +791,16 @@
     <name>CY8CKIT-062-BLE</name>
     <summary>The PSoC&#8482; 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 63 Line (CY8C6347BZI-BLD53).</summary>
     <prov_capabilities>adc arduino capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ckit_062_ble dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>BLE v5.0</li>
-        <li>Serial memory interface</li>
-        <li>PDM-PCM digital microphone interface</li>
-        <li>Industry-leading CAPSENSE</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-062-BLE evaluation board</li>
-        <li>E-Ink display shield with an ultra-low-power 2.7" E-ink display, thermistor, 6-axis motion sensor, and digital microphone</li>
-        <li>USB cable</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;BLE v5.0&lt;/li&gt;         &lt;li&gt;Serial memory interface&lt;/li&gt;         &lt;li&gt;PDM-PCM digital microphone interface&lt;/li&gt;         &lt;li&gt;Industry-leading CAPSENSE&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-062-BLE evaluation board&lt;/li&gt;         &lt;li&gt;E-Ink display shield with an ultra-low-power 2.7" E-ink display, thermistor, 6-axis motion sensor, and digital microphone&lt;/li&gt;         &lt;li&gt;USB cable&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>4.1.0 release</num>
@@ -1012,29 +851,16 @@
     <name>CY8CKIT-062S2-43012</name>
     <summary>The CY8CKIT-062S2-43012 PSoC&#8482; 6S2 Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 6 MCUs. It comes with a Murata 1LV Module (CYW43012 Wi-Fi + Bluetooth Combo Chip), industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface.</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ckit_062s2_43012 cyw43012 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 6S2 Wi-Fi BT Pioneer Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with WICED wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 6S2 Wi-Fi BT Pioneer Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CKIT-062S2-43012</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1084,32 +910,16 @@
     <name>CY8CKIT-062S4</name>
     <summary>The PSoC&#8482; 62S4 Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 62S4 Line (CY8C6244LQI-S4D92).</summary>
     <prov_capabilities>adc arduino can capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ckit_062s4 dac dma flash_256k hal i2c j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp psoc6 qspi rgb_led rtc smart_io spi sram_128k std_crypto switch uart usb_device</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor. </li>
-        <li>256-KB Flash and 128-KB SRAM for customer application on CM4</li>
-        <li>One-time-programmable (OTP) 1-Kb eFuse array</li>
-        <li>Two 12-bit 2-Msps SAR ADCs with synchronized sampling, differential and single-ended modes, 16-channel sequencer with result averaging, and Deep Sleep operation </li>
-        <li>Two opamps with low-power operation modes and Two low-power comparators available in Deep Sleep and Hibernate modes</li>
-        <li>Onboard Thermistor and Ambient Light Sensor. </li>
-        <li>Serial memory interface</li>
-        <li>Industry-leading CAPSENSE</li>
-        <li>Ambient Light Sensor</li>
-        <li>Thermistor</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-062S4 evaluation board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        <li>Six jumper wires (5 inches each)</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor. &lt;/li&gt;         &lt;li&gt;256-KB Flash and 128-KB SRAM for customer application on CM4&lt;/li&gt;         &lt;li&gt;One-time-programmable (OTP) 1-Kb eFuse array&lt;/li&gt;         &lt;li&gt;Two 12-bit 2-Msps SAR ADCs with synchronized sampling, differential and single-ended modes, 16-channel sequencer with result averaging, and Deep Sleep operation &lt;/li&gt;         &lt;li&gt;Two opamps with low-power operation modes and Two low-power comparators available in Deep Sleep and Hibernate modes&lt;/li&gt;         &lt;li&gt;Onboard Thermistor and Ambient Light Sensor. &lt;/li&gt;         &lt;li&gt;Serial memory interface&lt;/li&gt;         &lt;li&gt;Industry-leading CAPSENSE&lt;/li&gt;         &lt;li&gt;Ambient Light Sensor&lt;/li&gt;         &lt;li&gt;Thermistor&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-062S4 evaluation board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;Six jumper wires (5 inches each)&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CKIT-062S4</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1163,12 +973,16 @@
     <name>KIT_T2G-B-H_EVK</name>
     <summary>The KIT_T2G-B-H_EVK, a 272-pin evaluation board is based on the TRAVEO T2G family of devices. T2G-B-H MCU is designed for  industrial applications. The evaluation board carries a T2G-B-H microcontroller, a M.2 interface connector for interfacing  radio modules based on AIROC&#8482; Wi-Fi and Bluetooth&#174; combos (currently not supported), SMIF dual header compatible with Digilent  Pmod for interfacing HYPERBUS&#8482; memories (currently not supported), and headers compatible with Arduino for  interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  a 512-Mbit QSPI NOR flash, CAN FD transceiver, Gigabit Ethernet PHY transceiver with RJ45 connector interface,  a micro-B connector for USB device interface, three user LEDs, one potentiometer, and two push buttons.  The board supports operating voltages from 3.3 V to 5.0 V for T2G-B-H device.</summary>
     <prov_capabilities>arduino bsp_gen4 cat1 cat1c ethernet flash_8384k hal i2c kit_t2g_b_h_evk led low_power mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_1024k std_crypto switch t2gbh uart</prov_capabilities>
-    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BFBCHE 8MB Flash 272-pin BGA device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&#174; Standard JTAG, Cortex Debug + ETM with Arm&#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-B-H evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/KIT_T2G-B-H_EVK</documentation_url>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BFBCHE 8MB Flash 272-pin BGA device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-B-H evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_evk/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc can i2s lin lptimer">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc can i2s lin lptimer">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.1.0 release</num>
@@ -1190,12 +1004,16 @@
     <name>KIT_T2G-B-H_LITE</name>
     <summary>The KIT_T2G-B-H_LITE, a 176-pin evaluation board is based on the TRAVEO&#8482; T2G family of devices. T2G-B-H MCU is designed for  automotive and industrial applications. The evaluation board carries a T2G-B-H microcontroller,and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  Two 512-Mbit QSPI NOR flashes, CAN FD transceiver, Ethernet PHY transceiver with RJ45 connector interface,  a Shield2Go connector interface and MikroBUS connector interface, three user LEDs, one potentiometer, and two push buttons.  The board supports operating voltages from 3.3 V to 5.0 V for T2G-B-H device.</summary>
     <prov_capabilities>arduino bsp_gen4 cat1 cat1c ethernet flash_8384k hal i2c kit_t2g_b_h_lite led low_power mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_1024k std_crypto switch t2gbh_lite uart</prov_capabilities>
-    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BF8CDS 8MB Flash 176-pin TEQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;Two 512-Mbit external Quad SPI NOR Flashes that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-B-H evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/KIT_T2G-B-H_LITE</documentation_url>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BF8CDS 8MB Flash 176-pin TEQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;Ethernet interface&lt;/li&gt;                &lt;li&gt;Two 512-Mbit external Quad SPI NOR Flashes that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-B-H evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc can i2s lin lptimer">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc can i2s lin lptimer">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.1.0 release</num>
@@ -1213,12 +1031,16 @@
     <name>KIT_XMC72_EVK</name>
     <summary>The KIT_XMC72_EVK, a 272-pin evaluation board is based on the XMC7000 family of devices. XMC7000 MCU is designed for industrial applications. The evaluation board carries a XMC7000D microcontroller, a M.2 interface connector for interfacing radio modules based on AIROC&#8482; Wi-Fi and Bluetooth&#174; combos (currently not supported), SMIF dual header compatible with Digilent Pmod for interfacing HYPERBUS&#8482; memories (currently not supported), and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3), a 512-Mbit QSPI NOR flash, CAN FD transceiver, Gigabit Ethernet PHY transceiver with RJ45 connector interface, a micro-B connector for USB device interface, three user LEDs, one potentiometer, and two push buttons. The board supports operating voltages from 3.3 V to 5.0 V for XMC7000D device.</summary>
     <prov_capabilities>arduino bsp_gen4 cat1 cat1c ethernet flash_8384k hal i2c kit_xmc72_evk led low_power mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_1024k std_crypto switch uart xmc7000</prov_capabilities>
-    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200D-E272K8384 8MB Flash 272-pin BGA device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&#174; Standard JTAG, Cortex Debug + ETM with Arm&#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7000D device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the XMC7000D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200 evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200D-E272K8384 8MB Flash 272-pin BGA device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7000D device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the XMC7000D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200 evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc can i2s lptimer">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc can i2s lptimer">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.1.0 release</num>
@@ -1241,27 +1063,16 @@
     <name>CY8CKIT-062-WIFI-BT</name>
     <summary>The PSoC&#8482; 6 WiFi-BT Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 62 MCU (CY8C6247BZI-D54) and the Murata LBEE5KL1DX Module (CYW4343W WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ckit_062_wifi_bt cyw4343w cyw43xxx dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>BLE v5.0</li>
-        <li>Serial memory interface</li>
-        <li>PDM-PCM digital microphone interface</li>
-        <li>Industry-leading CAPSENSE</li>
-        <li>Full-speed USB</li>
-        <li>IEEE 802.11a/b/g/n WLAN</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>CY8CKIT-062-WIFI-BT evaluation board</li>
-        <li>TFT display shield with a 2.4" TFT display, light sensor, 6-axis motion sensor, and digital microphone</li>
-        <li>USB cable</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;BLE v5.0&lt;/li&gt;         &lt;li&gt;Serial memory interface&lt;/li&gt;         &lt;li&gt;PDM-PCM digital microphone interface&lt;/li&gt;         &lt;li&gt;Industry-leading CAPSENSE&lt;/li&gt;         &lt;li&gt;Full-speed USB&lt;/li&gt;         &lt;li&gt;IEEE 802.11a/b/g/n WLAN&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-062-WIFI-BT evaluation board&lt;/li&gt;         &lt;li&gt;TFT display shield with a 2.4" TFT display, light sensor, 6-axis motion sensor, and digital microphone&lt;/li&gt;         &lt;li&gt;USB cable&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/documentation/development-kitsboards/psoc-6-wifi-bt-pioneer-kit</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1311,30 +1122,17 @@
     </chips>
     <name>CY8CKIT-064B0S2-4343W</name>
     <summary>The CY8CKIT-064B0S2-4343W PSoC&#8482; 64 Secure Boot Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 64 MCUs. It comes with a Murata LBEE5KL1DX Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, 4-MBit Quad-SPI F-RAM, and a PDM-PCM microphone interface.</summary>
-    <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 comp csd cy8ckit_064b0s2_4343w cyw4343w cyw43xxx dma fram flash_1856k hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 64 Wi-Fi BT Pioneer Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ckit_064b0s2_4343w cyw4343w cyw43xxx dma flash_1856k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with WICED wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 64 Wi-Fi BT Pioneer Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CKIT-064B0S2-4343W</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1384,29 +1182,17 @@
     </chips>
     <name>CY8CKIT-064S0S2-4343W</name>
     <summary>The CY8CKIT-064S0S2-4343W PSoC&#8482; 64 Standard Secure - AWS Wi-Fi BT Pioneer Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 64 MCUs. It comes with a Murata LBEE5KL1DX Module (CYW4343W Wi-Fi + Bluetooth Combo Chip), industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, 4-Mbit Quad-SPI F-RAM and PDM-PCM microphone interface.</summary>
-    <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 comp csd cy8ckit_064s0s2_4343w cyw4343w cyw43xxx dma flash_1856k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k switch uart usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul><p/>
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 64 Wi-Fi BT Pioneer Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ckit_064s0s2_4343w cyw4343w cyw43xxx dma flash_1856k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi nor_flash pdm pot psoc6 qspi rgb_led rtc secure_boot smart_io spi sram_1024k switch uart usb_device usb_host wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with WICED wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 64 Wi-Fi BT Pioneer Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CKIT-064S0S2-4343W</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1437,27 +1223,16 @@
     <name>CY8CPROTO-062-4343W</name>
     <summary>The CY8CPROTO-062-4343W PSoC&#8482; 6 Wi-Fi BT Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC&#8482; 6 MCUs. It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
     <prov_capabilities>adc anycloud bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8cproto_062_4343w cyw4343w cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 2MB Flash and 1MB SRAM</li>
-        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 6 Wi-Fi BT Prototyping Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with WICED wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 6 Wi-Fi BT Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-062-4343W</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1508,12 +1283,16 @@
     <name>CY8CPROTO-062S2-43439</name>
     <summary>The CY8CPROTO-062S2-43439 PSoC&amp;#8482; 62S2 Wi-Fi Bluetooth&amp;#174; Prototyping Kit is a low-cost hardware platform that enables design and debug of PSoC&amp;#8482; 6 MCUs. It comes with a Murata LBEE5KL1YN module, based on the CYW43439 combo device, industry-leading CAPSENSE&amp;#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad- SPI NOR flash, PDM-PCM microphone, and a thermistor. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently. In addition, support for Digilent's Pmod interface is also provided with this kit.</summary>
     <prov_capabilities>adc anycloud bsp_gen4 bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8cproto_062s2_43439 cyw43439 cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
-    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with AIROC&amp;#8482; wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Wi-Fi Bluetooth&amp;#174; Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Featuring the PSoC&amp;#8482; 6 CY8C62xA MCU (MPN: [CY8C624ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624abzi-s2d44/)): Ultra low power, high performance MCU based on the dual core CPU architecture of Arm&amp;#174; Cortex&amp;#174;-M4 and Arm&amp;#174; Cortex&amp;#174;-M0+, up to 2 MB of on-chip Flash, 1 MB of SRAM, built-in hardware and software security features, rich analog, digital, and communication peripherals&lt;/li&gt;         &lt;li&gt;Wireless module(Murata 1YN) based on Infineon&#x2019;s AIROC&amp;#8482; CYW43439 single-chip combo device (2.4 GHz Wi-Fi 4 (802.11n) and Bluetooth&amp;#174; 5.2) for evaluating cloud connected applications with PSoC&amp;#8482; 6 as the Wi-Fi host MCU&lt;/li&gt;         &lt;li&gt;Industry leading CAPSENSE&amp;#8482; featuring linear slider, buttons for prototyping elegant, robust capacitive touch-based user interfaces&lt;/li&gt;         &lt;li&gt;Integrated on-board programmer / debugger, memory expansion through 512-Mb Quad-SPI NOR Flash, microSD card interface, PDM microphone, thermistor, push buttons, LEDs&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Wi-Fi Bluetooth&amp;#174; Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CPROTO-062S2-43439</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>4.1.0 release</num>
@@ -1532,27 +1311,16 @@
     <name>CY8CPROTO-062S3-4343W</name>
     <summary>The CY8CPROTO-062S3-4343W Kit is a low-cost hardware platform that enables design and debug of the PSoC&#8482; 6 MCUs.It comes with a Murata LBEE5KL1DX module, based on the CYW4343W combo device, industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, 512-Mb Quad-SPI NOR flash. This kit is designed with a snap-away form-factor, allowing the user to separate the different components and features that come with this kit and use independently.</summary>
     <prov_capabilities>adc bt can capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8cproto_062s3_4343w cyw4343w cyw43xxx dma flash_512k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash psoc6 qspi rtc smart_io spi sram_256k std_crypto switch uart usb_device wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>Support of up to 512 KB Flash and 256 KB SRAM</li>
-        <li>Dedicated SDHC to interface with WICED wireless devices.</li>
-        <li>Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor for low-power operations.</li>
-        <li>Supports Full-Speed USB, capacitive-sensing with CAPSENSE.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>CY8CPROTO-062S3-4343W board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 512 KB Flash and 256 KB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated SDHC to interface with WICED wireless devices.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CY8CPROTO-062S3-4343W board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-062S3-4343W</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1606,25 +1374,11 @@
     </chips>
     <name>CY8CPROTO-063-BLE</name>
     <summary>The PSoC&#8482; 6 BLE Prototyping Kit (CY8CPROTO-063-BLE) is a low-cost hardware platform that enables design and debug of PSoC&#8482; 6 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>adc capsense cat1 cat1a comp csd cy8cproto_063_ble dac dma flash_1024k hal i2c led low_power lptimer mcu_gp multi_core opamp psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&#8482; 63 MCU</li>
-        <li>Up to 36 GPIOs in a 14x18.5x2 mm package</li>
-        <li>Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>PSoC&#8482; 6 BLE Prototyping Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc capsense cat1 cat1a comp csd cy8cproto_063_ble dac dma flash_1024k hal i2c led low_power lptimer mcu_gp multi_core opamp psoc6 rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&amp;#8482; 63 MCU&lt;/li&gt;         &lt;li&gt;Up to 36 GPIOs in a 14x18.5x2 mm package&lt;/li&gt;         &lt;li&gt;Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 6 BLE Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-063-BLE</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt i2s pdm">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
@@ -1675,27 +1429,17 @@
     </chips>
     <name>CY8CPROTO-064B0S1-BLE</name>
     <summary>The PSoC&#8482; 64 Secure Boot BLE Prototyping Kit (CY8CPROTO-064B0S1-BLE) is a low-cost hardware platform that enables design and debug of PSoC&#8482; 64 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>adc ble cat1 comp cy8cproto_064B0S1_ble dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc secure_boot smart_io spi sram_288k std_crypto switch uart</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>BLE 5.0 certified CYBLE-4xxxx-xx EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&#8482; 64 MCU</li>
-        <li>Up to 36 GPIOs in a 14x18.5x2 mm package</li>
-        <li>Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>2x PSoC&#8482; 64 BLE Prototyping Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc ble cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc secure_boot smart_io spi sram_288k std_crypto switch uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;BLE 5.0 certified CYBLE-416070-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&amp;#8482; 64 MCU&lt;/li&gt;         &lt;li&gt;Up to 36 GPIOs in a 14x18.5x2 mm package&lt;/li&gt;         &lt;li&gt;Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;2x PSoC&amp;#8482; 64 BLE Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-064b0s1-ble/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8cproto_064b0s1_ble">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt csd cy8cproto_064b0s1_ble i2s multi_core pdm udb">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt csd cy8cproto_064b0s1_ble i2s multi_core pdm udb">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8cproto_064b0s1_ble">
         <num>4.1.0 release</num>
@@ -1740,25 +1484,17 @@
     </chips>
     <name>CY8CPROTO-064B0S3</name>
     <summary>CY8CPROTO-064B0S3 PSoC&#8482; 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC&#8482; 64 Secure Boot MCU to enable customers to prototype and design with the PSoC&#8482; 64 Secure Boot device.</summary>
-    <prov_capabilities>adc cat1 comp cy8cproto_064b0s3 dma flash_448k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc secure_boot smart_io spi sram_256k std_crypto uart usb_device</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>PSoC&#8482; 64 Secure MCU</li>
-        <li>512-Mb Serial NOR flash</li>
-        <li>Full-speed USB device interface</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>PSoC&#8482; 64 SecureBoot Prototyping Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick start guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc cat1 cat1a comp cy8cproto_064b0s3 dma flash_448k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi rtc secure_boot smart_io spi sram_256k std_crypto uart usb_device</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 64 Secure MCU&lt;/li&gt;         &lt;li&gt;512-Mb Serial NOR flash&lt;/li&gt;         &lt;li&gt;Full-speed USB device interface&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 64 SecureBoot Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-064B0S3</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd multi_core usb_host">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd multi_core usb_host">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1807,25 +1543,17 @@
     </chips>
     <name>CY8CPROTO-064S1-SB</name>
     <summary>CY8CPROTO-064S1-SB PSoC&#8482; 64 Secure Boot Prototyping Kit is a low-cost Prototyping Kit based on PSoC&#8482; 64 Secure Boot MCU to enable customers to prototype and design with the PSoC&#8482; 64 Secure Boot device.</summary>
-    <prov_capabilities>adc cat1 comp cy8cproto_064s1_sb dac dma flash_832k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp psoc6 qspi rtc secure_boot spi sram_288k std_crypto switch uart usb_device</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>PSoC&#8482; 64 Secure MCU</li>
-        <li>512-Mb Serial NOR flash</li>
-        <li>Full-speed USB device interface</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>PSoC&#8482; 64 SecureBoot Prototyping Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick start guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc cat1 cat1a comp cy8cproto_064s1_sb dac dma flash_832k hal i2c led low_power lptimer mcu_gp memory memory_qspi nor_flash opamp psoc6 qspi rtc secure_boot spi sram_288k std_crypto switch uart usb_device</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 64 Secure MCU&lt;/li&gt;         &lt;li&gt;512-Mb Serial NOR flash&lt;/li&gt;         &lt;li&gt;Full-speed USB device interface&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 64 SecureBoot Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY8CPROTO-064S1-SB</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd i2s multi_core pdm smart_io udb usb_host">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd i2s multi_core pdm smart_io udb usb_host">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1871,27 +1599,17 @@
     </chips>
     <name>CYBLE-416045-EVAL</name>
     <summary>The EZ-BLE Arduino Evaluation Board (CYBLE-416045-EVAL) enables you to evaluate and develop applications on the CYBLE-416045-02 EZ-BLE Creator Module. CYBLE-416045-EVAL can be used as a standalone evaluation kit or can be combined with Arduino compatible shields.</summary>
-    <prov_capabilities>adc arduino cat1 cat1a comp cyble_416045_eval dac dma flash_1024k hal i2c i2s j2 led low_power lptimer mcu_gp multi_core opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div>
-        <ul>
-        <li>BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&#8482; 63 MCU</li>
-        <li>Up to 36 Arduino-compatible GPIO headers</li>
-        <li>Supports digital programmable logic, a PDM-PCM digital microphone interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.</li>
-        </ul>
-
-        <div class="category">Kit Contents:</div>
-        <ul>
-        <li>EZ-BLE Arduino Evaluation Board (CYBLE-416045-EVAL) with on-board EZ-BLE Creator Module (CYBLE-416045-02)</li>
-        <li>USB Type-A to Micro-USB cable</li>
-        <li>Quick Start Guide</li>
-        </ul>
-      ]]></description>
+    <prov_capabilities>adc arduino cat1 cat1a comp cyble_416045_eval dac dma flash_1024k hal i2c i2s j2 led low_power lptimer mcu_gp multi_core opamp pdm psoc6 rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&amp;#8482; 63 MCU&lt;/li&gt;         &lt;li&gt;Up to 36 Arduino-compatible GPIO headers&lt;/li&gt;         &lt;li&gt;Supports digital programmable logic, a PDM-PCM digital microphone interface, high-performance analog-to- digital converter (ADC), low-power comparators, and standard communication and timing peripherals.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-BLE Arduino Evaluation Board (CYBLE-416045-EVAL) with on-board EZ-BLE Creator Module (CYBLE-416045-02)&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-USB cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/documentation/development-kitsboards/cyble-416045-eval-ez-ble-arduino-evaluation-board</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt csd">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt csd">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt">
         <num>4.1.0 release</num>
@@ -1945,9 +1663,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYS-RP01 module with managed firmware for device management and radio chip. &lt;/li&gt;         &lt;li&gt;512KB Flash and 512KB SRAM for customer application on CM4&lt;/li&gt;         &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;         &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;Battery connector, charging IC, and charging indicator LED&lt;/li&gt;         &lt;li&gt;One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED&lt;/li&gt;         &lt;li&gt;OPTIGA Trust M advanced security controller for secure data storage&lt;/li&gt;         &lt;li&gt;Thermistor for sensing the ambient temperature&lt;/li&gt;         &lt;li&gt;16KB of Emulated EEPROM&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/CYSBSYSKIT-01</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd i2s low_power multi_core pdm rtc">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd i2s low_power multi_core pdm rtc">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -1997,13 +1719,17 @@
     </chips>
     <name>CYSBSYSKIT-DEV-01</name>
     <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
-    <prov_capabilities>adc anycloud bt cat1 cat1a comp cysbsyskit_dev_01 cyw43012 cyw43xxx dma feather flash_2048k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m psoc6 qspi rtc sdhc smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
+    <prov_capabilities>adc anycloud bt cat1 cat1a comp cysbsyskit_dev_01 cyw43012 cyw43xxx dma feather flash_2048k hal i2c led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m psoc6 qspi rtc smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYS-RP01 module&lt;/li&gt;         &lt;li&gt;Free application processor (150-MHz Arm&amp;#174; Cortex&amp;#174;-M4) and secondary processor (100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+)&lt;/li&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;         &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;Battery connector, charging IC, and charging indicator LED&lt;/li&gt;         &lt;li&gt;One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED&lt;/li&gt;         &lt;li&gt;OPTIGA Trust M advanced security controller for secure data storage&lt;/li&gt;         &lt;li&gt;Thermistor for sensing the ambient temperature&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Edition Kit&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/CYSBSYSKIT-DEV-01</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd i2s pdm">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 csd i2s pdm">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -2048,13 +1774,17 @@
     </chips>
     <name>KIT-BGT60TR13C-EMBEDD</name>
     <summary>The KIT-BGT60TR13C-EMBEDD Radar Embedded Kit allows for evaluation of the XENSIV&amp;#8482; BGT60TR13C sensor on a standardFeather form factor.</summary>
-    <prov_capabilities>adc cat1 cat1a comp dac dma feather flash_1024k hal i2c j2 kit_bgt60tr13c_embedd led low_power lptimer mcu_gp memory multi_core opamp optiga_trust_b psoc6 rgb_led rtc smart_io spi sram_288k switch uart usb_device usb_host</prov_capabilities>
-    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;        &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz ArmCortex-M0+ as the secondary processor. &lt;/li&gt;        &lt;li&gt;1024-KB Flash and 288-KB SRAM for customer application on CM4&lt;/li&gt;        &lt;li&gt;One-time-programmable (OTP) 1-Kb eFuse array&lt;/li&gt;        &lt;li&gt;Two 12-bit 2-Msps SAR ADCs with synchronized sampling, differential and single-ended modes, 16-channelsequencer with result averaging, and Deep Sleep operation &lt;/li&gt;        &lt;li&gt;Two low-power comparators available in Deep Sleep and Hibernate modes&lt;/li&gt;        &lt;li&gt;Full-speed USB&lt;/li&gt;        &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;        &lt;li&gt;CY7C65213A-32LTXI for USB-UART bridge functionality&lt;/li&gt;        &lt;li&gt;OPTIGA Trust B for authentication&lt;/li&gt;        &lt;li&gt;Feather compatible pin header&lt;/li&gt;        &lt;/ul&gt;&lt;p/&gt;        &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;        &lt;li&gt;KIT-BGT60TR13C-EMBEDD evaluation board&lt;/li&gt;        &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;        &lt;li&gt;Quick Start Guide&lt;/li&gt;        &lt;/ul&gt;</description>
+    <prov_capabilities>adc cat1 cat1a comp dac dma feather flash_1024k hal i2c j2 kit_bgt60tr13c_embedd led low_power lptimer mcu_gp memory multi_core optiga_trust_b psoc6 rgb_led rtc smart_io spi sram_288k switch uart usb_device usb_host</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor. &lt;/li&gt;         &lt;li&gt;1024-KB Flash and 288-KB SRAM for customer application on CM4&lt;/li&gt;         &lt;li&gt;One-time-programmable (OTP) 1-Kb eFuse array&lt;/li&gt;         &lt;li&gt;Two 12-bit 2-Msps SAR ADCs with synchronized sampling, differential and single-ended modes, 16-channel sequencer with result averaging, and Deep Sleep operation &lt;/li&gt;         &lt;li&gt;Two low-power comparators available in Deep Sleep and Hibernate modes&lt;/li&gt;         &lt;li&gt;Full-speed USB&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;CY7C65213A-32LTXI for USB-UART bridge functionality&lt;/li&gt;         &lt;li&gt;OPTIGA Trust B for authentication&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT-BGT60TR13C-EMBEDD evaluation board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/applications/solutions/sensor-solutions/presence-detection/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s pdm qspi">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s pdm qspi">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -2085,29 +1815,16 @@
     <name>CYW9P62S1-43012EVB-01</name>
     <summary>The CYW9P62S1-43012EVB-01 Kit is a low-cost hardware platform that enables design and debug of the USI WM-BAC-CYW-50 Module. USI WM-BAC-CYW-50 is a System in Package (SiP) module that contains the PSoC&#8482; 62 MCU (CY8C6247FDI-D52) and the radio part CYW43012 (WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cyw43012 cyw43xxx cyw9p62s1_43012evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rtc smart_io spi sram_288k std_crypto switch uart udb usb_device wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>Support of up to 1MB Flash and 288KB SRAM</li>
-        <li>BLE v5.0</li>
-        <li>IEEE 802.11n, 802.11ac friendly WLAN</li>
-        <li>Full-speed USB</li>
-        <li>Serial memory interface</li>
-        <li>Industry-leading CAPSENSE</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>PSoC&#8482; 6S2 Wi-Fi BT Pioneer Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;Support of up to 1MB Flash and 288KB SRAM&lt;/li&gt;         &lt;li&gt;BLE v5.0&lt;/li&gt;         &lt;li&gt;IEEE 802.11n, 802.11ac friendly WLAN&lt;/li&gt;         &lt;li&gt;Full-speed USB&lt;/li&gt;         &lt;li&gt;Serial memory interface&lt;/li&gt;         &lt;li&gt;Industry-leading CAPSENSE&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 6S2 Wi-Fi BT Pioneer Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/CYW9P62S1-43012EVB-01</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 usb_host">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -2158,29 +1875,16 @@
     <name>CYW9P62S1-43438EVB-01</name>
     <summary>The CYW9P62S1-43438EVB-01 Kit is a low-cost hardware platform that enables design and debug of the Azurewave AW-CU427 Module. AW-CU427 is a System in Package (SiP) module that contains the MCU part, PSoC&#8482; 62 MCU (CY8C6247BZI-D54) and the radio part CYW43438 ( WiFi + Bluetooth Combo Chip).</summary>
     <prov_capabilities>adc anycloud arduino bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cyw43438 cyw43xxx cyw9p62s1_43438evb_01 dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm pot psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb usb_device usb_host wifi</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>Support of up to 1MB Flash and 288KB SRAM</li>
-        <li>BLE v4.2</li>
-        <li>IEEE 802.11a/b/g/n WLAN</li>
-        <li>Full-speed USB</li>
-        <li>Serial memory interface</li>
-        <li>Industry-leading CAPSENSE</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>PSoC&#8482; 6S2 Wi-Fi BT Pioneer Board</li>
-        <li>USB Type-A to Micro-B cable</li>
-        <li>Quick Start Guide</li>
-        <li>Four jumper wires (4 inches each)</li>
-        <li>Two jumper wires (5 inches each)</li>
-        </ul>
-      ]]></description>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;Support of up to 1MB Flash and 288KB SRAM&lt;/li&gt;         &lt;li&gt;BLE v4.2&lt;/li&gt;         &lt;li&gt;IEEE 802.11a/b/g/n WLAN&lt;/li&gt;         &lt;li&gt;Full-speed USB&lt;/li&gt;         &lt;li&gt;Serial memory interface&lt;/li&gt;         &lt;li&gt;Industry-leading CAPSENSE&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 6S2 Wi-Fi BT Pioneer Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/CYW9P62S1-43438EVB-01</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.1.0 release</num>
@@ -2230,21 +1934,16 @@
     <name>PSOC6-GENERIC</name>
     <summary>This board support package is intended for creating custom PSoC&#8482; 6 BSPs.</summary>
     <prov_capabilities>cat1 cat1a hal low_power mcu_gp psoc6 rtc</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
-        <li>This manifest can also be used to allow the board to show up in the ModusToolbox tools</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        <li>NA</li>
-        </ul>
-    ]]></description>
-    <documentation_url>https://github.com/Infineon/TARGET_PSOC6-GENERIC</documentation_url>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.&lt;/li&gt;         &lt;li&gt;This manifest can also be used to allow the board to show up in the ModusToolbox tools&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;NA&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc6_generic">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc6_generic">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -2349,9 +2048,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1100 Microcontroller in TSSOP-38 with 64 KB Flash and full peripheral set of XMC1100 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC11_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc11_boot_001/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 low_power">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 low_power">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
         <num>2.1.0 release</num>
@@ -2368,13 +2071,17 @@
     </chips>
     <name>KIT_XMC12_BOOT_001</name>
     <summary>    The XMC1200 CPU Card (CPU-12 A-V1) houses the XMC1200 Microcontroller and a 2x30 pin edge for application expansion. This board along with application cards (e.g. LED Lighting Application Card) demonstrates the capabilities of XMC1200. The main use case for this board is to demonstrate the generic features of XMC1200 device including tool chain. The focus is safe operation under evaluation conditions. The board is neither cost nor size optimized and does not serve as a reference design.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
-    <prov_capabilities>adc can cat3 comp flash_200k i2c i2s kit_xmc12_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
+    <prov_capabilities>adc cat3 comp flash_200k i2c i2s kit_xmc12_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1200 Microcontroller in TSSOP-38 with 200KB Flash and full peripheral set of XMC1200 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC12_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc12_boot_001/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 low_power">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 low_power">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4">
         <num>2.1.0 release</num>
@@ -2391,13 +2098,17 @@
     </chips>
     <name>KIT_XMC13_BOOT_001</name>
     <summary>    The XMC1300 CPU board (CPU-13 A-V1) houses the XMC1300 Microcontroller and a 2x30 pin edge for application expansion. The board along with application cards (e.g. Color LED Card, White LED Card) demonstrates the capabilities of XMC1300. The main use case for this board is to demonstrate the generic features of XMC1300 device including tool chain. The focus is safe operation under evaluation conditions. The board is neither cost nor size optimized and does not serve as a reference design.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
-    <prov_capabilities>adc can cat3 comp flash_200k i2c i2s kit_xmc13_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
+    <prov_capabilities>adc cat3 comp flash_200k i2c i2s kit_xmc13_boot_001 led mcu_gp rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1302 Microcontroller in TSSOP-38 with 200KB Flash and full peripheral set of XMC1300 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC13_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc13_boot_001/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power posif">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power posif">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
         <num>2.1.0 release</num>
@@ -2418,9 +2129,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1400 (ARM&amp;#174; Cortex&amp;#174;-M0 based) Microcontroller in a VQFN64 package&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;li&gt;2x30 card edge connector for extension to application card e.g. Colour LED Card and White LED Card&lt;/li&gt;         &lt;li&gt;4 User LEDs connected to GPIO P4.0, P4.1, P4.2, P4.3&lt;/li&gt;         &lt;li&gt;Variable resistor R110 connected to analog input P2.5&lt;/li&gt;         &lt;li&gt;All the pins of XMC1400 are accessible via the connector JP101, JP103, JP104 and JP105&lt;/li&gt;         &lt;li&gt;CAN interface with CAN transceiver mounted&lt;/li&gt;         &lt;li&gt;External crystal 20 MHz and 32.768 kHz mounted&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC14_BOOT_001 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc14_boot_001/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 posif">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 low_power posif">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 low_power posif">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 posif">
         <num>2.1.0 release</num>
@@ -2457,13 +2172,17 @@
     </chips>
     <name>KIT_XMC_PLT2GO_XMC4200</name>
     <summary>    Kit Platform2GO XTREME XMC4200 kit - This kit has the XMC4200 device with debugger plus CAN, Arduino, MikroBUS and Shields2Go form factor. Equipped with an ARM&amp;#174; Cortex&amp;#174;-M4 based XMC&amp;#8482; Microcontroller from Infineon Technologies AG, the XMC4200 Platform2Go is designed to evaluate the capabilities of Infineon's XMC4200 Microcontroller.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
-    <prov_capabilities>adc arduino can cat3 dac dma ethernet flash_256k i2c i2s kit_xmc_plt2go_xmc4200 led mcu_gp pot rtc sdhc spi sram_40k switch usb_device usb_host xmc xmc4000</prov_capabilities>
+    <prov_capabilities>adc arduino can cat3 dac dma flash_256k i2c i2s kit_xmc_plt2go_xmc4200 led mcu_gp pot rtc sdhc spi sram_40k switch usb_device usb_host xmc xmc4000</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4200 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Arduino Uno compatibility&lt;/li&gt;         &lt;li&gt;Shields2Go connectivity&lt;/li&gt;         &lt;li&gt;Ethernet-enabled communication option&lt;/li&gt;         &lt;li&gt;Additional voltage level shifters&lt;/li&gt;         &lt;li&gt;Available in four different assembly versions: 3.3V Shields (Lite), 5V (Lite)&lt;/li&gt;         &lt;li&gt;CAN connectivity&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC_PLT2GO_XMC4200 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_plt2go_xmc4200/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power posif uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power posif uart">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
         <num>2.1.0 release</num>
@@ -2484,9 +2203,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4300-F100 Microcontroller based on ARM&amp;#174; Cortex&amp;#174;-M4@144MHZ, integrated EtherCAT Slave Controller, 256kB Flash and 128kB RAM&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Power over USB&lt;/li&gt;         &lt;li&gt;ESD and reverse current protection&lt;/li&gt;         &lt;li&gt;2x user button and 2x user LED&lt;/li&gt;         &lt;li&gt;Arduino hardware compatible 3.3V and 5V pinout&lt;/li&gt;         &lt;li&gt;mikroBUS hardware compatible for click boards&lt;/li&gt;         &lt;li&gt;CAN node with D-SUB 9 plug&lt;/li&gt;         &lt;li&gt;EtherCAT node with standard plug&lt;/li&gt;         &lt;li&gt;EtherCAT node with PHY to PHY connection (optional)&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC43_RELAX_ECAT_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc43_relax_ecat_v1/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory qspi">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 ethernet low_power memory qspi uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 ethernet low_power memory qspi uart">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory qspi">
         <num>2.1.0 release</num>
@@ -2507,9 +2230,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4400 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Arduino Uno compatibility&lt;/li&gt;         &lt;li&gt;Shields2Go connectivity&lt;/li&gt;         &lt;li&gt;Ethernet-enabled communication option&lt;/li&gt;         &lt;li&gt;Additional voltage level shifters&lt;/li&gt;         &lt;li&gt;Available in four different assembly versions: 3.3V Shields (Lite), 5V (Lite)&lt;/li&gt;         &lt;li&gt;CAN connectivity&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC_PLT2GO_XMC4400 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_plt2go_xmc4400/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power posif uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power posif uart">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 posif">
         <num>2.1.0 release</num>
@@ -2530,9 +2257,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4500 Microcontroller (ARM&amp;#174; Cortex&amp;#174;-M4F based)&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Power over USB&lt;/li&gt;         &lt;li&gt;ESD and reverse current protection&lt;/li&gt;         &lt;li&gt;2x user button and 2x user LED&lt;/li&gt;         &lt;li&gt;4x SPI-Master, 3x I2C, 3x I2S, 3x UART, 2x CAN, 17x ADC&lt;/li&gt;         &lt;li&gt;(12 bit), 2x DAC, 31x PWM mapped on 2 Pin Headers 2x 20 0.1"&lt;/li&gt;         &lt;li&gt;Micro-USB plug&lt;/li&gt;         &lt;li&gt;Ethernet PHY and RJ45 Jack&lt;/li&gt;         &lt;li&gt;Real Time Clock crystal&lt;/li&gt;         &lt;li&gt;32 Mbit Quad-SPI Flash&lt;/li&gt;         &lt;li&gt;microSD card slot&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC45_RELAX_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc45_relax_v1/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory posif qspi">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power memory posif qspi uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 low_power memory posif qspi uart">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu8 memory posif qspi">
         <num>2.1.0 release</num>
@@ -2553,9 +2284,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4700 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller in a LQFP144 package&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;2 x User Push-Buttons and 2 x User LED and 1 x Reset Push-Button&lt;/li&gt;         &lt;li&gt;Voltage Regulator 5 V -&amp;gt; 3.3 V&lt;/li&gt;         &lt;li&gt;USB (Micro USB Plug)&lt;/li&gt;         &lt;li&gt;12 MHz Crystal&lt;/li&gt;         &lt;li&gt;32.768 kHz RTC Crystal&lt;/li&gt;         &lt;li&gt;0 Ohm Bridges for 3.3 V Arduino shields&lt;/li&gt;         &lt;li&gt;Ethernet PHY and RJ45 Jack&lt;/li&gt;         &lt;li&gt;32 Mbit Quad-SPI Flash Memory&lt;/li&gt;         &lt;li&gt;microSD Card Slot&lt;/li&gt;         &lt;li&gt;CAN Transceiver&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC47_RELAX_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc47_relax_v1/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 memory posif qspi">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 low_power memory posif qspi uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 low_power memory posif qspi uart">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 memory posif qspi">
         <num>2.1.0 release</num>
@@ -2596,9 +2331,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4800-F144 Microcontroller based on ARM&amp;#174; Cortex&amp;#174;-M4 @144MHz, integrated EtherCAT Slave Controller, 2MB Flash and 352KB RAM&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD + SWO&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;li&gt;Power over USB&lt;/li&gt;         &lt;li&gt;ESD and reverse current protection&lt;/li&gt;         &lt;li&gt;2 x user button and 2 x user LED&lt;/li&gt;         &lt;li&gt;Arduino hardware compatible 3.3V pinout&lt;/li&gt;         &lt;li&gt;Real Time Clock crystal&lt;/li&gt;         &lt;li&gt;Quad SPI Flash&lt;/li&gt;         &lt;li&gt;microSD Card Slot&lt;/li&gt;         &lt;li&gt;Ethernet PHY and RJ45 Jack&lt;/li&gt;         &lt;li&gt;CAN node&lt;/li&gt;         &lt;li&gt;EtherCAT node&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC48_RELAX_ECAT_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc48_relax_ecat_v1/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 memory posif qspi">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 low_power memory posif qspi uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4 ccu4_capture ccu8 low_power memory posif qspi uart">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 ccu4_capture ccu8 memory posif qspi">
         <num>2.1.0 release</num>
@@ -2615,13 +2354,17 @@
     </chips>
     <name>WLC1115-68LQXQ</name>
     <summary>BSP for WLC1 15W Solution</summary>
-    <prov_capabilities>j2 led mcu_gp psoc4 usbpd wlc1</prov_capabilities>
-    <description/>
+    <prov_capabilities>j2 led mcu_gp usbpd</prov_capabilities>
+    <description>The solution board is Qi v1.3.2 compliant Extended Power Profile transmitter.</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k hal i2c low_power spi sram_16k uart wlc1 wlc1115_68lqxq">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k hal i2c low_power spi sram_16k uart wlc1 wlc1115_68lqxq">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2">
         <num>3.0.0 release</num>
@@ -2647,20 +2390,16 @@
     <name>XMC-GENERIC</name>
     <summary>This board support package is intended for creating custom XMC&#8482; BSPs.</summary>
     <prov_capabilities>cat3 mcu_gp xmc</prov_capabilities>
-    <description><![CDATA[
-        <div class="category">Kit Features:</div><ul>
-        <li>This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.</li>
-        <li>This is manifest can also be used to allow the board to show up in the ModusToolbox tools</li>
-        </ul><p/>
-
-        <div class="category">Kit Contents:</div><ul>
-        </ul>
-      ]]></description>
-    <documentation_url>https://github.com/Infineon/TARGET_XMC-GENERIC</documentation_url>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.&lt;/li&gt;         &lt;li&gt;This is manifest can also be used to allow the board to show up in the ModusToolbox tools&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://github.com/infineon/TARGET_XMC-GENERIC</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 xmc_generic">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 xmc_generic">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -2687,11 +2426,15 @@
     <summary>BSP for WLC1 50W Solution</summary>
     <prov_capabilities>j2 led mcu_gp usbpd</prov_capabilities>
     <description>The solution board is Qi v1.3.2 compliant Extended Power Profile transmitter.</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1/</documentation_url>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/ref_wlc_tx50w_n1</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
         <num>3.1.0 release</num>
