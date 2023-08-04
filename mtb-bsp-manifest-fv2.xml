@@ -678,6 +678,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CEVAL-062S2-MUR-4373M2</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-4373M2</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+      <radio>LBEE5PK2BC (CYW4373IUBGT)</radio>
+    </chips>
+    <name>CY8CEVAL-062S2-MUR-4373M2</name>
+    <summary>    The CY8CEVAL-062S2 PSoC&amp;#8482; 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC&amp;#8482; 62 MCU. The PSoC&amp;#8482; 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices. It comes with industry-leading CAPSENSE&amp;#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;CY8CEVAL-062S2-MUR-4373EM2 is the board support package for the PSoC&amp;#8482; 62S2 Evaluation Kit in combination with the 2BC radio module and supports PSoC&amp;#8482; 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.&lt;/p&gt;</summary>
+    <prov_capabilities>adc anycloud arduino bsp_gen4 bt capsense capsense_button capsense_linear_slider cat1 cat1a comp csd cy8ceval_062s2_mur_4373m2 cyw4373 cyw43xxx dma flash_2048k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm pot psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&amp;#8482; Wi-Fi/Bluetooth combo devices.&lt;/li&gt;         &lt;li&gt;mikroBUS add-on board interface for peripheral expansion.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Evaluation Board&lt;/li&gt;         &lt;li&gt;Embedded Artists 2BC Wi-Fi/Bluetooth M.2 radio module&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8ceval-062s2/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CEVAL-062S2-MUR-4373EM2</id>
     <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-4373EM2</board_uri>
