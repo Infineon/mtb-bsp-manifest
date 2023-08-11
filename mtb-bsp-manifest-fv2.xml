@@ -1986,7 +1986,7 @@
     <summary>This board support package is intended for creating custom PSoC&#8482; 6 BSPs.</summary>
     <prov_capabilities>cat1 cat1a hal low_power mcu_gp psoc6 rtc</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox user guide for creating custom manifests.&lt;/li&gt;         &lt;li&gt;This manifest can also be used to allow the board to show up in the ModusToolbox tools&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;NA&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
+    <documentation_url>https://github.com/Infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc6_generic">
         <num>Latest 4.X release</num>
@@ -2027,62 +2027,6 @@
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
-      </version>
-    </versions>
-  </board>
-  <board default_location="local">
-    <id>CYW920829-KEYBOARD</id>
-    <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYW920829-KEYBOARD</board_uri>
-    <chips>
-      <mcu>CYW20829A0LKML</mcu>
-      <radio>CYW20829A0LKML</radio>
-    </chips>
-    <name>CYW920829-KEYBOARD</name>
-    <summary>    The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE SoC is a Bluetooth&amp;#174; 5.3 core spec-compliant for IoT, HID, smart home and industrial applications. It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the high demands of Bluetooth&amp;#174; LE Applications.</summary>
-    <prov_capabilities>ble bsp_gen4 bt cat1 cat1b cyw20829 cyw920829_keyboard flash_0k hal i2s led low_power mcu_gp memory memory_qspi mxsv2 nor_flash pdm qspi rtc sdhc smart_io sram_64k std_crypto switch</prov_capabilities>
-    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;128-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 2.1 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE subsystem with 2.4GHz RF transceiver, Digital PHY and Programmable TX power&lt;/li&gt;         &lt;li&gt;16-bit SAR ADC with audio and DC measurement capability&lt;/li&gt;         &lt;li&gt;Connectors for battery&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Up to 26 programmable GPIOs&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW920829-KEYBOARD Reference Solution&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;MiniProg-4&lt;/li&gt;         &lt;li&gt;Kit User Guide&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
-    <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0-Beta1 release</num>
-        <commit>release-v1.0.0-Beta1</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0-Beta2 release</num>
-        <commit>release-v1.0.0-Beta2</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0-Beta3 release</num>
-        <commit>release-v1.0.0-Beta3</commit>
-      </version>
-    </versions>
-  </board>
-  <board default_location="local">
-    <id>CYW920829-MOUSE</id>
-    <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYW920829-MOUSE</board_uri>
-    <chips>
-      <mcu>CYW20829A0LKML</mcu>
-      <radio>CYW20829A0LKML</radio>
-    </chips>
-    <name>CYW920829-MOUSE</name>
-    <summary>    The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE SoC is a Bluetooth&amp;#174; 5.3 core spec-compliant for IoT, HID, smart home and industrial applications. It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the high demands of Bluetooth&amp;#174; LE Applications.</summary>
-    <prov_capabilities>ble bsp_gen4 bt cat1 cat1b cyw20829 cyw920829_mouse flash_0k hal i2s led low_power mcu_gp memory memory_qspi mxsv2 nor_flash pdm qspi rtc sdhc smart_io sram_64k std_crypto switch</prov_capabilities>
-    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;128-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 2.1 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE subsystem with 2.4GHz RF transceiver, Digital PHY and Programmable TX power&lt;/li&gt;         &lt;li&gt;16-bit SAR ADC with audio and DC measurement capability&lt;/li&gt;         &lt;li&gt;Connectors for battery&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Up to 26 programmable GPIOs&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW920829-MOUSE Reference Solution&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;MiniProg-4&lt;/li&gt;         &lt;li&gt;Kit User Guide&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
-    <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0-Beta1 release</num>
-        <commit>release-v1.0.0-Beta1</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0-Beta2 release</num>
-        <commit>release-v1.0.0-Beta2</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0-Beta3 release</num>
-        <commit>release-v1.0.0-Beta3</commit>
       </version>
     </versions>
   </board>
@@ -2421,11 +2365,11 @@
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 psoc4 wlc1">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3 psoc4 wlc1">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -2482,10 +2426,6 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
-        <num>3.1.0 release</num>
-        <commit>release-v3.1.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 wlc1 wlc1150_68lqxq">
         <num>3.1.0 release</num>
