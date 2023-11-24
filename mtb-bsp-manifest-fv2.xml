@@ -1540,61 +1540,6 @@
     </versions>
   </board>
   <board default_location="local">
-    <id>CY8CPROTO-064B0S1-BLE</id>
-    <category>PSoC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064B0S1-BLE</board_uri>
-    <chips>
-      <mcu>CYB06447BZI-BLD53</mcu>
-    </chips>
-    <name>CY8CPROTO-064B0S1-BLE</name>
-    <summary>The PSoC&#8482; 64 Secure Boot BLE Prototyping Kit (CY8CPROTO-064B0S1-BLE) is a low-cost hardware platform that enables design and debug of PSoC&#8482; 64 MCUs. This kit is designed with a snap-away form-factor, allowing users to separate the KitProg (on-board programmer and debugger) from the target board and use independently.</summary>
-    <prov_capabilities>adc ble cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rtc secure_boot smart_io spi sram_288k std_crypto switch uart</prov_capabilities>
-    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;BLE 5.0 certified CYBLE-416070-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC&amp;#8482; 64 MCU&lt;/li&gt;         &lt;li&gt;Up to 36 GPIOs in a 14x18.5x2 mm package&lt;/li&gt;         &lt;li&gt;Supports digital programmable logic, capacitive-sensing with CAPSENSE, a PDM-PCM digital microphone interface, a Quad-SPI interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;2x PSoC&amp;#8482; 64 BLE Prototyping Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-064b0s1-ble/</documentation_url>
-    <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt csd cy8cproto_064b0s1_ble i2s multi_core pdm udb">
-        <num>Latest 4.X release</num>
-        <commit>latest-v4.X</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 bt csd cy8cproto_064b0s1_ble i2s multi_core pdm udb">
-        <num>4.2.0 release</num>
-        <commit>release-v4.2.0</commit>
-      </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cy8cproto_064b0s1_ble">
-        <num>4.1.0 release</num>
-        <commit>release-v4.1.0</commit>
-      </version>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
-        <num>3.1.0 release</num>
-        <commit>release-v3.1.0</commit>
-      </version>
-      <version tools_min_version="2.4.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
-        <num>2.3.0 release</num>
-        <commit>release-v2.3.0</commit>
-      </version>
-      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
-        <num>2.2.0 release</num>
-        <commit>release-v2.2.0</commit>
-      </version>
-      <version tools_min_version="2.2.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
-        <num>2.1.0 release</num>
-        <commit>release-v2.1.0</commit>
-      </version>
-    </versions>
-  </board>
-  <board default_location="local">
     <id>CY8CPROTO-064B0S3</id>
     <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064B0S3</board_uri>
