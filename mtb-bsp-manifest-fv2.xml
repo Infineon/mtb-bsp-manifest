@@ -328,6 +328,29 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CPROTO-040T</id>
+    <category>PSoC&#8482; 4 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-040T</board_uri>
+    <chips>
+      <mcu>CY8C4046LQI-T452</mcu>
+    </chips>
+    <name>CY8CPROTO-040T</name>
+    <summary>The PSoC&amp;#8482; 4000T CAPSENSE&amp;#8482; Prototyping Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CAPSENSE&amp;#8482; solution using the PSoC&amp;#8482; 4000T device.</summary>
+    <prov_capabilities>bsp_gen4 capsense cat2 cy8cproto_040t flash_64k i2c spi led low_power mcu_gp msc_button msc_proximity msc_slider msclp psoc4 sram_8k uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CPROTO-040T PSoC&amp;#8482; 4000T CAPSENSE&amp;#8482; Prototyping Kit &lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-040t</documentation_url>
+    <versions>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>PMG1-CY7110</id>
     <category>PMG BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PMG1-CY7110</board_uri>
