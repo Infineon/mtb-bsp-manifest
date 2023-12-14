@@ -351,6 +351,29 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>EVAL_PMG1_B1_DRP</id>
+    <category>PMG BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_EVAL_PMG1_B1_DRP</board_uri>
+    <chips>
+      <mcu>CYPM1116-48LQXI</mcu>
+    </chips>
+    <name>EVAL_PMG1_B1_DRP</name>
+    <summary>The EVAL_PMG1_B1_DRP Prototyping kit is a development platform to design products from the EZ-PD&#8482; PMG1-B1  USB Power Delivery (PD) microcontroller (MCU) with an integrated buck-boost battery charger. EZ-PD&#8482; PMG1-B1  is targeted for battery-powered applications that are powered by USB-C PD such as cordless power tool chargers,  wireless speakers, and portable electronics.</summary>
+    <prov_capabilities>adc bsp_gen4 cat2 eval_pmg1_b1_drp flash_128k i2c j2 led low_power mcu_gp pmg1 pmg1_b1_cy7116 spi sram_16k switch uart usbpd</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support for single Port USB PD 3.1 Source/ Sink Role (DRP).&lt;/li&gt;         &lt;li&gt;Support 100W sink operation and 27W source operation.&lt;/li&gt;         &lt;li&gt;Support USB bus/DC supply/battery powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-B1 silicon (CYPM1116-48LQXI) in hardware and support for BSP, PDL and Middleware in ModusToolbox.&lt;/li&gt;         &lt;li&gt;The kit can provide a 5V/400mA supply to enable customers to power the peripherals/sensors if required. An on-board regulator from IFX can provide this power using the VBUS input. This is an optional requirement to be decided during the design phase.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD CYPM116-48LQXI based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/EVAL_PMG1_B1_DRP</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>PMG1-CY7110</id>
     <category>PMG BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PMG1-CY7110</board_uri>
