@@ -2753,4 +2753,50 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>KIT_XMC71_EVK_LITE_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC71_EVK_LITE_V1</board_uri>
+    <chips>
+      <mcu>XMC7100D-F176K4160</mcu>
+    </chips>
+    <name>KIT_XMC71_EVK_LITE_V1</name>
+    <summary>The KIT_XMC71_EVK_LITE_V1, a 176-pin evaluation board is based on the XMC7100 family of devices. XMC7100 MCU is designed for  industrial applications. The evaluation board carries a XMC7100D microcontroller,and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  a 512-Mbit QSPI NOR flash, CAN FD transceiver, Ethernet PHY transceiver with RJ45 connector interface,  a Shield2Go connector interface and MikroBUS connector interface, two user LEDs, one potentiometer, and two push buttons.  The board supports operating voltages from 3.3 V to 5.0 V for XMC7100D device.</summary>
+    <prov_capabilities>adc arduino can cat1 cat1c dma ethernet flash_4160k hal i2c i2s kit_xmc71_evk_lite_v1 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash qspi rtc sdhc smart_io spi sram_768k std_crypto switch uart xmc7000 xmc7100</prov_capabilities>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7100D-F176K4160AA 8MB Flash 176-pin TEQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;Ethernet interface&lt;/li&gt;                &lt;li&gt;One 512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7100D device&lt;/li&gt;                &lt;li&gt;Two user LEDs, two user buttons, and a reset button for the XMC7100D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7100 evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;Quick start guide (printed on the kit package)&lt;/li&gt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc71_lite_evk_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC71_EVK_LITE_V2</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC71_EVK_LITE_V2</board_uri>
+    <chips>
+      <mcu>XMC7100D-F176K4160</mcu>
+    </chips>
+    <name>KIT_XMC71_EVK_LITE_V2</name>
+    <summary>The KIT_XMC71_EVK_LITE_V2, a 100-pin evaluation board is based on the XMC7100 family of devices. XMC7100 MCU is designed for  industrial applications. The evaluation board carries a XMC7100D microcontroller,and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  a 512-Mbit QSPI NOR flash, CAN FD transceiver, Ethernet PHY transceiver with RJ45 connector interface,  a Shield2Go connector interface and MikroBUS connector interface, two user LEDs, one potentiometer, and two push buttons.  The board supports operating voltages from 3.3 V to 5.0 V for XMC7100D device.&lt;br&gt;     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;KIT_XMC71_EVK_LITE_V2 is the board support package for the XMC7100 Lite Evaluation board with XMC7100D-F100K4160AA MCU. Replace the XMC7100D-F176K4160AA (default device) on the XMC7100 Lite Evaluation board with XMC7100D-F106K4160AA to use this BSP.&lt;/p&gt;</summary>
+    <prov_capabilities>adc arduino can cat1 cat1c dma ethernet flash_4160k hal i2c i2s kit_xmc71_evk_lite_v2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash qspi rtc sdhc smart_io spi sram_768k std_crypto switch uart xmc7000 xmc7100</prov_capabilities>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7100D-F100K4160AA 8MB Flash 176-pin TEQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;Ethernet interface&lt;/li&gt;                &lt;li&gt;One 512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7100D device&lt;/li&gt;                &lt;li&gt;Two user LEDs, two user buttons, and a reset button for the XMC7100D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7100 evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;Quick start guide (printed on the kit package)&lt;/li&gt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc71_lite_evk_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
