@@ -2254,6 +2254,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CYW989829M2EVB-01</id>
+    <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW989829M2EVB-01</board_uri>
+    <chips>
+      <mcu>CYW89829B01MKSBG</mcu>
+      <radio>CYW89829B01MKSBG</radio>
+    </chips>
+    <name>CYW989829M2EVB-01</name>
+    <summary>    The Infineon AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE evaluation board (CYW989829M2EVB-01) enables evaluation, prototyping, and development of a wide array of Industrial and Automotive IoT applications using the AIROC&amp;#8482; CYW89829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an ARM&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW89829 is optimal solution for automotive and industrial use cases such as car access, battery managment system, automotive sensors, and other applications requiring Automotive AECQ-100 Grade-2 qualification.</summary>
+    <prov_capabilities>adc ble bsp_gen4 bt can cat1 cat1b cyw20829 cyw89829 cyw989829m2evb_01 dma flash_0k hal i2c i2s led lin low_power lptimer mcu_gp memory memory_qspi mesh mxsv2 nor_flash pdm qspi rtc smart_io spi sram_256k std_crypto switch tdm uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU in 77 pin BGA SIP package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW89829 evaluation board (CYW9BTM2AUAD+CYW989829SIPM2IPA1)&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC11_BOOT_001</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_XMC11_BOOT_001</board_uri>
