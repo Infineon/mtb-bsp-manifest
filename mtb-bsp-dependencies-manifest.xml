@@ -12567,4 +12567,51 @@
       </version>
     </versions>
   </depender>
+  <depender>
+    <id>KIT_XMC1300_DC_V1</id>
+    <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-xmclib-cat3</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat3</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-xmclib-cat3</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat3</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
 </dependencies>

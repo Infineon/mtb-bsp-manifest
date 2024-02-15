@@ -2847,4 +2847,27 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>KIT_XMC1300_DC_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC1300_DC_V1</board_uri>
+    <chips>
+      <mcu>XMC1302-T038x0200</mcu>
+    </chips>
+    <name>KIT_XMC1300_DC_V1</name>
+    <summary>    The XMC1300 Drive Card houses the XMC1302 Microcontroller, a power board connector, a set of position interface circuits with hall and encoder connectors, a USIC interface and an isolated on-board debug interface. The board along with a three phase inverter demonstrates the capabilities of the XMC1302. The main use case for this board is to demonstrate the motor control features of XMC1302 device including tool chain. The focus is safe operation under evaluation conditions. The board is neither cost nor size optimized and does not serve as a reference design.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc ccu4 ccu8 comp flash_200k i2c i2s xmc led kit_xmc1300_dc_v1 posif rtc spi sram_16k uart xmcdc xmc1000 low_power</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1302 Microcontroller in TSSOP-38 with 200KB Flash and full peripheral set of XMC1300 series&lt;/li&gt;         &lt;li&gt;On-board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC1300_DC_V1 drive card&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc1300_dc_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
