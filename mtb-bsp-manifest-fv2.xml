@@ -2893,4 +2893,51 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>EVAL-XMC4800PSOC6M5-PSOC6</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_EVAL-XMC4800PSOC6M5-PSOC6</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+      <radio>LBEE59B1LV (CYW43012C0WKWBG)</radio>
+    </chips>
+    <name>EVAL-XMC4800PSOC6M5-PSOC6</name>
+    <summary>The EVAL-XMC4800PSOC6M5 is a controller board which fits to modular application design kits (MADK) with M5 connectors. It enables easy evaluation of the supported MADKs and can be used for designing own software extensions. It comes with XMC4800 for inverter &amp; motor control and PSoC&amp;#8482; 6 for Web-based system configuration incl. Wi-Fi connectivity, on-board debugger and programmer for both MCUs, power supply, OPTIGA&amp;#8482;  TrustM security solution, Quad-SPI NOR flash and interfaces to connect encoder/resolver and EtherCAT complete the board.</summary>
+    <prov_capabilities>adc bsp_gen4 bt cat1 cat1a cyw43012 cyw43xxx dma flash_2048k hal led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m psoc6 qspi rgb_led rtc smart_io spi std_crypto uart wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;XMC4800 for inverter &amp; motor control&lt;/li&gt;         &lt;li&gt;PSoC62+Murata 1LV Module incl. Wi-Fi connectivity and configuration GUI &lt;/li&gt;         &lt;li&gt;Interface to MADKs with M5 connector&lt;/li&gt;         &lt;li&gt;ModusToolBox&amp;#8482; enabled&lt;/li&gt;         &lt;li&gt;USB on-board debugger/programmer for both MCUs&lt;/li&gt;         &lt;li&gt;Add-on connectors for extension on EtherCAT and external encoder/resolver circuitries&lt;/li&gt;         &lt;li&gt;On-board 24V / 15W flyback DC/DC&lt;/li&gt;         &lt;li&gt;On-board OPTIGA&amp;#8482;  TrustM security solution&lt;/li&gt;         &lt;li&gt;Isolated CAN interface&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EVAL-XMC4800PSOC6M5 board&lt;/li&gt;         &lt;li&gt;USB cable&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/eval-xmc4800psoc6m5</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>EVAL-XMC4800PSOC6M5-XMC</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_EVAL-XMC4800PSOC6M5-XMC</board_uri>
+    <chips>
+      <mcu>XMC4800-E196x2048</mcu>
+    </chips>
+    <name>EVAL-XMC4800PSOC6M5-XMC</name>
+    <summary>The EVAL-XMC4800PSOC6M5 is a controller board which fits to modular application design kits (MADK) with M5 connectors. It enables easy evaluation of the supported MADKs and can be used for designing own software extensions. It comes with XMC4800 for inverter &amp; motor control and PSoC&amp;#8482; 6 for Web-based system configuration incl. Wi-Fi connectivity, on-board debugger and programmer for both MCUs, power supply, OPTIGA&amp;#8482;  TrustM security solution, Quad-SPI NOR flash and interfaces to connect encoder/resolver and EtherCAT complete the board.</summary>
+    <prov_capabilities>adc bsp_gen4 can cat3 ccu4 ccu8 dac dma eval_xmc4800psoc6m5_xmc flash_2048k i2c led low_power mcu_gp posif rgb_led rtc spi sram_352k uart xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;XMC4800 for inverter &amp; motor control&lt;/li&gt;         &lt;li&gt;PSoC62+Murata 1LV Module incl. Wi-Fi connectivity and configuration GUI &lt;/li&gt;         &lt;li&gt;Interface to MADKs with M5 connector&lt;/li&gt;         &lt;li&gt;ModusToolBox&amp;#8482; enabled&lt;/li&gt;         &lt;li&gt;USB on-board debugger/programmer for both MCUs&lt;/li&gt;         &lt;li&gt;Add-on connectors for extension on EtherCAT and external encoder/resolver circuitries&lt;/li&gt;         &lt;li&gt;On-board 24V / 15W flyback DC/DC&lt;/li&gt;         &lt;li&gt;On-board OPTIGA&amp;#8482;  TrustM security solution&lt;/li&gt;         &lt;li&gt;Isolated CAN interface&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EVAL-XMC4800PSOC6M5 board&lt;/li&gt;         &lt;li&gt;USB cable&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/eval-xmc4800psoc6m5</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
