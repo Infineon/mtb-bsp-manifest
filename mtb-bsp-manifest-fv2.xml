@@ -2963,4 +2963,50 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>KIT_XMC42_DPCC_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC42_DPCC_V1</board_uri>
+    <chips>
+      <mcu>XMC4200-F64x256</mcu>
+    </chips>
+    <name>KIT_XMC42_DPCC_V1</name>
+    <summary>    XMC4200 Digital Power Control Card - This kit has the XMC4200 device with debugger plus connector to the XMC Digital Power Explorer Board. Equipped with an ARM&amp;#174; Cortex&amp;#174;-M4 based XMC&amp;#8482; Microcontroller from Infineon Technologies AG, the XMC4200 Digital Power Control Card is designed to evaluate the capabilities of Infineon's XMC4200 Microcontroller for power stage control applications.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>buck_converter adc cat3 ccu8 dac dma flash_256k i2c kit_xmc42_dpcc_v1 low_power mcu_gp rtc sram_40k uart xmc xmc4000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC4200 (ARM&amp;#174; Cortex&amp;#174;-M4 based) Microcontroller&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD&lt;/li&gt;         &lt;li&gt;Detachable J-Link debugger and UART virtual COM port, with micro USB connector&lt;/li&gt;         &lt;li&gt;Virtual COM Port via Debug Probe&lt;/li&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC42_DPCC_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 buck_converter">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 buck_converter">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_XMC13_DPCC_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC13_DPCC_V1</board_uri>
+    <chips>
+      <mcu>XMC1302-T038x0200</mcu>
+    </chips>
+    <name>KIT_XMC13_DPCC_V1</name>
+    <summary>    The XMC1300 Digital Power Control card board (CPU-13 A-V1) houses the XMC1300 Microcontroller and a 2x30 pin edge for digital power conversion application. The board along with XMC digital power expansion board demonstrates the capabilities for the power digital power conversion applications.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>buck_converter adc cat3 ccu4 ccu8 comp flash_200k i2c i2s kit_xmc13_dpcc_v1 low_power mcu_gp rtc sram_16k uart xmc xmc1000</prov_capabilities>
+    <description>        &lt;div class="category";&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;XMC1302 Microcontroller in TSSOP-38 with 200KB Flash and full peripheral set of XMC1300 series&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Virtual COM port for UART communication with terminal program e.g. Hyperterminal&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_XMC13_DPCC_V1 evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 buck_converter">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 buck_converter">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
