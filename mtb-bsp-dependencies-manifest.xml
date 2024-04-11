@@ -6456,7 +6456,7 @@
           </dependee>
           <dependee>
             <id>trusted-firmware-m</id>
-            <commit>release-v1.3.110</commit>
+            <commit>release-v1.3.120</commit>
           </dependee>
         </dependees>
       </version>
@@ -6485,7 +6485,7 @@
           </dependee>
           <dependee>
             <id>trusted-firmware-m</id>
-            <commit>release-v1.3.110</commit>
+            <commit>release-v1.3.120</commit>
           </dependee>
         </dependees>
       </version>
@@ -6514,7 +6514,7 @@
           </dependee>
           <dependee>
             <id>trusted-firmware-m</id>
-            <commit>release-v1.3.110</commit>
+            <commit>release-v1.3.120</commit>
           </dependee>
         </dependees>
       </version>
