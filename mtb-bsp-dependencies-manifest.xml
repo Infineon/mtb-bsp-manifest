@@ -3437,35 +3437,6 @@
         </dependees>
       </version>
       <version>
-        <commit>release-v4.3.0</commit>
-        <dependees>
-          <dependee>
-            <id>cat1cm0p</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-lib</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-make</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-hal-cat1</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-pdl-cat1</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>recipe-make-cat1a</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
         <commit>release-v4.2.0</commit>
         <dependees>
           <dependee>
@@ -12402,27 +12373,6 @@
           </dependee>
         </dependees>
       </version>
-      <version>
-        <commit>release-v3.1.0</commit>
-        <dependees>
-          <dependee>
-            <id>core-lib</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-make</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-pdl-cat2</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-          <dependee>
-            <id>recipe-make-cat2</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
     </versions>
   </depender>
   <depender>
@@ -12853,48 +12803,6 @@
           </dependee>
         </dependees>
       </version>
-      <version>
-        <commit>release-v2.3.0</commit>
-        <dependees>
-          <dependee>
-            <id>core-lib</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-make</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-xmclib-cat3</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-          <dependee>
-            <id>recipe-make-cat3</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.3.0</commit>
-        <dependees>
-          <dependee>
-            <id>core-lib</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-make</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-xmclib-cat3</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-          <dependee>
-            <id>recipe-make-cat3</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
     </versions>
   </depender>
   <depender>
@@ -12902,27 +12810,6 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
-        <dependees>
-          <dependee>
-            <id>core-lib</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-make</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-xmclib-cat3</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-          <dependee>
-            <id>recipe-make-cat3</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.3.0</commit>
         <dependees>
           <dependee>
             <id>core-lib</id>
@@ -13080,27 +12967,6 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
-        <dependees>
-          <dependee>
-            <id>core-lib</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>core-make</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>mtb-xmclib-cat3</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-          <dependee>
-            <id>recipe-make-cat3</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.3.0</commit>
         <dependees>
           <dependee>
             <id>core-lib</id>
