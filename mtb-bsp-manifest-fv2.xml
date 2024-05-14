@@ -1350,6 +1350,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CY8CKIT-062S2-AI</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-062S2-AI</board_uri>
+    <chips>
+      <mcu>CY8C624ABZI-S2D44</mcu>
+      <radio>LBEE5KL1YN</radio>
+    </chips>
+    <name>CY8CKIT-062S2-AI</name>
+    <summary>The CY8CKIT-062S2-AI PSoC&amp;#8482; 62S2 AI Evaluation Kit is a cost effective and small development kit providing the best of Infineon's solutions to drive adoption of Infineon's hardware, Imagimob Studio and Infineon's Software products.&lt;br&gt; It comes with Murata LBEE5KL1YN Module, KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, motion sensor, magnetometer, pressure sensor, PDM-PCM microphone, and RADAR sensor.</summary>
+    <prov_capabilities>adc anycloud bsp_gen4 bt cat1 cat1a cy8ckit_062s2_ai cyw43439 cyw43xxx dma flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc smart_io spi sram_1024k std_crypto switch uart usb_device wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 512-Mb NOR flash&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, a PDM-PCM digital microphone interface, a Quad-SPI interface, an I2C interface.&lt;/li&gt;         &lt;li&gt;Supports 6-axis motion sensor (BMI270)&lt;/li&gt;         &lt;li&gt;Supports magnetometer (BMM350)&lt;/li&gt;         &lt;li&gt;Supports barometric pressure sensor (DPS368)&lt;/li&gt;         &lt;li&gt;Supports RADAR sensor (BGT60TR13C)&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 AI Evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/CY8CKIT-062S2-AI</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CKIT-064B0S2-4343W</id>
     <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064B0S2-4343W</board_uri>
