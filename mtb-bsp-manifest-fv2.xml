@@ -2304,6 +2304,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.0.3 release</num>
         <commit>release-v1.0.3</commit>
       </version>
@@ -2322,8 +2326,8 @@
     <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CYW989829M2EVB-01</board_uri>
     <chips>
-      <mcu>CYW89829B01MKSBG</mcu>
-      <radio>CYW89829B01MKSBG</radio>
+      <mcu>CYW89829B0232</mcu>
+      <radio>CYW89829B0232</radio>
     </chips>
     <name>CYW989829M2EVB-01</name>
     <summary>    The Infineon AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE evaluation board (CYW989829M2EVB-01) enables evaluation, prototyping, and development of a wide array of Industrial and Automotive IoT applications using the AIROC&amp;#8482; CYW89829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an Arm&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW89829 is optimal solution for automotive and industrial use cases such as car access, battery managment system, automotive sensors, and other applications requiring Automotive AECQ-100 Grade-2 qualification.</summary>
@@ -2334,6 +2338,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>1.0.3 release</num>
