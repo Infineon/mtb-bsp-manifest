@@ -2354,6 +2354,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CYW955913EVK-01</id>
+    <category>AIROC&#8482; Connectivity BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW955913EVK-01</board_uri>
+    <chips>
+      <mcu>CYW55913IUBGT</mcu>
+      <radio>CYW55913IUBGT</radio>
+    </chips>
+    <name>CYW955913EVK-01</name>
+    <summary>The Infineon CYW55913 is ultra-lower power, single-chip, connected MCU that supports 1x1 Wi-Fi 6/6E,  Bluetooth&#174; Low Energy 5.3, Matter, IP networking, with integrated PMU, targeted at Internet-of-Things (IoT) applications for stand-alone operation or to offload a host-processor. An integrated 192 MHz Arm&#174; Cortex&#174;-CM33,  runs the Wi-Fi and Networking Stacks, Bluetooth&#174; LE 5.3 and supports a wide array of peripherals. &lt;p/&gt; The CYW55913 is a low-power, single-chip device that supports single-stream, tri-band((2.4 GHz, and 5-7 GHz)), Wi-Fi 6/6E, IEEE 802.11ax-compliant Wi-Fi MAC/baseband/radio and Bluetooth&amp;#174; Low Energy 5.3. In 802.11ax mode, the device supports rates up to 1024 QAM MCS11 in 20 MHz channels.</summary>
+    <prov_capabilities>anycloud bsp_gen4 bt cat5 cyw55913 cyw55xxx cyw955913evk_01 flash_0k hal i2c i2s led low_power mcu_gp memory memory_qspi nor_flash pdm psram qspi rtc sdio spi sram_768k switch tdm uart wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion.&lt;/li&gt;         &lt;li&gt;On-board sensors - A Digital Ambient Light Sensor (TSL25403) and a Potentiometer.&lt;/li&gt;         &lt;li&gt;Two IFX PDM Microphone (IM69D130) and one Analog Microphone (IM73A135).&lt;/li&gt;         &lt;li&gt;User switches and LEDs&lt;/li&gt;         &lt;li&gt;USB Type-C connector for power, programming, and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYW55913 evaluation board&lt;/li&gt;         &lt;li&gt;M.2 to FFC adapter board&lt;/li&gt;         &lt;li&gt;30-pin FFC cable &lt;/li&gt;         &lt;li&gt;USB Type-C to Type-C cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw55913/#!documents</documentation_url>
+    <versions>
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC11_BOOT_001</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_XMC11_BOOT_001</board_uri>
