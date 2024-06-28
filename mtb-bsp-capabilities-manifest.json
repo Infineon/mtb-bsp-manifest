@@ -118,6 +118,15 @@
          ]
       },
       {
+         "category": "BSP",
+         "description": "This board support package is from the fifth generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen5",
+         "token": "bsp_gen5",
+         "types": [
+            "generation"
+         ]
+      },
+      {
          "category": "Networking",
          "description": "This chip supports Bluetooth.",
          "name": "bt",
@@ -560,6 +569,15 @@
       },
       {
          "category": "Chip Families",
+         "description": "This chip is in the 55533 family.",
+         "name": "55533",
+         "token": "cyw55533",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
          "description": "This chip is in the 55572 family.",
          "name": "cyw55572",
          "token": "cyw55572",
@@ -581,6 +599,15 @@
          "description": "This chip is in the 55xxx family.",
          "name": "cyw55xxx",
          "token": "cyw55xxx",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 89829 family.",
+         "name": "cyw89829",
+         "token": "cyw89829",
          "types": [
             "chip"
          ]
@@ -749,6 +776,15 @@
       },
       {
          "category": "Memory",
+         "description": "This chip has 38K of flash memory.",
+         "name": "flash_38k",
+         "token": "flash_38k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
          "description": "This chip has 384K of flash memory.",
          "name": "flash_384k",
          "token": "flash_384k",
@@ -794,9 +830,54 @@
       },
       {
          "category": "Memory",
+         "description": "This chip has 56K of flash memory.",
+         "name": "flash_56k",
+         "token": "flash_56k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 576K of flash memory.",
+         "name": "flash_576k",
+         "token": "flash_576k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 60K of flash memory.",
+         "name": "flash_60k",
+         "token": "flash_60k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 6336K of flash memory.",
+         "name": "flash_6336k",
+         "token": "flash_6336k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
          "description": "This chip has 64K of flash memory.",
          "name": "flash_64k",
          "token": "flash_64k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 72K of flash memory.",
+         "name": "flash_72k",
+         "token": "flash_72k",
          "types": [
             "chip"
          ]
@@ -932,6 +1013,15 @@
          "description": "This chip contains at least one programmable Local Interconnect Network block.",
          "name": "lin",
          "token": "lin",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Clock Extension Peripheral Interface block.",
+         "name": "cxpi",
+         "token": "cxpi",
          "types": [
             "chip"
          ]
@@ -1487,6 +1577,15 @@
       },
       {
          "category": "Memory",
+         "description": "This chip contains 6K of Static Random Access Memory.",
+         "name": "sram_6k",
+         "token": "sram_6k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
          "description": "This chip contains 60K of Static Random Access Memory.",
          "name": "sram_60k",
          "token": "sram_60k",
@@ -1499,6 +1598,15 @@
          "description": "This chip contains 64K of Static Random Access Memory.",
          "name": "sram_64k",
          "token": "sram_64k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 640K of Static Random Access Memory.",
+         "name": "sram_640k",
+         "token": "sram_640k",
          "types": [
             "chip"
          ]
@@ -1681,6 +1789,15 @@
          "token": "xmc7000",
          "types": [
             "chip"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This board contains digital buck converter.",
+         "name": "buck_converter",
+         "token": "buck_converter",
+         "types": [
+            "board"
          ]
       }
    ]
