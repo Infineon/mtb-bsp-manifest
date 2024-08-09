@@ -3235,4 +3235,189 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>INDUCTION-COOKTOP-INVERTER</id>
+    <category>Reference Design BSPs</category>
+    <board_uri>techpack:55ec8fd0-31a1-4827-af71-cc4ebe17bfa3/bsps/TARGET_INDUCTION-COOKTOP-INVERTER</board_uri>
+    <chips>
+      <mcu>CY8C6244AZI-S4D82</mcu>
+    </chips>
+    <name>INDUCTION-COOKTOP-INVERTER</name>
+    <summary><![CDATA[
+        <p><b>NOTE: Access to the BSP is restricted. Please visit <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpacksmartinductioncooktop">ModusToolBox Smart Induction Cooktop Pack</a> to request access</b></p>
+  <p>INDUCTION-COOKTOP-INVERTER (REF-SHA3K3IHWR5SYS-INV) is the Smart Induction Cooktop Reference design's (REF-SHA3K3IHWR5SYS) inverter control board based on PSoC&trade; 62 MCU.</p>
+  <p><strong>Inverter Board Features:</strong></p>
+  <p><strong>Hardware Features:</strong></p>
+  <ul>
+  <li>Input voltage 220V~240V AC, 30A</li>
+  <li>Integrated EMI/EMC filter compliant to IEC-61000-4-5</li>
+  <li>Dual half-bridge resonant switching circuits based on Reverse Conducting R6 IGBT 650V with EliceDriver&trade; driving two induction coils.</li>
+  <li>PSoC&trade; 62 CY8C6244AZI-S4D82 Microcontroller controlling resonant switching circuit and inverter board</li>
+  <li>XENSIV&trade; Current sensors for precise controlling of resonant switching circuits with hardware safety overcurrent protection</li>
+  <li>CoolSET&trade; 5th Generation Quasi-resonant based 3.3V & 24V auxiliary power supply for inverter control circuit</li>
+  <li>Total inverter controller output power of 3600W
+  <ul>
+    <li> Big coil supports 2200W maximum power</li>
+    <li> Small coil supports 1400W maximum power</li>
+  </ul> </li>
+  <li> Boost mode support with both hobs operational
+  <ul>
+    <li>Big hob supports 3000W in boost mode</li>
+    <li>Small hob supports 2000W in boost mode</li>
+  </ul> </li>
+  <li>5V Isolated power supply for hmi & system control board & connectivity board</li>
+  <li>Relays for controlling power to inverter circuit and controller circuit</li>
+  <li>PSoC&trade; 62 Microcontroller controlling resonant switching and inverter board</li>
+  <li>Current sensors for precise feedback of resonant switching circuits & HW overcurrent protection</li>
+  <li>Heat sink with cooling fan</li>
+  </ul>
+  <p><strong>Software Features:</strong></p>
+  <ul>
+  <li>Each induction cooktop hob supports 10 power levels</li>
+  <li>Intelligent pan detection and resonant switching circuit control using PSoC&trade; 62 MCU integrated op-amp for zero cross detection of coil/tank circuit current</li>
+  <li>HMI & System Control Board interface for user to control individual hob and status update</li>
+  <li>Intelligent low power standby implementation by turning off the power supply to inverter control circuit in idle state</li>
+  <li>Hob hot surface temperature indications for mobile application notification</li>
+  <li>Safety features including Auto shutdown in following events
+  <ul>
+    <li>Continuous usage of the cooktop for more than 2hours</li>
+    <li>Over voltage and over current condition</li>
+    <li>High temperature of onboard switching elements (IGBT)</li>
+    <li>High temperature of induction coil hob surface</li>
+  </ul></li>
+  </ul>   
+  <p>&nbsp;</p>
+  <p><strong>Kit Contents:</strong></p>
+  <p>INDUCTION-COOKTOP-INVERTER (REF-SHA3K3IHWR5SYS-INV) board is part of the REF-SHA3K3IHWR5SYS kit which contains</p>
+  <ul>
+  <li>INDUCTION-COOKTOP-INVERTER(REF-SHA3K3IHWR5SYS-INV) - Induction Cooktop Inverter control board based on PSoC&trade; 62 MCU</li>
+  <li>INDUCTION-COOKTOP-HMI (REF-SHA3K3IHWR5SYS-HMI) - Induction Cooktop HMI & System control board based on PSoC&trade; 4100S Max MCU</li>
+  <li>INDUCTION-COOKTOP-CONNECTIVITY (REF-SHA3K3IHWR5SYS-CON) - Induction Cooktop Connectivity board based on PSoC&trade; 62 MCU and AIROC&trade; CYW4373E Wi-Fi 5 + Bluetooth&reg; 5.2 combo</li>
+  <li>One small hob coil (6.8-inch) with protective mica sheet and cookware temperature sensor</li>
+  <li>One big hob coil (11-inch) with protective mica sheet and cookware temperature sensor</li>
+  <li>Enclosure with Schott Ceran Glass</li>
+  <li>Cable to connect the inverter to the HMI control unit (14 inches)</li>
+  <li>Cable to connect the HMI control unit to the connectivity board (8 inches)</li>
+  <li>Antenna for the connectivity board</li>
+  <li>Quick start guide</li>
+  </ul>]]></summary>
+    <prov_capabilities>induction_hob_inverter</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS/</documentation_url>
+    <versions>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.0</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>INDUCTION-COOKTOP-HMI</id>
+    <category>Reference Design BSPs</category>
+    <board_uri>techpack:55ec8fd0-31a1-4827-af71-cc4ebe17bfa3/bsps/TARGET_INDUCTION-COOKTOP-HMI</board_uri>
+    <chips>
+      <mcu>CY8C4149AZI-S598</mcu>
+    </chips>
+    <name>INDUCTION-COOKTOP-HMI</name>
+    <summary><![CDATA[
+        <p><b> NOTE: Access to the BSP is restricted. Please visit <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpacksmartinductioncooktop">ModusToolBox Smart Induction Cooktop Pack</a> to request access</b></p>
+  <p>INDUCTION-COOKTOP-HMI (REF-SHA3K3IHWR5SYS-HMI) is the smart induction cooktop reference design's (REF-SHA3K3IHWR5SYS) HMI and System Control board based on PSoC&trade; 4100S Max MCU.</p>
+  <p><strong>HMI Board Features:</strong></p>
+  <p><strong>Hardware Features:</strong></p>
+  <ul>
+  <li>PSoC&trade; 4100S Max Microcontroller with 5th Generation CapSense&trade; for improved SNR and EMI performance</li>
+  <li>Input voltage 5V DC, 1A</li>
+  <li>Functional safety compliant dual sensor power button design with Dual Channel CapSense
+  <ul> 
+    <li>10 levels of radial using 7 segments of radial touch segments</li>
+  </ul></li>
+  <li>Dual hob HMI interface with radial slider and buttons</li>
+  <li>4 Digit seven segment for timer and error display</li>
+  <li>Buzzer for haptic feedback for keypress and alarm</li>
+  <li>Buzzer for haptic feedback for keypress and alarm</li>
+  <li>RGB and monocolor red LEDs for touch button and slider</li>
+  </ul>
+  <p><strong>Software Features:</strong></p>
+  <ul>
+  <li>Liquid tolerant CapSense&trade; HMI </li>
+  <li>Enable/Disable features:Connectivity – WiFi/BT,Local voice control via connectivity board, Child lock for touch interface</li>
+  <li>PSoC&trade; 4 IEC 60730 and IEC 61508 SIL integrated library for Class B compliance</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p><strong>Kit Contents:</strong></p>
+  <p>INDUCTION-COOKTOP-HMI (REF-SHA3K3IHWR5SYS-HMI) board is part of the REF-SHA3K3IHWR5SYS kit which contains</p>
+  <ul>
+  <li>INDUCTION-COOKTOP-INVERTER(REF-SHA3K3IHWR5SYS-INV) - Induction Cooktop Inverter control board based on PSoC&trade; 62 MCU</li>
+  <li>INDUCTION-COOKTOP-HMI (REF-SHA3K3IHWR5SYS-HMI) - Induction Cooktop HMI & System control board based on PSoC&trade; 4100S Max MCU</li>
+  <li>INDUCTION-COOKTOP-CONNECTIVITY (REF-SHA3K3IHWR5SYS-CON) - Induction Cooktop Connectivity board based on PSoC&trade; 62 MCU and AIROC&trade; CYW4373E Wi-Fi 5 + Bluetooth&reg; 5.2 combo</li>
+  <li>One small hob coil (6.8-inch) with protective mica sheet and cookware temperature sensor</li>
+  <li>One big hob coil (11-inch) with protective mica sheet and cookware temperature sensor</li>
+  <li>Enclosure with Schott Ceran Glass</li>
+  <li>Cable to connect the inverter to the HMI control unit (14 inches)</li>
+  <li>Cable to connect the HMI control unit to the connectivity board (8 inches)</li>
+  <li>Antenna for the connectivity board</li>
+  <li>Quick start guide</li>
+  </ul>]]></summary>
+    <prov_capabilities>induction_hob_hmi</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS</documentation_url>
+    <versions>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.0</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>INDUCTION-COOKTOP-CONNECTIVITY</id>
+    <category>Reference Design BSPs</category>
+    <board_uri>techpack:55ec8fd0-31a1-4827-af71-cc4ebe17bfa3/bsps/TARGET_INDUCTION-COOKTOP-CONNECTIVITY</board_uri>
+    <chips>
+      <mcu>CY8C624AAZI-S2D44</mcu>
+      <radio>CYW4373E</radio>
+    </chips>
+    <name>INDUCTION-COOKTOP-CONNECTIVITY</name>
+    <summary><![CDATA[
+        <p><b> NOTE: Access to the BSP is restricted. Please visit <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpacksmartinductioncooktop">ModusToolBox Smart Induction Cooktop Pack</a> to request access</b></p>
+  <p>INDUCTION-COOKTOP-CONNECTIVITY (REF-SHA3K3IHWR5SYS-INV) is the Smart Induction Cooktop Reference design's (REF-SHA3K3IHWR5SYS) connectivity control board based on PSoC&trade; 62 MCU.</p>
+  <p><strong>Connectivity Board Features:</strong></p>
+  <p><strong>Hardware features:</strong></p>
+  <ul>
+  <li>PSoC&trade; 62 CY8C624AAZI-S2D14 as MCU and radio host controller.  </li>
+  <li>Dedicated M.2 interface to connect with M.2 radio modules based on AIROC&trade; Wi-Fi/Bluetooth&reg; combo devices.</li>
+  <li>The board has two XENSIV&trade; MEMS PDM Mic for voice input </li>
+  <li>0.8W speaker for voice feedback</li>
+  </ul>
+  <p><strong>Software features:</strong></p>
+  <ul>
+  <li>Connectivity with Mobile application over Bluetooth&reg; Low Energy</li>
+  <li>Instant notification for safety critical events</li>
+  <li>UART protocol for robust communication with HMI and System control board</li>
+  </ul>
+  </li>
+  </ul>
+  <p><strong>Kit Contents:</strong></p>
+  <p>INDUCTION-COOKTOP-CONNECTIVITIY (REF-SHA3K3IHWR5SYS-CON) board is part of the REF-SHA3K3IHWR5SYS kit which contains-</p>
+  <ul>
+  <li>INDUCTION-COOKTOP-INVERTER(REF-SHA3K3IHWR5SYS-INV) - Induction Cooktop Inverter control board based on PSoC&trade; 62 MCU</li>
+  <li>INDUCTION-COOKTOP-HMI (REF-SHA3K3IHWR5SYS-HMI) - Induction Cooktop HMI & System control board based on PSoC&trade; 4100S Max MCU</li>
+  <li>INDUCTION-COOKTOP-CONNECTIVITY (REF-SHA3K3IHWR5SYS-CON) - Induction Cooktop Connectivity board based on PSoC&trade; 62 MCU and AIROC&trade; CYW4373E Wi-Fi 5 + Bluetooth&reg; 5.2 combo</li>
+  <li>One small hob coil (6.8-inch) with protective mica sheet and cookware temperature sensor</li>
+  <li>One big hob coil (11-inch) with protective mica sheet and cookware temperature sensor</li>
+  <li>Enclosure with Schott Ceran Glass</li>
+  <li>Cable to connect the inverter to the HMI control unit (14 inches)</li>
+  <li>Cable to connect the HMI control unit to the connectivity board (8 inches)</li>
+  <li>Antenna for the connectivity board</li>
+  <li>Quick start guide</li>
+  </ul>]]></summary>
+    <prov_capabilities>induction_hob_connectivity</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS</documentation_url>
+    <versions>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.0</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
