@@ -2249,9 +2249,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 1.7 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE 5.4 core spec-compliant&lt;/li&gt;         &lt;li&gt;Battery voltage measurement with 16 bit ADC&lt;/li&gt;         &lt;li&gt;5-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Built-in Keyscan matrix pre-configured for 79 keys layout&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
-      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.0.0 release</num>
@@ -2289,9 +2293,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 2.1 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE 5.4 core spec-compliant&lt;/li&gt;         &lt;li&gt;Battery voltage measurement with 16 bit ADC&lt;/li&gt;         &lt;li&gt;5-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Left, Right, Middle and DPI buttons&lt;/li&gt;         &lt;li&gt;SPI based optical motion sensor&lt;/li&gt;         &lt;li&gt;F-switch Quadrature Encoder for scroll wheel&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
-      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="spi bsp_gen5">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="spi bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="spi bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="spi bsp_gen5">
         <num>2.0.0 release</num>
@@ -2329,9 +2337,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 1.7 - 3.6 V operation&lt;/li&gt;         &lt;li&gt;ADCMic with Audio and DC measurement capability&lt;/li&gt;         &lt;li&gt;Connectors for battery&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Up to 26 programmable GPIOs&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
-      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.0.0 release</num>
@@ -2369,9 +2381,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU in 56 pin QFN package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;On-board sensors - 6-axis IMU, thermistor, Infineon analog microphone, and Infineon digital microphone&lt;/li&gt;         &lt;li&gt;User switches, RGB LED and user LEDs&lt;/li&gt;         &lt;li&gt;USB connector for power, programming and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW20829 evaluation board (CYW9BTM2BASE3+CYW920829M2IPA2)&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (five inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
-      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
         <num>2.0.0 release</num>
@@ -2413,9 +2429,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU in 77 pin BGA SIP package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW89829 evaluation board (CYW9BTM2AUAD+CYW989829SIPM2IPA1)&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
     <versions>
-      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.0.0 release</num>
@@ -2453,9 +2473,13 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU in 40 pin QFN package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW89829 evaluation board (CYW9BTM2BASE3+CYW989829Q40M2IPA1)&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (five inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
     <versions>
-      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.0.0 release</num>
