@@ -37,15 +37,6 @@
          ]
       },
       {
-         "category": "Miscellaneous",
-         "description": "This board has been tested with anycloud code examples.",
-         "name": "anycloud",
-         "token": "anycloud",
-         "types": [
-            "board"
-         ]
-      },
-      {
          "category": "Ports",
          "description": "This board has the necessary ports to attach an Arduino-compatible shield.",
          "name": "arduino",
