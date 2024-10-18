@@ -3500,11 +3500,11 @@
   <li>Antenna for the connectivity board</li>
   <li>Quick start guide</li>
   </ul>]]></summary>
-    <prov_capabilities>induction_hob_inverter</prov_capabilities>
+    <prov_capabilities>induction_cooktop</prov_capabilities>
     <description/>
-    <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS/</documentation_url>
+    <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS</documentation_url>
     <versions>
-      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.0.0</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -3539,7 +3539,7 @@
   <p><strong>Software Features:</strong></p>
   <ul>
   <li>Liquid tolerant CapSense&trade; HMI </li>
-  <li>Enable/Disable features:Connectivity – WiFi/BT,Local voice control via connectivity board, Child lock for touch interface</li>
+  <li>Enable/Disable features:Connectivity - WiFi/BT,Local voice control via connectivity board, Child lock for touch interface</li>
   <li>PSoC&trade; 4 IEC 60730 and IEC 61508 SIL integrated library for Class B compliance</li>
   </ul>
   <p>&nbsp;</p>
@@ -3557,11 +3557,11 @@
   <li>Antenna for the connectivity board</li>
   <li>Quick start guide</li>
   </ul>]]></summary>
-    <prov_capabilities>induction_hob_hmi</prov_capabilities>
+    <prov_capabilities>induction_cooktop</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS</documentation_url>
     <versions>
-      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.0.0</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -3609,11 +3609,11 @@
   <li>Antenna for the connectivity board</li>
   <li>Quick start guide</li>
   </ul>]]></summary>
-    <prov_capabilities>induction_hob_connectivity</prov_capabilities>
+    <prov_capabilities>induction_cooktop</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/REF-SHA3K3IHWR5SYS</documentation_url>
     <versions>
-      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.0.0</num>
         <commit>release-v1.0.0</commit>
       </version>
