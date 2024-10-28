@@ -218,7 +218,7 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the CAT1 family (PSoC 6, XMC7200, etc).",
+         "description": "This chip is in the CAT1 family (PSOC 6, XMC7200, etc).",
          "name": "cat1",
          "token": "cat1",
          "types": [
@@ -227,7 +227,7 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the CAT1A family (PSoC 6, FX3G2).",
+         "description": "This chip is in the CAT1A family (PSOC 6, FX3G2).",
          "name": "cat1a",
          "token": "cat1a",
          "types": [
@@ -263,7 +263,7 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the CAT2 family (PSoC 4, etc).",
+         "description": "This chip is in the CAT2 family (PSOC 4, etc).",
          "name": "cat2",
          "token": "cat2",
          "types": [
@@ -1280,7 +1280,7 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the PSoC 4 family.",
+         "description": "This chip is in the PSOC 4 family.",
          "name": "psoc4",
          "token": "psoc4",
          "types": [
@@ -1289,7 +1289,7 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the PSoC 6 family.",
+         "description": "This chip is in the PSOC 6 family.",
          "name": "psoc6",
          "token": "psoc6",
          "types": [

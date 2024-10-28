@@ -71,7 +71,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-040T</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-040T</board_uri>
     <chips>
       <mcu>CY8C4046LQI-T452</mcu>
@@ -94,7 +94,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-041-41XX</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041-41XX</board_uri>
     <chips>
       <mcu>CY8C4146AZI-S433</mcu>
@@ -145,7 +145,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-041S-MAX</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041S-MAX</board_uri>
     <chips>
       <mcu>CY8C4149AZI-S598</mcu>
@@ -180,7 +180,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-045S</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-045S</board_uri>
     <chips>
       <mcu>CY8C4548AZI-S485</mcu>
@@ -231,7 +231,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-145-40XX</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-145-40XX</board_uri>
     <chips>
       <mcu>CY8C4045AZI-S413</mcu>
@@ -282,7 +282,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-149</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-149</board_uri>
     <chips>
       <mcu>CY8C4147AZI-S475</mcu>
@@ -333,7 +333,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-040T</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-040T</board_uri>
     <chips>
       <mcu>CY8C4046LQI-T452</mcu>
@@ -636,7 +636,7 @@
   </board>
   <board default_location="local">
     <id>PSOC4-GENERIC</id>
-    <category>PSoC&#8482; 4 BSPs</category>
+    <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC4-GENERIC</board_uri>
     <chips>
       <mcu>CY8C4548AZI-S485</mcu>
@@ -687,7 +687,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -746,7 +746,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-LAI-4373M2</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-LAI-4373M2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -810,7 +810,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-MUR-4373M2</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-4373M2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -842,7 +842,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-MUR-4373EM2</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-4373EM2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -878,7 +878,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-CYW43022CUB</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-CYW43022CUB</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -906,7 +906,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-LAI-43439M2</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-LAI-43439M2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -942,7 +942,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-MUR-43439M2</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-43439M2</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -1002,7 +1002,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062-BLE</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
@@ -1061,7 +1061,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062S2-43012</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S2-43012</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -1125,7 +1125,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062S4</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S4</board_uri>
     <chips>
       <mcu>CY8C6244LQI-S4D92</mcu>
@@ -1400,7 +1400,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062-WIFI-BT</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT</board_uri>
     <chips>
       <mcu>CY8C6247BZI-D54</mcu>
@@ -1464,7 +1464,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-062S2-AI</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-062S2-AI</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -1492,7 +1492,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-064B0S2-4343W</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064B0S2-4343W</board_uri>
     <chips>
       <mcu>CYB0644ABZI-S2D44</mcu>
@@ -1552,7 +1552,7 @@
   </board>
   <board default_location="local">
     <id>CY8CKIT-064S0S2-4343W</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064S0S2-4343W</board_uri>
     <chips>
       <mcu>CYS0644ABZI-S2D44</mcu>
@@ -1592,7 +1592,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-062-4343W</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -1656,7 +1656,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-062S2-43439</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-062S2-43439</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -1688,7 +1688,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-062S3-4343W</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062S3-4343W</board_uri>
     <chips>
       <mcu>CY8C6245LQI-S3D72</mcu>
@@ -1752,7 +1752,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-063-BLE</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE</board_uri>
     <chips>
       <mcu>CYBLE-416045-02 (CY8C6347BZI-BLD53)</mcu>
@@ -1812,7 +1812,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-064B0S3</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064B0S3</board_uri>
     <chips>
       <mcu>CYB06445LQI-S3D42</mcu>
@@ -1871,7 +1871,7 @@
   </board>
   <board default_location="local">
     <id>CY8CPROTO-064S1-SB</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064S1-SB</board_uri>
     <chips>
       <mcu>CYB06447BZI-D54</mcu>
@@ -1926,7 +1926,7 @@
   </board>
   <board default_location="local">
     <id>CYBLE-416045-EVAL</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYBLE-416045-EVAL</board_uri>
     <chips>
       <mcu>CYBLE-416045-02 (CY8C6347BZI-BLD53)</mcu>
@@ -1986,7 +1986,7 @@
   </board>
   <board default_location="local">
     <id>CYSBSYSKIT-01</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
@@ -2050,7 +2050,7 @@
   </board>
   <board default_location="local">
     <id>CYSBSYSKIT-DEV-01</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-DEV-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
@@ -2110,7 +2110,7 @@
   </board>
   <board default_location="local">
     <id>KIT-BGT60TR13C-EMBEDD</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT-BGT60TR13C-EMBEDD</board_uri>
     <chips>
       <mcu>CY8C6247FDI-D02</mcu>
@@ -2149,7 +2149,7 @@
   </board>
   <board default_location="local">
     <id>CYW9P62S1-43012EVB-01</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43012EVB-01</board_uri>
     <chips>
       <mcu>WM-BAC-CYW-50 (CY8C6247FDI-D52)</mcu>
@@ -2213,7 +2213,7 @@
   </board>
   <board default_location="local">
     <id>CYW9P62S1-43438EVB-01</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43438EVB-01</board_uri>
     <chips>
       <mcu>AW-CU427 (CY8C6247BZI-D54)</mcu>
@@ -2277,7 +2277,7 @@
   </board>
   <board default_location="local">
     <id>PSOC6-GENERIC</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
@@ -3288,7 +3288,7 @@
   </board>
   <board default_location="local">
     <id>EVAL-XMC4800PSOC6M5-PSOC6</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_EVAL-XMC4800PSOC6M5-PSOC6</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
@@ -3412,7 +3412,7 @@
   </board>
   <board default_location="local">
     <id>CY8CEVAL-062S2-CYW955513SDM2WLIPA</id>
-    <category>PSoC&#8482; 6 BSPs</category>
+    <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-CYW955513SDM2WLIPA</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
