@@ -809,6 +809,63 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_FX20_FMC_001</id>
+    <category>USB BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_FX20_FMC_001</board_uri>
+    <chips>
+      <mcu>CYUSB4024-BZXI</mcu>
+    </chips>
+    <name>KIT_FX20_FMC_001</name>
+    <summary>The Infineon Technologies EZ-USB&#8482; FX20 family features a USB 3.2 Gen 2x2 device controllers (CYUSB40XX, CYUSB308X) designed for high-performance applications. The Development Kit (DVK) helps customers develop a wide range of USB 3.2 applications, such as seamless video and audio streaming to a USB host using FPGA add-on boards and camera modules. It supports data transfer via USB 20Gbps for AI, imaging, and emerging applications. Ideal for medical imaging, industrial automation, high-speed data acquisition, VR/AR, advanced robotics, and smart surveillance, the DVK is a versatile solution for both established and cutting-edge fields.</summary>
+    <prov_capabilities>fx3g2 usb_host anycloud arduino bsp_gen4 cat1 cat1a dma flash_256k fram i2c j2 kit_fx20_fmc_001 led low_power lptimer mcu_gp memory multi_core nor_flash pdm rgb_led spi sram_128k switch uart usb_device usb_host</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;
+            &lt;li&gt;USB 3.2 Gen 2x2: accessible through the USB-IF certified USB-C receptacle&lt;/li&gt;
+            &lt;li&gt;GPIO header: To interface IFX Digital MEMS microphone board, CAN transceiver board, I2S Audio Class-D amplifier board, Arduino shield, and AUX I/O Opto-isolator board via a GPIO accessory board&lt;/li&gt;
+            &lt;li&gt;FMC interface: One FMC HPC Mezzanine connector for interfacing external FPGA FMC boards with FX20, compatible with both LPC and HPC FMC connectors. Additionally, one FMC HPC carrier connector for connecting other add-on carrier boards to FPGA board via FX20 DVK.&lt;/li&gt;
+            &lt;li&gt;USB-FS interface: for serial logs&lt;/li&gt;
+        &lt;/ul&gt;&lt;p/&gt;    div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt; EZ-USB&#8482; FX20 DVK (Base board and GPIO accessory board)&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;USB-C to USB-C and USB-A to USB-C cables&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/ez-usb-fx10/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.3.2 release</num>
+        <commit>release-v4.3.2</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_FX2G3_104LGA</id>
+    <category>USB BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_FX2G3_104LGA</board_uri>
+    <chips>
+      <mcu>CYUSB2318-BF104AXI</mcu>
+    </chips>
+    <name>KIT_FX2G3_104LGA</name>
+    <summary>The Infineon Technologies EZ-USB&#8482; FX2G3 family features USB 2.0 device controllers suitable for both high-speed and low-speed applications. The Development Kit (DVK) is specifically designed to help customers develop a wide array of USB 2.0 applications, such as mobile add-on dental cameras, thermal cameras, 3D cameras, logic analyzers, and various applications in biometrics, scanning, video, and imaging.</summary>
+    <prov_capabilities>fx2g3 usb_host anycloud arduino bsp_gen4 cat1 cat1a dma flash_256k fram i2c j2 kit_fx2g3_104lga led low_power lptimer mcu_gp memory multi_core nor_flash pdm rgb_led spi sram_128k switch uart usb_device usb_host</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;
+        &lt;li&gt;FX2G3 104LGA DVK consists of two boards:&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Base board: FX2G3 device, power supplies, CAN transceiver, Optiga Trust M module, USB-C HS and FS connectors for data transmission and debug respectively.&lt;/li&gt;
+            &lt;li&gt;FPGA add-on board: T20 FPGA from EFINIX, DDR3 SDRAM, IFX PDM microphones, IFX NOR flash, IFX power supplies, 22-pin FPC interface connectors and GPIO interface connectors.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;EZ-USB&#8482; FX2G3 DVK (Base Board and FPGA add-on board)&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;USB Type-A to Type-C cable&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/ez-usb-fx2g3/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.3.2 release</num>
+        <commit>release-v4.3.2</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CY8CEVAL-062S2-MUR-4373M2</id>
     <category>PSOC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CY8CEVAL-062S2-MUR-4373M2</board_uri>
