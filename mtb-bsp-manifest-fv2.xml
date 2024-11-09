@@ -3680,4 +3680,27 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>KIT_XMC7200_DC_V1</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC7200_DC_V1</board_uri>
+    <chips>
+      <mcu>XMC7200D-F176K8384</mcu>
+    </chips>
+    <name>KIT_XMC7200_DC_V1</name>
+    <summary>The KIT_XMC72_DC_V1, a 176-pin evaluation board is based on the XMC7200 family of devices. XMC7200 MCU is designed for  industrial applications. The evaluation board carries a XMC7200D microcontroller,and 100 pin High Density Motor Connector In addition, the board features an on-board programmer/debugger (Segger J-Link) with USB-UART VCOM interface,  MikroBUS connector interface, two user LEDs, two potentiometer, and two push buttons: (XRES and USR) The board supports operating voltages from 3.3 V to 5.0 V for XMC7200D device.</summary>
+    <prov_capabilities>kit_xmc7200_dc_v1</prov_capabilities>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200D-F176K8384 8MB Flash 176-pin TEQFP device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7200D device&lt;/li&gt;                &lt;li&gt;Two user LEDs, one user buttons, and a reset button for the XMC7200D device&lt;/li&gt;                &lt;li&gt;Two potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200 Drive card&lt;/li&gt;                &lt;li&gt;USB Type-A to Type-C cable&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc7200_dc_v1/</documentation_url>
+    <versions>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
