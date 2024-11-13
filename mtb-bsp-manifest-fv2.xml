@@ -1270,6 +1270,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>4.3.1 release</num>
+        <commit>release-v4.3.1</commit>
+      </version>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>4.3.0 release</num>
         <commit>release-v4.3.0</commit>
       </version>
