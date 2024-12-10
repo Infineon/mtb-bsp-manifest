@@ -1729,6 +1729,15 @@
          ]
       },
       {
+         "category": "Hardware Blocks",
+         "description": "This chip includes at least one HPPASS (High Performance Programmable Analog Sub System) block",
+         "name": "hppass",
+         "token": "hppass",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Networking",
          "description": "This chip supports WiFi.",
          "name": "wifi",

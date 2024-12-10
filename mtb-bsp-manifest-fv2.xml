@@ -3712,6 +3712,75 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_PSC3M5_EVK</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M5_EVK</board_uri>
+    <chips>
+      <mcu>PSC3M5FDS2AFQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M5_EVK</name>
+    <summary>The PSOC&#8482; Control C3 MCU Evaluation Kit (KIT_PSC3M5_EVK) is based on the PSOC&#8482; Control family of devices. It enables the evaluation and development of applications for the PSOC&#8482; Control C3 MCU.</summary>
+    <prov_capabilities>adc kit_psc3m5_evk bsp_gen4 can cat1 cat1b comp dma flash_256k hal hppass i2c low_power lptimer mcu_gp rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M5_EVK</documentation_url>
+    <versions>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_PSC3M5_CC1</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M5_CC1</board_uri>
+    <chips>
+      <mcu>PSC3M5FDS2AFQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M5_CC1</name>
+    <summary>PSOC&#8482; Control C3M5 Digital Power Control Card - This board has the PSOC&#8482; Control C3M5 device with debugger and 120 pin edge connector. Equipped with an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control microcontroller from Infineon Technologies AG, the PSOC&#8482; Control C3M5 Digital Power Control Card is designed to use with different power boards to demonstrate the capabilities of Infineon's PSOC&#8482; Control C3M5 Microcontroller for power stage control applications.</summary>
+    <prov_capabilities>adc kit_psc3m5_cc1 bsp_gen4 cat1 cat1b comp dma flash_256k hal hppass i2c low_power lptimer mcu_gp rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M5_CC1</documentation_url>
+    <versions>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_PSC3M5_CC2</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M5_CC2</board_uri>
+    <chips>
+      <mcu>PSC3M5FDS2AFQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M5_CC2</name>
+    <summary>PSOC&#8482; Control C3M5 Motor Control Card - This board has the PSOC&#8482; Control C3M5 device with debugger and 100 pin HD connector.", Equipped with an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control microcontroller from Infineon Technologies AG,", the PSOC&#8482; Control C3M5 Motor Control Card is designed to be use with different power boards to demonstrate the capabilities of", Infineon's PSOC&#8482; Control C3M5 Microcontroller for motor control applications.</summary>
+    <prov_capabilities>adc kit_psc3m5_cc2 bsp_gen4 can cat1 cat1b comp dma flash_256k hal hppass i2c low_power lptimer mcu_gp rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M5_CC2</documentation_url>
+    <versions>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC14_2GO</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_XMC14_2GO</board_uri>
