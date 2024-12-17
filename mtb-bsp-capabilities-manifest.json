@@ -307,6 +307,24 @@
          ]
       },
       {
+         "category": "Chip Families",
+         "description": "This chip is in the FX3G2 family.",
+         "name": "fx3g2",
+         "token": "fx3g2",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the FX2G3 family.",
+         "name": "fx2g3",
+         "token": "fx2g3",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Hardware Blocks",
          "description": "This chip contains at least one Compare Capture Unit from the ccu4 family.",
          "name": "ccu4",
@@ -1675,6 +1693,15 @@
          ]
       },
       {
+         "category": "Chip Families",
+         "description": "This chip is in the TRAVEO T2G-C-2D family.",
+         "name": "t2gc2d",
+         "token": "t2gc2d",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Hardware Blocks",
          "description": "This chip supports Time-Division Multiplexing.",
          "name": "tdm",
@@ -1724,15 +1751,6 @@
          "description": "This chip supports USB power delivery.",
          "name": "usbpd",
          "token": "usbpd",
-         "types": [
-            "chip"
-         ]
-      },
-      {
-         "category": "Hardware Blocks",
-         "description": "This chip includes at least one HPPASS (High Performance Programmable Analog Sub System) block",
-         "name": "hppass",
-         "token": "hppass",
          "types": [
             "chip"
          ]
