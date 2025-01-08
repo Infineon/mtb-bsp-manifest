@@ -95,7 +95,7 @@
   <board default_location="local">
     <id>CY8CKIT-041-41XX</id>
     <category>PSOC&#8482; 4 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-041-41XX</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041-41XX</board_uri>
     <chips>
       <mcu>CY8C4146AZI-S433</mcu>
     </chips>
@@ -146,7 +146,7 @@
   <board default_location="local">
     <id>CY8CKIT-041S-MAX</id>
     <category>PSOC&#8482; 4 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-041S-MAX</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041S-MAX</board_uri>
     <chips>
       <mcu>CY8C4149AZI-S598</mcu>
     </chips>
@@ -232,7 +232,7 @@
   <board default_location="local">
     <id>CY8CKIT-145-40XX</id>
     <category>PSOC&#8482; 4 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-145-40XX</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-145-40XX</board_uri>
     <chips>
       <mcu>CY8C4045AZI-S413</mcu>
     </chips>
@@ -283,7 +283,7 @@
   <board default_location="local">
     <id>CY8CKIT-149</id>
     <category>PSOC&#8482; 4 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-149</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-149</board_uri>
     <chips>
       <mcu>CY8C4147AZI-S475</mcu>
     </chips>
@@ -426,7 +426,7 @@
   <board default_location="local">
     <id>PMG1-CY7110</id>
     <category>PMG BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7110</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PMG1-CY7110</board_uri>
     <chips>
       <mcu>CYPM1011-24LQXI</mcu>
     </chips>
@@ -473,7 +473,7 @@
   <board default_location="local">
     <id>PMG1-CY7111</id>
     <category>PMG BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7111</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PMG1-CY7111</board_uri>
     <chips>
       <mcu>CYPM1111-40LQXIT</mcu>
     </chips>
@@ -520,7 +520,7 @@
   <board default_location="local">
     <id>PMG1-CY7112</id>
     <category>PMG BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7112</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PMG1-CY7112</board_uri>
     <chips>
       <mcu>CYPM1211-40LQXIT</mcu>
     </chips>
@@ -567,7 +567,7 @@
   <board default_location="local">
     <id>PMG1-CY7113</id>
     <category>PMG BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PMG1-CY7113</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PMG1-CY7113</board_uri>
     <chips>
       <mcu>CYPM1311-48LQXI</mcu>
     </chips>
@@ -637,7 +637,7 @@
   <board default_location="local">
     <id>PSOC4-GENERIC</id>
     <category>PSOC&#8482; 4 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PSOC4-GENERIC</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC4-GENERIC</board_uri>
     <chips>
       <mcu>CY8C4548AZI-S485</mcu>
     </chips>
@@ -1108,7 +1108,7 @@
   <board default_location="local">
     <id>CY8CKIT-062-BLE</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-062-BLE</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
@@ -1167,7 +1167,7 @@
   <board default_location="local">
     <id>CY8CKIT-062S2-43012</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-062S2-43012</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S2-43012</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
       <radio>LBEE59B1LV (CYW43012C0WKWBG)</radio>
@@ -1239,7 +1239,7 @@
   <board default_location="local">
     <id>CY8CKIT-062S4</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-062S4</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S4</board_uri>
     <chips>
       <mcu>CY8C6244LQI-S4D92</mcu>
     </chips>
@@ -1530,7 +1530,7 @@
   <board default_location="local">
     <id>CY8CKIT-062-WIFI-BT</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-062-WIFI-BT</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT</board_uri>
     <chips>
       <mcu>CY8C6247BZI-D54</mcu>
       <radio>LBEE5KL1DX (CYW4343WKUBG)</radio>
@@ -1638,7 +1638,7 @@
   <board default_location="local">
     <id>CY8CKIT-064B0S2-4343W</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-064B0S2-4343W</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064B0S2-4343W</board_uri>
     <chips>
       <mcu>CYB0644ABZI-S2D44</mcu>
       <radio>CYW4343WKUBG</radio>
@@ -1706,7 +1706,7 @@
   <board default_location="local">
     <id>CY8CKIT-064S0S2-4343W</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-064S0S2-4343W</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-064S0S2-4343W</board_uri>
     <chips>
       <mcu>CYS0644ABZI-S2D44</mcu>
       <radio>CYW4343WKUBG</radio>
@@ -1754,7 +1754,7 @@
   <board default_location="local">
     <id>CY8CPROTO-062-4343W</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-062-4343W</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W</board_uri>
     <chips>
       <mcu>CY8C624ABZI-S2D44</mcu>
       <radio>LBEE5KL1DX (CYW4343WKUBG)</radio>
@@ -1866,7 +1866,7 @@
   <board default_location="local">
     <id>CY8CPROTO-062S3-4343W</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-062S3-4343W</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062S3-4343W</board_uri>
     <chips>
       <mcu>CY8C6245LQI-S3D72</mcu>
       <radio>LBEE5KL1DX (CYW4343WKUBG)</radio>
@@ -1938,7 +1938,7 @@
   <board default_location="local">
     <id>CY8CPROTO-063-BLE</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-063-BLE</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-063-BLE</board_uri>
     <chips>
       <mcu>CYBLE-416045-02 (CY8C6347BZI-BLD53)</mcu>
       <radio>CYBLE-416045-02 (CY8C6347BZI-BLD53)</radio>
@@ -1998,7 +1998,7 @@
   <board default_location="local">
     <id>CY8CPROTO-064B0S3</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-064B0S3</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064B0S3</board_uri>
     <chips>
       <mcu>CYB06445LQI-S3D42</mcu>
     </chips>
@@ -2057,7 +2057,7 @@
   <board default_location="local">
     <id>CY8CPROTO-064S1-SB</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CY8CPROTO-064S1-SB</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-064S1-SB</board_uri>
     <chips>
       <mcu>CYB06447BZI-D54</mcu>
     </chips>
@@ -2112,7 +2112,7 @@
   <board default_location="local">
     <id>CYBLE-416045-EVAL</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYBLE-416045-EVAL</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYBLE-416045-EVAL</board_uri>
     <chips>
       <mcu>CYBLE-416045-02 (CY8C6347BZI-BLD53)</mcu>
       <radio>CYBLE-416045-02 (CY8C6347BZI-BLD53)</radio>
@@ -2172,7 +2172,7 @@
   <board default_location="local">
     <id>CYSBSYSKIT-01</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYSBSYSKIT-01</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
       <radio>CYW43012TC0KFFBH</radio>
@@ -2244,7 +2244,7 @@
   <board default_location="local">
     <id>CYSBSYSKIT-DEV-01</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYSBSYSKIT-DEV-01</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYSBSYSKIT-DEV-01</board_uri>
     <chips>
       <mcu>CY8C624AFNI-S2D43</mcu>
       <radio>CYW43012TC0KFFBH</radio>
@@ -2351,7 +2351,7 @@
   <board default_location="local">
     <id>CYW9P62S1-43012EVB-01</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYW9P62S1-43012EVB-01</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43012EVB-01</board_uri>
     <chips>
       <mcu>WM-BAC-CYW-50 (CY8C6247FDI-D52)</mcu>
       <radio>WM-BAC-CYW-50 (CYW43012TC0EKUBG)</radio>
@@ -2423,7 +2423,7 @@
   <board default_location="local">
     <id>CYW9P62S1-43438EVB-01</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_CYW9P62S1-43438EVB-01</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CYW9P62S1-43438EVB-01</board_uri>
     <chips>
       <mcu>AW-CU427 (CY8C6247BZI-D54)</mcu>
       <radio>AW-CU427 (CYW43438KUBG)</radio>
@@ -2495,7 +2495,7 @@
   <board default_location="local">
     <id>PSOC6-GENERIC</id>
     <category>PSOC&#8482; 6 BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_PSOC6-GENERIC</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
@@ -2963,7 +2963,7 @@
   <board default_location="local">
     <id>KIT_XMC14_BOOT_001</id>
     <category>XMC&#8482; BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC14_BOOT_001</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_KIT_XMC14_BOOT_001</board_uri>
     <chips>
       <mcu>XMC1404-Q064x0200</mcu>
     </chips>
@@ -3150,7 +3150,7 @@
   <board default_location="local">
     <id>KIT_XMC47_RELAX_V1</id>
     <category>XMC&#8482; BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC47_RELAX_V1</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_KIT_XMC47_RELAX_V1</board_uri>
     <chips>
       <mcu>XMC4700-F144x2048</mcu>
     </chips>
@@ -3267,7 +3267,7 @@
   <board default_location="local">
     <id>XMC-GENERIC</id>
     <category>XMC&#8482; BSPs</category>
-    <board_uri>https://github.com/Infineon/TARGET_XMC-GENERIC</board_uri>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_XMC-GENERIC</board_uri>
     <chips>
       <mcu>XMC1404-Q064x0200</mcu>
     </chips>
