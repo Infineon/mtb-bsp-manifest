@@ -1802,6 +1802,15 @@
       },
       {
          "category": "Chip Families",
+         "description": "This chip is in the PSOC4 HVMS family (PSOC4 HVMS 64K, PSOC4 HVMS 128K, etc).",
+         "name": "psoc4hvms",
+         "token": "psoc4hvms",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
          "description": "This chip is in the XMC7000 family.",
          "name": "xmc7000",
          "token": "xmc7000",
