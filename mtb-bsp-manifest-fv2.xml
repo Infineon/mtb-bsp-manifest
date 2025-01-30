@@ -1348,6 +1348,14 @@
     <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4DNJBZS 6MB Flash 327-pin LQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;One 512-Mbit external Semper SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;One 64-Mbit external Hyperram that provides a fast, expandable memory for data&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Two user LEDs, one user buttons, and a reset button for the T2G-C-2D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-C-2D evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-C cable&lt;/li&gt;                &lt;li&gt;Quick start guide (printed on the kit package)&lt;/li&gt;                &lt;li&gt;See &lt;a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html"&gt;Peripheral driver library (PDL) library&lt;/a&gt;&lt;/li&gt;                &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite</documentation_url>
     <versions>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>latest-v2.X</num>
         <commit>latest-v2.X</commit>
