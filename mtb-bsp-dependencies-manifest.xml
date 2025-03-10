@@ -15857,6 +15857,53 @@
     </versions>
   </depender>
   <depender>
+    <id>EVAL_6EDL7151_36V_1KW</id>
+    <versions>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-xmclib-cat3</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat3</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-xmclib-cat3</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat3</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>KIT_XMC71_EVK_LITE_V1</id>
     <versions>
       <version>

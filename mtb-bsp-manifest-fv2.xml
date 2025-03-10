@@ -3427,6 +3427,29 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>EVAL_6EDL7151_36V_1KW</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_EVAL_6EDL7151_36V_1KW</board_uri>
+    <chips>
+      <mcu>XMC1404-Q064x0200</mcu>
+    </chips>
+    <name>EVAL_6EDL7151_36V_1KW</name>
+    <summary>    The EVAL_6EDL7151_36V_1KW houses the 6EDL7151 three-phase smart motor driver IC with on board debugger     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
+    <prov_capabilities>adc bsp_gen4 can cat3 ccu4 ccu8 comp eval_6edl7151_36v_1kw flash_200k i2c i2s led low_power mcu_gp posif rtc spi sram_16k uart xmc xmc1000</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;6EDL7151 three-phase smart motor driver IC&lt;/li&gt;         &lt;li&gt;XMC1404 (ARM&amp;#174; Cortex&amp;#174;-M0 based) Microcontroller in a VQFN64 package&lt;/li&gt;         &lt;li&gt;BSC014N06NSSC OptiMOS&amp;#8482; 60V 1.4m&amp;#937; DSC power MOSFETs in 5x6 PQFN, dual-side cooled SuperSO8 packages&lt;/li&gt;         &lt;li&gt;On board Debugger for downloading and debugging of application code&lt;/li&gt;         &lt;li&gt;Two used LEDs connected to GPIO P4.7, P4.8&lt;/li&gt;         &lt;li&gt;Speed POT to set speed reference of motor connected to analog input P2.5&lt;/li&gt;         &lt;li&gt;8-pin XMC&amp;#8482; MCU Debug Connector to external debugger&lt;/li&gt;         &lt;li&gt;5-pin HALL connector inputs for motor position feedback connected to GPIO P4.1, P4.2, P4.3&lt;/li&gt;         &lt;li&gt;On board temperature sensor connected to analog input P2.4&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;EVAL_6EDL7151_36V_1KW evaluation board&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/eval_6edl7151_36v_1kw/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC71_EVK_LITE_V1</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_XMC71_EVK_LITE_V1</board_uri>
