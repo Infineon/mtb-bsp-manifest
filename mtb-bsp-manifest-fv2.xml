@@ -1372,6 +1372,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
