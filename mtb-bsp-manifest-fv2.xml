@@ -1544,6 +1544,14 @@
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can dma i2s lptimer">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can dma i2s lptimer">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can dma i2s lptimer">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
