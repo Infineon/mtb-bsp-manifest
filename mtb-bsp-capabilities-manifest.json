@@ -118,6 +118,15 @@
          ]
       },
       {
+         "category": "BSP",
+         "description": "This board support package is from the sixth generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen6",
+         "token": "bsp_gen6",
+         "types": [
+            "generation"
+         ]
+      },
+      {
          "category": "Networking",
          "description": "This chip supports Bluetooth.",
          "name": "bt",
