@@ -1442,31 +1442,35 @@
     </chips>
     <name>KIT_T2G_C-2D-6M_LITE</name>
     <summary>The KIT_T2G_C-2D-6M_LITE, a 327-pin evaluation board is based on the TRAVEO T2G family of devices. T2G-C-2D MCU is designed for  automotive and industrial applications. The evaluation board carries a T2G-C-2D 6M microcontroller,and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  a 512-Mbit QSPI NOR flash, CAN FD transceiver, Single-channel FPD-Link/LVDS interface for up to 1920 x 720 video output  MIPI-CSI2 camera connector, PMOD connector to support external ethernet PHY (also supports DP83848 Ethernet board) a Shield2Go connector interface and MikroBUS connector interface, two user LEDs, one potentiometer, and one user push buttons. USB Type-C connector for powering-up the kit and for FX3 output streaming. The board supports operating voltages from 1.1 V to 5.0 V for T2G-C-2D device.&lt;br&gt;     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;KIT_T2G_C-2D-6M_LITE is the board support package for the T2G-C-2D 6M Lite Evaluation board  with CYT4DNJBZS MCU. &lt;/p&gt;     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Some additional setups will allow you to use more code examples than those shown on the next page. Click &lt; a href="https://github.com/Infineon/TRAVEO_T2G_code_examples#how-to-setup"&gt;here&lt;/a&gt; for setup instructions.&lt;/p&gt;</summary>
-    <prov_capabilities>adc arduino bsp_gen5 can cat1 cat1c dma ethernet flash_6336k i2c i2s kit_t2g_c_2d_6m_lite led lin low_power lptimer mcu_gp memory multi_core nor_flash rtc smart_io spi sram_640k std_crypto switch t2gc2d uart</prov_capabilities>
+    <prov_capabilities>adc arduino can cat1 cat1c dma ethernet flash_6336k i2c i2s kit_t2g_c_2d_6m_lite led lin low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_640k std_crypto switch t2gc2d uart</prov_capabilities>
     <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4DNJBZS 6MB Flash 327-pin LQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;One 512-Mbit external Semper SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;One 64-Mbit external Hyperram that provides a fast, expandable memory for data&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Two user LEDs, one user buttons, and a reset button for the T2G-C-2D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-C-2D evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-C cable&lt;/li&gt;                &lt;li&gt;Quick start guide (printed on the kit package)&lt;/li&gt;                &lt;li&gt;See &lt;a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html"&gt;Peripheral driver library (PDL) library&lt;/a&gt;&lt;/li&gt;                &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite</documentation_url>
     <versions>
-      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="hal bsp_gen6">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="hal bsp_gen6">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="hal bsp_gen6">
         <num>3.0.1 release</num>
         <commit>release-v3.0.1</commit>
       </version>
-      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="hal bsp_gen6">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>latest-v2.X</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>release-v2.2.1</num>
         <commit>release-v2.2.1</commit>
       </version>
-      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>release-v2.2.0</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -1543,11 +1547,11 @@
     <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200D-E272K8384 8MB Flash 272-pin BGA device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7000D device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the XMC7000D device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC7200 evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen6 can dma i2s lptimer">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen6 can dma i2s lptimer">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen6 can dma i2s lptimer">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen6 can dma i2s lptimer">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
