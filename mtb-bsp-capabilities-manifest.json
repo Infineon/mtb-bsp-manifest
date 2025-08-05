@@ -650,6 +650,24 @@
       },
       {
          "category": "Chip Families",
+         "description": "This chip is in the 89530 family.",
+         "name": "cyw89530",
+         "token": "cyw89530",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 88530 family.",
+         "name": "cyw88530",
+         "token": "cyw88530",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
          "description": "This chip is in the 89829 family.",
          "name": "cyw89829",
          "token": "cyw89829",
