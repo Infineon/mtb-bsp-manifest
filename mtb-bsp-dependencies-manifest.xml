@@ -15583,7 +15583,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat5</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v3.X</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat5</id>
@@ -15612,7 +15612,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat5</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v3.X</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat5</id>
@@ -15641,7 +15641,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat5</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v3.X</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat5</id>
@@ -18301,7 +18301,7 @@
           </dependee>
           <dependee>
             <id>bt-fw-ifx-cyw55500a1</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v3.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -18310,7 +18310,7 @@
         <dependees>
           <dependee>
             <id>bt-fw-ifx-cyw55500a1</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v3.X</commit>
           </dependee>
           <dependee>
             <id>cat1cm0p</id>
@@ -18343,7 +18343,7 @@
         <dependees>
           <dependee>
             <id>bt-fw-ifx-cyw55500a1</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v3.X</commit>
           </dependee>
           <dependee>
             <id>cat1cm0p</id>
