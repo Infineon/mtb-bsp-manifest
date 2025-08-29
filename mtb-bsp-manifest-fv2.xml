@@ -4141,6 +4141,60 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_PSOC4-HVPA-144K_LITE</id>
+    <category>PSOC&#8482; 4 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSOC4-HVPA-144K_LITE</board_uri>
+    <chips>
+      <mcu>CY8C4147LCE-HV423</mcu>
+    </chips>
+    <name>KIT_PSOC4-HVPA-144K_LITE</name>
+    <summary><![CDATA[
+      PSOC&trade; 4 High Voltage Precision Analog (HVPA)-144K is a fully integrated programmable embedded system for
+      lead acid battery monitoring and management. The system features an Arm&reg; Cortex&reg; M0+ processor and
+      programmable and reconfigurable analog and digital blocks.
+      <p><b>Note:</b></p>
+      <p>Some additional setups will allow you to use more code examples than those shown on the next page.
+      Click <a href="https://github.com/Infineon/PSOC4_HV_code_examples?tab=readme-ov-file#how-to-setup">here</a>
+      for setup instructions.</p>
+    ]]></summary>
+    <prov_capabilities>adc bsp_gen4 cat2 dma flash_128k i2c kit_psoc4_hvpa_144k_lite led lin low_power mcu_gp psoc4 psoc4hvpa spi sram_8k uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>On-board Programmer and Debugger</li>
+        <li>Two precision Delta-Sigma ADCs (16-20+ bits) with automatic gain current channel and HV input divider voltage channel</li>
+        <li>Digital peripherals, such as PWMs</li>
+        <li>Serial communication interfaces along with a LIN interface with integrated PHY</li>
+        <li>High-voltage subsystem to operate directly off the 12-V car battery</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>KIT_PSOC4-HVPA-144K_LITE Board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+      </ul><p/>
+      <div class="category">Low-level Driver References:</div>
+      <ul>
+        <li>See <a href="https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/index.html">Peripheral driver library (PDL) library</a></li>
+      </ul>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/psochvpalitekit</documentation_url>
+    <versions>
+      <version flow_version="2.0" prov_capabilities_per_version="" tools_min_version="3.5.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" prov_capabilities_per_version="" tools_min_version="3.5.0">
+        <num>3.4.1 release</num>
+        <commit>release-v3.4.1</commit>
+      </version>
+      <version flow_version="2.0" prov_capabilities_per_version="" tools_min_version="3.5.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_PSOC4-HVMS-64K_LITE</id>
     <category>PSOC&#8482; 4 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_PSOC4-HVMS-64K_LITE</board_uri>

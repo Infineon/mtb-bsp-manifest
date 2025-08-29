@@ -1889,6 +1889,15 @@
          "types": [
             "chip"
          ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the PSOC4 HVPA family (PSOC4 HVPA 144K, PSOC4 HVPA PPM, etc).",
+         "name": "psoc4hvpa",
+         "token": "psoc4hvpa",
+         "types": [
+            "chip"
+         ]
       }
    ]
 }
