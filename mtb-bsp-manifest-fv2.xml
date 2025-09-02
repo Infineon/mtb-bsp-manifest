@@ -2930,8 +2930,8 @@
     <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CYW920829M2EVK-02</board_uri>
     <chips>
-      <mcu>CYW20829B0LKML</mcu>
-      <radio>CYW20829B0LKML</radio>
+      <mcu>CYW20829B1010</mcu>
+      <radio>CYW20829B1010</radio>
     </chips>
     <name>CYW920829M2EVK-02</name>
     <summary>    The Infineon AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE evaluation kit (CYW92089M2EVK-02) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC&amp;#8482; CYW20829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an Arm&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW20829 is ideal for a wide range of applications in home and industrial automation, sensors, lighting, Bluetooth&amp;#174; mesh, remote controls and any other Bluetooth&amp;#174; LE connected IoT application.     &lt;p/&gt;     The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE evaluation kit (CYW920829M2EVK-02) and ModusToolbox&amp;#8482; software and tools form a powerful but easy to use toolset that helps developers create amazing Bluetooth&amp;#174; enabled IoT solutions.     &lt;p/&gt;     The Code Examples available for CYW920829M2EVK-02 EVK are also applicable to CYW920829B0M2P4TAI100-EVK and CYW920829B0M2P4EPI100-EVK. There are no separate BSPs for the module EVKs, same CYW920829M2EVK-02 BSP is used for Module EVKs as well.</summary>
@@ -2939,6 +2939,14 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU in 56 pin QFN package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;On-board sensors - 6-axis IMU, thermistor, Infineon analog microphone, and Infineon digital microphone&lt;/li&gt;         &lt;li&gt;User switches, RGB LED and user LEDs&lt;/li&gt;         &lt;li&gt;USB connector for power, programming and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW20829 evaluation board (CYW9BTM2BASE3+CYW920829M2IPA2)&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (five inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2982,8 +2990,8 @@
     <category>AIROC&#8482; Bluetooth&#174; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CYW989829M2EVB-01</board_uri>
     <chips>
-      <mcu>CYW89829B0232</mcu>
-      <radio>CYW89829B0232</radio>
+      <mcu>CYW89829B1232</mcu>
+      <radio>CYW89829B1232</radio>
     </chips>
     <name>CYW989829M2EVB-01</name>
     <summary>    The Infineon AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE evaluation board (CYW989829M2EVB-01) enables evaluation, prototyping, and development of a wide array of Industrial and Automotive IoT applications using the AIROC&amp;#8482; CYW89829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an Arm&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW89829 is optimal solution for automotive and industrial use cases such as car access, battery managment system, automotive sensors, and other applications requiring Automotive AECQ-100 Grade-2 qualification.</summary>
@@ -2991,6 +2999,14 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU in 77 pin BGA SIP package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW89829 evaluation board (CYW9BTM2AUAD+CYW989829SIPM2IPA1)&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
     <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
