@@ -1467,6 +1467,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="hal bsp_gen6">
+        <num>3.1.2 release</num>
+        <commit>release-v3.1.2</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="hal bsp_gen6">
         <num>3.1.1 release</num>
         <commit>release-v3.1.1</commit>
       </version>
@@ -1513,7 +1517,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
         <num>2.3.3 release</num>
         <commit>release-v2.3.3</commit>
       </version>
@@ -1552,7 +1560,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
         <num>2.3.3 release</num>
         <commit>release-v2.3.3</commit>
       </version>
@@ -1588,6 +1600,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen6 can dma i2s lptimer">
+        <num>3.0.3 release</num>
+        <commit>release-v3.0.3</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen6 can dma i2s lptimer">
         <num>3.0.2 release</num>
         <commit>release-v3.0.2</commit>
       </version>
@@ -1602,6 +1618,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can dma i2s lptimer">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can dma i2s lptimer">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can dma i2s lptimer">
         <num>2.3.3 release</num>
@@ -1670,6 +1690,10 @@
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.3 release</num>
@@ -3722,6 +3746,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
+      </version>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.2 release</num>
         <commit>release-v2.3.2</commit>
       </version>
@@ -3763,6 +3791,10 @@
       <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
       </version>
       <version tools_min_version="3.1.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.2 release</num>
@@ -4367,6 +4399,10 @@
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.3.4 release</num>
+        <commit>release-v2.3.4</commit>
       </version>
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.2 release</num>
