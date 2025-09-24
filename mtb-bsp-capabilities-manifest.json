@@ -290,15 +290,6 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the CAT1D family.",
-         "name": "cat1d",
-         "token": "cat1d",
-         "types": [
-            "chip"
-         ]
-      },
-      {
-         "category": "Chip Families",
          "description": "This chip is in the CAT2 family (PSOC 4, etc).",
          "name": "cat2",
          "token": "cat2",
@@ -1895,6 +1886,78 @@
          "description": "This chip is in the PSOC4 HVPA family (PSOC4 HVPA 144K, PSOC4 HVPA PPM, etc).",
          "name": "psoc4hvpa",
          "token": "psoc4hvpa",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Security",
+         "description": "This chip is in the EPC2 Security family",
+         "name": "epc2",
+         "token": "epc2",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Security",
+         "description": "This chip is in the EPC3 Security family",
+         "name": "epc3",
+         "token": "epc3",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Security",
+         "description": "This chip is in the EPC4 Security family",
+         "name": "epc4",
+         "token": "epc4",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8xxGM series.",
+         "name": "pse8xxgm",
+         "token": "pse8xxgm",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8xxGO series.",
+         "name": "pse8xxgo",
+         "token": "pse8xxgo",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8xxGP series.",
+         "name": "pse8xxgp",
+         "token": "pse8xxgp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains Graphics Accelerator Block",
+         "name": "gfx",
+         "token": "gfx",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains Neural Processing Unit (NPU) Block",
+         "name": "npu",
+         "token": "npu",
          "types": [
             "chip"
          ]
