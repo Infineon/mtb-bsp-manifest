@@ -3134,6 +3134,14 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion.&lt;/li&gt;         &lt;li&gt;On-board sensors - A Digital Ambient Light Sensor (TSL25403) and a Potentiometer.&lt;/li&gt;         &lt;li&gt;Two IFX PDM Microphone (IM69D130) and one Analog Microphone (IM73A135).&lt;/li&gt;         &lt;li&gt;User switches and LEDs&lt;/li&gt;         &lt;li&gt;USB Type-C connector for power, programming, and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYW55913 evaluation board&lt;/li&gt;         &lt;li&gt;M.2 to FFC adapter board&lt;/li&gt;         &lt;li&gt;30-pin FFC cable &lt;/li&gt;         &lt;li&gt;USB Type-C to Type-C cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-connected-mcu/cyw55913/#!documents</documentation_url>
     <versions>
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
