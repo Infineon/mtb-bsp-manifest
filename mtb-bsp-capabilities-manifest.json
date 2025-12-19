@@ -703,6 +703,15 @@
          ]
       },
       {
+         "category": "Networking",
+         "description": "This chip is capable of supporting at least two physical Ethernet ports.",
+         "name": "ethernet_dual",
+         "token": "ethernet_dual",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Ports",
          "description": "This board has headers that are compatible with Adafruit Feather components.",
          "name": "feather",

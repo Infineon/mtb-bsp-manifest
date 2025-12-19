@@ -1512,31 +1512,73 @@
     </chips>
     <name>KIT_T2G-B-H_EVK</name>
     <summary>The KIT_T2G-B-H_EVK, a 272-pin evaluation board is based on the TRAVEO T2G family of devices. T2G-B-H MCU is designed for  industrial applications. The evaluation board carries a T2G-B-H microcontroller, a M.2 interface connector for interfacing  radio modules based on AIROC&#8482; Wi-Fi and Bluetooth&#174; combos (currently not supported), SMIF dual header compatible with Digilent  Pmod for interfacing HYPERBUS&#8482; memories (currently not supported), and headers compatible with Arduino for  interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  a 512-Mbit QSPI NOR flash, CAN FD transceiver, Gigabit Ethernet PHY transceiver with RJ45 connector interface,  a micro-B connector for USB device interface, three user LEDs, one potentiometer, and two push buttons.  The board supports operating voltages from 3.3 V to 5.0 V for T2G-B-H device.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Some additional setups will allow you to use more code examples than those shown on the next page. Click &lt; a href="https://github.com/Infineon/TRAVEO_T2G_code_examples#how-to-setup"&gt;here&lt;/a&gt; for setup instructions.&lt;/p&gt;</summary>
-    <prov_capabilities>arduino cat1 cat1c dma ethernet flash_8384k hal i2c kit_t2g_b_h_evk led low_power mcu_gp memory memory_qspi multi_core nor_flash qspi rtc sdio smart_io spi sram_1024k std_crypto switch t2gbh uart</prov_capabilities>
-    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BFBCHE 8MB Flash 272-pin BGA device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;                &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-B-H evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/p&gt;                &lt;/ul&gt;                &lt;div class="category"&gt;Low-level Driver References:&lt;/div&gt;&lt;ul&gt;                                &lt;li&gt;&lt;a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html"&gt;Peripheral driver library (PDL) library&lt;/a&gt;&lt;/p&gt;                &lt;li&gt;&lt;a href="https://infineon.github.io/mtb-hal-cat1/html/modules.html"&gt;Hardware abstraction layer (HAL) library&lt;/a&gt;&lt;/p&gt;</description>
+    <prov_capabilities>adc arduino can cat1 cat1c dma ethernet ethernet_dual flash_8384k hal i2c i2s kit_t2g_b_h_evk led lin low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_1024k std_crypto switch t2gbh uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>CYT4BFBCHE 8MB Flash 272-pin BGA device</li>
+        <li>Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)</li>
+        <li>Reset control with manual reset switch and voltage supervision</li>
+        <li>Gigabit Ethernet interface</li>
+        <li>CAN FD interface</li>
+        <li>M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)</li>
+        <li>512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code</li>
+        <li>KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality</li>
+        <li>A micro-B connector for USB device interface</li>
+        <li>Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device</li>
+        <li>Three user LEDs, two user buttons, and a reset button for the T2G-B-H device</li>
+        <li>A potentiometer which can be used to simulate analog sensor output</li>
+        <li>A mode button and a mode LED for KitProg3</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>T2G-B-H evaluation board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>12V/3A DC power adapter with additional blades</li>
+        <li>Six jumper wires</li>
+        <li><a href="https://www.infineon.com/assets/row/public/documents/10/44/infineon-traveo-tm-t2g-body-high-evaluation-kit-kit-t2g-b-h-evk-quick-start-guide-usermanual-en.pdf">Quick start guide</a></li>
+      </ul><p/>
+      <div class="category">Low-level Driver References:</div>
+      <ul>
+        <li><a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html">Peripheral driver library (PDL) library</a></li>
+        <li><a href="https://infineon.github.io/mtb-hal-cat1/html/modules.html">Hardware abstraction layer (HAL) library</a></li>
+      </ul><p/>
+    ]]></description>
     <documentation_url>https://www.infineon.com/evaluation-board/KIT-T2G-B-H-EVK</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.3.6 release</num>
+        <commit>release-v2.3.6</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.5 release</num>
         <commit>release-v2.3.5</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.4 release</num>
         <commit>release-v2.3.4</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.3 release</num>
         <commit>release-v2.3.3</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -1559,31 +1601,70 @@
     </chips>
     <name>KIT_T2G-B-H_LITE</name>
     <summary>The KIT_T2G-B-H_LITE, a 176-pin evaluation board is based on the TRAVEO&#8482; T2G family of devices. T2G-B-H MCU is designed for  automotive and industrial applications. The evaluation board carries a T2G-B-H microcontroller,and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  Two 512-Mbit QSPI NOR flashes, CAN FD transceiver, Ethernet PHY transceiver with RJ45 connector interface,  a Shield2Go connector interface and MikroBUS connector interface, three user LEDs, one potentiometer, and two push buttons.  The board supports operating voltages from 3.3 V to 5.0 V for T2G-B-H device.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Some additional setups will allow you to use more code examples than those shown on the next page. Click &lt; a href="https://github.com/Infineon/TRAVEO_T2G_code_examples#how-to-setup"&gt;here&lt;/a&gt; for setup instructions.&lt;/p&gt;</summary>
-    <prov_capabilities>arduino cat1 cat1c dma ethernet flash_8384k hal i2c kit_t2g_b_h_lite led low_power mcu_gp memory memory_qspi multi_core nor_flash qspi rtc sdio smart_io spi sram_1024k std_crypto switch t2gbh_lite uart</prov_capabilities>
-    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BF8CDS 8MB Flash 176-pin TEQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;Ethernet interface&lt;/li&gt;                &lt;li&gt;Two 512-Mbit external Quad SPI NOR Flashes that provides a fast, expandable memory for data and code&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the T2G-B-H device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;T2G-B-H evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;                &lt;li&gt;Six jumper wires&lt;/li&gt;                &lt;li&gt;&lt; a href="https://www.infineon.com/row/public/documents/10/44/infineon-traveo-tm-t2g-body-high-lite-kit-kit-t2g-b-h-lite-quick-start-guide-usermanual-en.pdf"&gt;Quick start guide&lt;/a&gt;&lt;/p&gt;                &lt;/ul&gt;                &lt;div class="category"&gt;Low-level Driver References:&lt;/div&gt;&lt;ul&gt;                                &lt;li&gt;&lt;a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html"&gt;Peripheral driver library (PDL) library&lt;/a&gt;&lt;/p&gt;                &lt;li&gt;&lt;a href="https://infineon.github.io/mtb-hal-cat1/html/modules.html"&gt;Hardware abstraction layer (HAL) library&lt;/a&gt;&lt;/p&gt;</description>
+    <prov_capabilities>adc arduino can cat1 cat1c dma ethernet flash_8384k hal i2c i2s kit_t2g_b_h_lite led lin low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_1024k std_crypto switch t2gbh t2gbh_lite uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>CYT4BF8CDS 8MB Flash 176-pin TEQFP device</li>
+        <li>Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)</li>
+        <li>Reset control with manual reset switch and voltage supervision</li>
+        <li>CAN FD interface</li>
+        <li>Ethernet interface</li>
+        <li>Two 512-Mbit external Quad SPI NOR Flashes that provides a fast, expandable memory for data and code</li>
+        <li>KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality</li>
+        <li>A Shield2Go connector interface and a MikroBUS connector interface</li>
+        <li>Selectable input supply voltages of 3.3 V and 5.0 V for the T2G-B-H device</li>
+        <li>Three user LEDs, two user buttons, and a reset button for the T2G-B-H device</li>
+        <li>A potentiometer which can be used to simulate analog sensor output</li>
+        <li>A mode button and a mode LED for KitProg3</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>T2G-B-H evaluation board&lt;</li>
+        <li>USB Type-A to Micro-B cable&lt;</li>
+        <li><a href="https://www.infineon.com/assets/row/public/documents/10/44/infineon-traveo-tm-t2g-body-high-lite-kit-kit-t2g-b-h-lite-quick-start-guide-usermanual-en.pdf">Quick start guide</a></li>
+      </ul><p/>
+        <div class="category">Low-level Driver References:</div>
+      <ul>
+        <li><a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html">Peripheral driver library (PDL) library</a></li>
+        <li><a href="https://infineon.github.io/mtb-hal-cat1/html/modules.html">Hardware abstraction layer (HAL) library</a></li>
+      </ul><p/>
+    ]]></description>
     <documentation_url>https://www.infineon.com/evaluation-board/KIT-T2G-B-H-LITE</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>2.3.6 release</num>
+        <commit>release-v2.3.6</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.5 release</num>
         <commit>release-v2.3.5</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.4 release</num>
         <commit>release-v2.3.4</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen5 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>2.3.3 release</num>
         <commit>release-v2.3.3</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="adc bsp_gen4 can i2s lin lptimer">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -4697,13 +4778,46 @@
     </chips>
     <name>KIT_TRAVEO_T2G_B_H_MC1</name>
     <summary>The KIT_TRAVEO_T2G_B_H_MC1, a 176-pin evaluation board is based on the TRAVEO T2G family of devices. T2G-B-H MCU is designed for industrial applications. The evaluation board carries a T2G-B-H microcontroller and a 100 pin High Density Motor Connector In addition, the board features an on-board programmer/debugger (Segger J-Link) with USB-UART VCOM interface, MikroBUS connector interface, two user LEDs, two potentiometer, and two push buttons: (XRES and USR) The board supports operating voltages from 3.3 V to 5.0 V for the T2G-B-H device.</summary>
-    <prov_capabilities>adc bsp_gen5 can cat1 cat1c dma ethernet flash_8384k hal i2c i2s kit_traveo_t2g_b_h_mc1 led lin low_power lptimer mcu_gp memory multi_core qspi rtc sdhc sdio smart_io spi sram_1024k std_crypto switch t2gbh uart</prov_capabilities>
-    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;CYT4BF8CDS 8MB Flash 176-pin TEQFP device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the TRAVEO T2G CYT4BF device&lt;/li&gt;                &lt;li&gt;Two user LEDs, one user buttons, and a reset button for the TRAVEO T2G CYT4BF device&lt;/li&gt;                &lt;li&gt;Two potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;TRAVEO T2G CYT4BF Drive card&lt;/li&gt;                &lt;li&gt;USB Type-A to Type-C cable&lt;/li&gt;                &lt;li&gt;Quick start guide&lt;/li&gt;                &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/kit_travo_t2g_b_h_mc1/</documentation_url>
+    <prov_capabilities>adc bsp_gen5 can cat1 cat1c dma ethernet flash_8384k hal i2c i2s kit_traveo_t2g_b_h_mc1 led lin low_power lptimer mcu_gp memory multi_core qspi rtc smart_io spi sram_1024k std_crypto switch t2gbh uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>CYT4BF8CDS 8MB Flash 176-pin TEQFP device</li>
+        <li>Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)</li>
+        <li>Reset control with manual reset switch and voltage supervision</li>
+        <li>CAN FD interface</li>
+        <li>KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality</li>
+        <li>A micro-B connector for USB device interface</li>
+        <li>Selectable input supply voltages of 3.3 V and 5.0 V for the TRAVEO T2G CYT4BF device</li>
+        <li>Two user LEDs, one user buttons, and a reset button for the TRAVEO T2G CYT4BF device</li>
+        <li>Two potentiometer which can be used to simulate analog sensor output</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>KIT_TRAVEO_T2G_B_H_DC_V1 motor control card</li>
+        <li>Drive adapter card</li>
+        <li>KIT_MOTOR_DC_250W_24V_T2G power board</li>
+        <li>USB Type-A to Type-C cable</li>
+        <li>Screwdriver</li>
+        <li>Nanotec DB42S03 or DB42M03 24V BLDC motor</li>
+        <li>24 V/1 A AC-DC adapter</li>
+        <li><a href="https://www.infineon.com/assets/row/public/documents/10/44/infineon-traveotm-t2g-cyt4bf-complete-system-motor-control-kit-kit-traveo-t2g-b-h-mc1-quick-start-guide-usermanual-en.pdf">Quick start guide</a></li>
+      </ul><p/>
+        <div class="category">Low-level Driver References:</div>
+      <ul>
+        <li><a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html">Peripheral driver library (PDL) library</a></li>
+        <li><a href="https://infineon.github.io/mtb-hal-cat1/html/modules.html">Hardware abstraction layer (HAL) library</a></li>
+      </ul><p/>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/evaluation-board/KIT-TRAVEO-T2G-B-H-MC1</documentation_url>
     <versions>
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>2.3.6 release</num>
+        <commit>release-v2.3.6</commit>
       </version>
       <version tools_min_version="3.3.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>2.3.1 release</num>
