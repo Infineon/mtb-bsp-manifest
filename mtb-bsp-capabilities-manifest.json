@@ -667,6 +667,15 @@
          ]
       },
       {
+         "category": "Chip Families",
+         "description": "This chip is in the psc3m5 family.",
+         "name": "psc3m5",
+         "token": "psc3m5",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Hardware Blocks",
          "description": "This chip contains at least one programmable Digital to Analog Converter block.",
          "name": "dac",
