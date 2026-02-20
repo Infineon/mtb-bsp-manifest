@@ -4731,11 +4731,11 @@
     <description><![CDATA[This evaluation kit carries a PSOC&#8482; Edge E84 EPC2 MCU (PSE846GPS2DBZC4A) on a SODIMM based detachable SOM board connected to the base-board. The MCU SOM also has 128 Mb QSPI flash, 1 Gb Octal flash, 128 Mb Octal RAM, PSOC&#8482; 4000T as CAPSENSE&#8482; co-processor and on-board AIROC&#8482; Wi-Fi & Bluetooth&#174; combo (CYW55513IUBG). <br><br>The base-board has M.2 interface connectors for interfacing external radio modules based on AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and external memory interfaces. The base-board features an on-board programmer/debugger(KitProg3), ETM/JTAG/SWD debug headers, custom display capacitive touch panel connector, R-Pi compatible MIPI-DSI and MIPI-DSI custom display, Analog and PDM microphones, Headphone connector, Speaker, USB Host Type-A and USB device Type-C connectors, RJ45 Ethernet connector, M.2 (B-key) memory interface and M.2 (E-key) radio interface, Infineon's Shield2Go interface, Mikroelektronika's mikroBUS compatible headers, 6-Axis IMU sensor, 3-axis Magnetometer, microSD cardholder, CAPSENSE&#8482; buttons and slider, user LEDs and user buttons. The MCU power domain supports following operating voltages - 2.7 V, 3.3 V, 4.2 V and the peripheral power domain supports operating voltages - 1.8 V and 3.3 V.<br>[KitIds: KIT_PSE84_EVAL]]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/32-bit-psoc-edge-arm/psoc-edge-e84/#!documents</documentation_url>
     <versions>
-      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
@@ -4767,11 +4767,11 @@
     <description><![CDATA[This evaluation kit carries a PSOC&#8482; Edge E84 EPC4 MCU (PSE846GPS4DBZC4A) on a SODIMM based detachable SOM board connected to the base-board. The MCU SOM also has 128 Mb QSPI flash, 1 Gb Octal flash, 128 Mb Octal RAM, PSOC&#8482; 4000T as CAPSENSE&#8482; co-processor and on-board AIROC&#8482; Wi-Fi & Bluetooth&#174; combo (CYW55513IUBG). <br><br>The base-board has M.2 interface connectors for interfacing external radio modules based on AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and external memory interfaces. The base-board features an on-board programmer/debugger(KitProg3), ETM/JTAG/SWD debug headers, custom display capacitive touch panel connector, R-Pi compatible MIPI-DSI and MIPI-DSI custom display, Analog and PDM microphones, Headphone connector, Speaker, USB Host Type-A and USB device Type-C connectors, RJ45 Ethernet connector, M.2 (B-key) memory interface and M.2 (E-key) radio interface, Infineon's Shield2Go interface, Mikroelektronika's mikroBUS compatible headers, 6-Axis IMU sensor, 3-axis Magnetometer, microSD cardholder, CAPSENSE&#8482; buttons and slider, user LEDs and user buttons. The MCU power domain supports following operating voltages - 2.7 V, 3.3 V, 4.2 V and the peripheral power domain supports operating voltages - 1.8 V and 3.3 V.<br>[KitIds: KIT_PSE84_EVAL]]]></description>
     <documentation_url>https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/32-bit-psoc-edge-arm/psoc-edge-e84/#!documents</documentation_url>
     <versions>
-      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
@@ -4803,11 +4803,11 @@
     <description><![CDATA[This evaluation kit carries a PSOC&#8482; Edge E84 MCU (PSE846GPS2DBZC4A). The kit also has 512-Mbit QSPI flash, 128-Mbit Octal RAM and on-board LBEE5HY2FY module with Wi-Fi/Bluetooth&#174; connectivity. <br>The board features an on-board programmer/debugger (KitProg3), expansion IO header, R-Pi compatible MIPI-DSI, analog and digital microphones, USB device Type-C connector, 6-axis IMU sensor, 3-axis magnetometer, barometric pressure sensor, humidity sensor, radar, user LEDs, and a user button. The MCU power domain and peripheral power domain supports following operating voltages - 1.8 V, 3.3 V. ]]></description>
     <documentation_url>https://www.infineon.com/KIT_PSE84_AI</documentation_url>
     <versions>
-      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
