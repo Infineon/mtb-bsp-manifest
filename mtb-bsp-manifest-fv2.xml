@@ -1453,6 +1453,54 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_T2G_C-2D-4M_LITE</id>
+    <category>TRAVEO&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_T2G_C-2D-4M_LITE</board_uri>
+    <chips>
+      <mcu>CYT3DLBBHS</mcu>
+    </chips>
+    <name>KIT_T2G_C-2D-4M_LITE</name>
+    <summary><![CDATA[
+      The TRAVEO&trade; T2G Cluster 4M Lite Kit belongs to the TRAVEO&trade; Cluster 2D graphics family,
+      featuring the TRAVEO&trade; T2G CYT3DL device as the MCU and an onboard EZ-USB&trade; FX3
+      with a USB Type-C connector for streaming RGB graphics data packets to a PC screen.
+      This kit is primarily designed to evaluate the functions and features of the
+      CYT3DL series microcontroller."
+    ]]></summary>
+    <prov_capabilities>adc arduino bsp_gen6 can cat1 cat1c dma ethernet flash_4160k hal i2c i2s kit_t2g_c_2d_4m_lite led lin low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash qspi rtc smart_io spi sram_384k std_crypto switch t2gc2d tdm uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div><ul>
+      <li>CYT3DLBBHS 4MB Flash 272-pin BGA device</li>
+      <li>Programming interface (Arm&reg; Standard JTAG, Cortex&reg; Debug + ETM with Arm&reg; ETM Mictor)</li>
+      <li>Reset control with manual reset switch and voltage supervision</li>
+      <li>One 512-Mbit external Semper SPI NOR Flash that provides a fast, expandable memory for data and code</li>
+      <li>One 64-Mbit external Hyperram that provides a fast, expandable memory for data</li>
+      <li>KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality</li>
+      <li>A Shield2Go connector interface and a MikroBUS connector interface</li>
+      <li>Two user LEDs, one user button, and a reset button for the T2G-C-2D device</li>
+      <li>A potentiometer which can be used to simulate analog sensor output</li>
+      <li>A mode button and a mode LED for KitProg3</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div><ul>
+      <li>T2G-C-2D evaluation board</li>
+      <li>USB Type-A to Micro-B cable</li>
+      <li>Quick start guide (printed on the kit package)</li>
+      <li>See <a href="https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html">Peripheral driver library (PDL) library</a></li>
+      </ul>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/evaluation-board/KIT-T2G-C-2D-4M-LITE</documentation_url>
+    <versions>
+      <version tools_min_version="3.7.0" flow_version="2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_T2G_C-2D-6M_LITE</id>
     <category>TRAVEO&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_T2G_C-2D-6M_LITE</board_uri>
