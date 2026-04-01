@@ -1979,6 +1979,15 @@
          "types": [
             "chip"
          ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the XMC5x00 series.",
+         "name": "xmc5000",
+         "token": "xmc5000",
+         "types": [
+            "chip"
+         ]
       }
    ]
 }

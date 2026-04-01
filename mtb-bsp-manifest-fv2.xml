@@ -5001,4 +5001,27 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>KIT_XMC52_EVK</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC52_EVK</board_uri>
+    <chips>
+      <mcu>XMC5200-F100K1088AA</mcu>
+    </chips>
+    <name>KIT_XMC52_EVK</name>
+    <summary>The KIT_XMC52_EVK, a 100-pin evaluation board is based on the XMC&amp;#8482; 5000 family of devices. XMC&amp;#8482; 5200 MCU is designed for  industrial applications. The evaluation board carries a XMC&amp;#8482; 5200 microcontroller,and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3),  CAN FD transceiver, two user LEDs, one potentiometer, and one user button The board supports an operating voltage of 5.0 V for XMC&amp;#8482; 5200 device.</summary>
+    <prov_capabilities>adc arduino bsp_gen5 can cat1 cat1a dma flash_1088k hal i2c kit_xmc52_evk led low_power lptimer mcu_gp multi_core rtc smart_io spi sram_128k std_crypto switch uart xmc5000</prov_capabilities>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;XMC5200-F100K1088AA 1088KB Flash 100-pin LQFP device&lt;/li&gt;                 &lt;li&gt;Programming interface (Arm&amp;#174; Standard JTAG, Cortex&amp;#174; Debug + ETM with Arm&amp;#174; ETM Mictor)&lt;/li&gt;                &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;                &lt;li&gt;CAN FD interface&lt;/li&gt;                &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;                &lt;li&gt;A Shield2Go connector interface and a MikroBUS connector interface&lt;/li&gt;                &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC&amp;#8482; 5200 device&lt;/li&gt;                &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the XMC&amp;#8482; 5200 device&lt;/li&gt;                &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;                &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;                &lt;/ul&gt;&lt;p/&gt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;KIT_XMC52_EVK evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/KIT_XMC52_EVK</documentation_url>
+    <versions>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
