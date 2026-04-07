@@ -5024,4 +5024,27 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>REF_OPTI_80V20A_GaN</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_REF_OPTI_80V20A_GaN</board_uri>
+    <chips>
+      <mcu>PSC3M5FDS2LGQ1</mcu>
+    </chips>
+    <name>REF_OPTI_80V20A_GaN</name>
+    <summary>This board has the PSOC&#8482; Control C3M5 device, a debugger, UART, power stage and the passive components. It is designed to demonstrate the capabilities of Infineon's GaN switches and PSOC&#8482; Control C3M5 microcontroller for power control applications.</summary>
+    <prov_capabilities>ref_opti_80v20a_gan adc can comp dma flash_256k hal hppass i2c low_power lptimer rtc spi smart_io sram_64k std_crypto uart epc2 psc3 psc3m5 bsp_gen5</prov_capabilities>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;PSC3M5FDS2LGQ1&lt;/li&gt;                &lt;li&gt;High Swing Input&lt;/li&gt;                &lt;li&gt;HRPWM usage to improve steps of duty cycle&lt;/li&gt;                &lt;li&gt;Deadtime reduction&lt;/li&gt;                &lt;li&gt;Communication Interface&lt;/li&gt;                &lt;li&gt;High power density solar optimiser&lt;/li&gt;                &lt;li&gt;100% duty cycle capability&lt;/li&gt;                &lt;li&gt;Optimized cost&lt;/li&gt;                &lt;li&gt;Easy interface with PsoC&lt;/li&gt;                &lt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;REF_OPTI_80V20A_GaN evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Type-C cable&lt;/li&gt;                &lt;                &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/REF_OPTI_80V20A_GaN</documentation_url>
+    <versions>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
