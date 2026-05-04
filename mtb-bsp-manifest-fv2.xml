@@ -4979,6 +4979,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>IIDC-062S2-MUR-43022</id>
+    <category>PSOC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_IIDC-062S2-MUR-43022</board_uri>
+    <chips>
+      <mcu>CY8C624AFNI-S2D43</mcu>
+      <radio>LBEE5WV2GF (CYW43022CUB)</radio>
+    </chips>
+    <name>IIDC-062S2-MUR-43022</name>
+    <summary>The IIDC-062S2-MUR-43022 is a compact, turnkey System-on-Module (SoM) from Infineon, built around the PSoC&amp;#8482; 6 dual-core MCU and AIROC&amp;#8482; CYW43022 Wi-Fi 5 chip, with an onboard OPTIGA&amp;#8482; Trust M secure element and 64 Mbit Flash for security and storage. It ships with a configurable firmware package that covers high-frequency sensor data acquisition, on-node preprocessing, and out-of-the-box secure connectivity including WPA2-PSK, WPA2-Enterprise 802.1X, MQTT/Sparkplug B, and HTTPS, as well as MCUboot-based Over-the-Air (OTA) updates. &lt;p&gt;The module is one component of the broader Infineon Industrial Data Connect solution, which combines this hardware with configurable firmware, an on-premise backend (device registry, MQTT broker, InfluxDB), and a frontend dashboard to carry sensor data from the edge node all the way to the customer backend. Together, these components form a production-ready, scalable platform for industrial IoT sensing use cases with minimal integration effort.&lt;/p&gt;</summary>
+    <prov_capabilities>adc bt capsense cat1 cat1a comp csd iidc_062s2_mur_43022 cyw43022 cyw43xxx dma flash_2048k hal i2c i2s low_power lptimer mcu_gp multi_core optiga_trust_m pdm psoc6 qspi rtc sdhc sdio smart_io spi sram_1024k std_crypto uart usb_device usb_host wifi</prov_capabilities>
+    <description>       &lt;div class="category"&gt;Kit Features:&lt;/div&gt; &lt;ul&gt;  &lt;li&gt;IIDC-062S2-MUR-43022 module&lt;/li&gt; &lt;li&gt;Free application processor (100-MHz Arm&amp;#174; Cortex&amp;#174;-M4) and secondary processor (100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+)&lt;/li&gt; &lt;li&gt;Support of up to 2MB Internal Flash and 1MB Internal SRAM.&lt;/li&gt; &lt;li&gt;64-Mbit onboard Quad SPI NOR Flash that provides a fast, expandable memory for OTA&lt;/li&gt; &lt;li&gt;OPTIGA Trust M advanced security controller onboard for secure data storage&lt;/li&gt;  &lt;li&gt;Murata 2GF WiFI/BT combo with Infineon CYW43022 WiFi-BT IC.&lt;/li&gt; &lt;li&gt;32Mhz 7ppm Chrystal for ECO&lt;/li&gt; &lt;li&gt;32.768 kHz Chrystal for WCO&lt;/li&gt; &lt;li&gt;32.768 LPO for Murata 2GF&lt;/li&gt; &lt;li&gt;onboard U.FL Antenna connector + extra antenna PinOut&lt;/li&gt; &lt;/ul&gt; &lt;div class="category"&gt;Kit Contents:&lt;/div&gt; &lt;ul&gt; &lt;li&gt;IIDC-062S2-MUR-43022 Infineon Industrial Connect Data Connect Module&lt;/li&gt; &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/product-information/industrial-data-connect/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>5.0.2 release</num>
+        <commit>release-v5.0.2</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC1402_M1</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_XMC1402_M1</board_uri>
