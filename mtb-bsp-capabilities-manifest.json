@@ -668,6 +668,15 @@
       },
       {
          "category": "Chip Families",
+         "description": "This chip is in the psc3 family.",
+         "name": "psc3",
+         "token": "psc3",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
          "description": "This chip is in the psc3m5 family.",
          "name": "psc3m5",
          "token": "psc3m5",
