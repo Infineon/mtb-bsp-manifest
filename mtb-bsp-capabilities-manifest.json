@@ -317,7 +317,7 @@
       },
       {
          "category": "Chip Families",
-         "description": "This chip is in the CAT5 family (55513, 55913, etc).",
+         "description": "This chip is in the CAT5 family (55513, 55913, 55310, etc).",
          "name": "cat5",
          "token": "cat5",
          "types": [
@@ -599,6 +599,15 @@
          "description": "This chip is in the 55513 family.",
          "name": "cyw55513",
          "token": "cyw55513",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 55310 family.",
+         "name": "cyw55310",
+         "token": "cyw55310",
          "types": [
             "chip"
          ]

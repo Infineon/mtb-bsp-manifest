@@ -3376,6 +3376,30 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT-CYW55310-EVAL</id>
+    <category>AIROC&#8482; Connectivity BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT-CYW55310-EVAL</board_uri>
+    <chips>
+      <mcu>CYW55310IUBGT</mcu>
+      <radio>CYW55310IUBGT</radio>
+    </chips>
+    <name>KIT-CYW55310-EVAL</name>
+    <summary>The Infineon CYW55310 is ultra-lower power, Bluetooth&#174; Low Energy 5.3, targeted at Internet-of-Things (IoT) applications for stand-alone operation. An integrated 192 MHz Arm&#174; Cortex&#174;-CM33,  Bluetooth&#174; LE 5.3 and supports a wide array of peripherals. &lt;p/&gt; The CYW55310 is a low-power, single-chip device that supports Bluetooth&amp;#174; Low Energy 5.3.</summary>
+    <prov_capabilities>arduino bsp_gen4 bt cat5 cat5_ezurio cyw55513 cyw55310 cyw55xxx kit_cyw55310_eval flash_0k hal i2c i2s led low_power mcu_gp memory pdm qspi rtc sdio pot spi sram_768k switch tdm uart</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion.&lt;/li&gt;         &lt;li&gt;On-board sensors - A Digital Ambient Light Sensor (TSL25403) and a Potentiometer.&lt;/li&gt;         &lt;li&gt;Two IFX PDM Microphone (IM69D130) and one Analog Microphone (IM73A135).&lt;/li&gt;         &lt;li&gt;User switches and LEDs&lt;/li&gt;         &lt;li&gt;USB Type-C connector for power, programming, and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYW55310 evaluation board&lt;/li&gt;         &lt;li&gt;M.2 to FFC adapter board&lt;/li&gt;         &lt;li&gt;30-pin FFC cable &lt;/li&gt;         &lt;li&gt;USB Type-C to Type-C cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/evaluation-board/KIT-CYW55310-EVAL#documents</documentation_url>
+    <versions>
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_XMC11_BOOT_001</id>
     <category>XMC&#8482; BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_XMC11_BOOT_001</board_uri>
