@@ -3021,7 +3021,7 @@
     </chips>
     <name>CYW920829-KEYBOARD</name>
     <summary>    The AIROC&amp;#8482; CYW20829 keyboard reference solution is an ultra-low power keyboard design with multi-host support that demonstrates Bluetooth&amp;#174; LE HID over GATT profile It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the demands of battery powered keyboard.</summary>
-    <prov_capabilities>cyw920829_keyboard</prov_capabilities>
+    <prov_capabilities>cyw920829_keyboard ble hal adc memory_qspi bt can pdm sram_256k low_power mxsv2 std_crypto flash_0k rtc smart_io nor_flash i2s cat1 cat1b led i2c lptimer uart dma memory lin spi cyw20829 mcu_gp switch tdm qspi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 1.7 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE 5.4 core spec-compliant&lt;/li&gt;         &lt;li&gt;Battery voltage measurement with 16 bit ADC&lt;/li&gt;         &lt;li&gt;5-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Built-in Keyscan matrix pre-configured for 79 keys layout&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
@@ -3069,7 +3069,7 @@
     </chips>
     <name>CYW920829-MOUSE</name>
     <summary>    The AIROC&amp;#8482; CYW20829 mouse reference solution is an ultra-low power mouse design with multi-host support that demonstrates Bluetooth&amp;#174; LE HID over GATT profile It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the demands of battery powered mouse.</summary>
-    <prov_capabilities>cyw920829_mouse</prov_capabilities>
+    <prov_capabilities>cyw920829_mouse ble hal adc memory_qspi bt can pdm sram_256k low_power mxsv2 std_crypto flash_0k rtc smart_io nor_flash i2s cat1 cat1b led i2c lptimer uart dma memory lin cyw20829 mcu_gp switch tdm qspi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 2.1 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE 5.4 core spec-compliant&lt;/li&gt;         &lt;li&gt;Battery voltage measurement with 16 bit ADC&lt;/li&gt;         &lt;li&gt;5-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Left, Right, Middle and DPI buttons&lt;/li&gt;         &lt;li&gt;SPI based optical motion sensor&lt;/li&gt;         &lt;li&gt;F-switch Quadrature Encoder for scroll wheel&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
@@ -3117,7 +3117,7 @@
     </chips>
     <name>CYW920829-VR</name>
     <summary>    The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE SoC is a Bluetooth&amp;#174; 5.4 core spec-compliant for IoT, HID, smart home and industrial applications. It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the high demands of Bluetooth&amp;#174; LE Applications.</summary>
-    <prov_capabilities>cyw920829_vr</prov_capabilities>
+    <prov_capabilities>cyw920829_vr ble hal adc memory_qspi bt can pdm sram_256k low_power mxsv2 std_crypto flash_0k rtc smart_io nor_flash i2s cat1 cat1b led i2c lptimer uart dma memory lin spi cyw20829 mcu_gp switch tdm qspi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 1.7 - 3.6 V operation&lt;/li&gt;         &lt;li&gt;ADCMic with Audio and DC measurement capability&lt;/li&gt;         &lt;li&gt;Connectors for battery&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Up to 26 programmable GPIOs&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
@@ -3165,13 +3165,17 @@
     </chips>
     <name>CYW920829M2EVK-02</name>
     <summary>    The Infineon AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE evaluation kit (CYW92089M2EVK-02) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC&amp;#8482; CYW20829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an Arm&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW20829 is ideal for a wide range of applications in home and industrial automation, sensors, lighting, Bluetooth&amp;#174; mesh, remote controls and any other Bluetooth&amp;#174; LE connected IoT application.     &lt;p/&gt;     The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE evaluation kit (CYW920829M2EVK-02) and ModusToolbox&amp;#8482; software and tools form a powerful but easy to use toolset that helps developers create amazing Bluetooth&amp;#174; enabled IoT solutions.     &lt;p/&gt;     The Code Examples available for CYW920829M2EVK-02 EVK are also applicable to CYW920829B0M2P4TAI100-EVK and CYW920829B0M2P4EPI100-EVK. There are no separate BSPs for the module EVKs, same CYW920829M2EVK-02 BSP is used for Module EVKs as well.</summary>
-    <prov_capabilities>ble bt cyw920829_vr cat1 cat1b cyw20829 cyw920829m2evk_02 flash_0k hal i2s led low_power mcu_gp memory memory_qspi mesh mxsv2 nor_flash pdm qspi rtc sdhc smart_io std_crypto switch</prov_capabilities>
+    <prov_capabilities>adc ble bt cat1 cat1b cyw20829 cyw920829m2evk_02 flash_0k hal i2s led low_power lptimer mcu_gp memory memory_qspi mesh mxsv2 nor_flash pdm qspi rtc smart_io std_crypto switch</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU in 56 pin QFN package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;On-board sensors - 6-axis IMU, thermistor, Infineon analog microphone, and Infineon digital microphone&lt;/li&gt;         &lt;li&gt;User switches, RGB LED and user LEDs&lt;/li&gt;         &lt;li&gt;USB connector for power, programming and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW20829 evaluation board (CYW9BTM2BASE3+CYW920829M2IPA2)&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (five inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/#!documents</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5 can dma i2c lin spi sram_256k tdm uart">
         <num>3.0.0 release</num>
@@ -3225,13 +3229,17 @@
     </chips>
     <name>CYW989829M2EVB-01</name>
     <summary>    The Infineon AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE evaluation board (CYW989829M2EVB-01) enables evaluation, prototyping, and development of a wide array of Industrial and Automotive IoT applications using the AIROC&amp;#8482; CYW89829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an Arm&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW89829 is optimal solution for automotive and industrial use cases such as car access, battery managment system, automotive sensors, and other applications requiring Automotive AECQ-100 Grade-2 qualification.</summary>
-    <prov_capabilities>adc ble bt can cat1 cat1b cyw89829 cyw989829m2evb_01 dma flash_0k hal i2c i2s led lin low_power lptimer mcu_gp memory memory_qspi mesh mxsv2 nor_flash pdm qspi rtc smart_io spi sram_256k std_crypto switch tdm uart</prov_capabilities>
+    <prov_capabilities>adc ble bt can cat1 cat1b cyw89829 cyw989829m2evb_01 dma flash_1024k hal i2c i2s led lin low_power lptimer mcu_gp memory memory_qspi mesh mxsv2 nor_flash pdm qspi rtc smart_io spi sram_256k std_crypto switch tdm uart</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW89829 Bluetooth&amp;#174; LE MCU in 77 pin BGA SIP package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW89829 evaluation board (CYW9BTM2AUAD+CYW989829SIPM2IPA1)&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.0.0 release</num>
@@ -4726,13 +4734,17 @@
     </chips>
     <name>KIT_PSC3M5_EVK</name>
     <summary>The PSOC&#8482; Control C3 MCU Evaluation Kit (KIT_PSC3M5_EVK) is based on the PSOC&#8482; Control family of devices. It enables the evaluation and development of applications for the PSOC&#8482; Control C3 MCU.</summary>
-    <prov_capabilities>adc bsp_gen5 can cat1 cat1b comp dma flash_256k hal hppass i2c kit_psc3m5_evk low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <prov_capabilities>adc bsp_gen5 can cat1 cat1b comp dma epc2 flash_256k hal hppass i2c kit_psc3m5_evk low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/KIT_PSC3M5_EVK</documentation_url>
     <versions>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.0.1 release</num>
@@ -4765,13 +4777,17 @@
     </chips>
     <name>KIT_PSC3M5_CC1</name>
     <summary>PSOC&#8482; Control C3M5 Digital Power Control Card - This board has the PSOC&#8482; Control C3M5 device with debugger and 120 pin edge connector. Equipped with an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control microcontroller from Infineon Technologies AG, the PSOC&#8482; Control C3M5 Digital Power Control Card is designed to use with different power boards to demonstrate the capabilities of Infineon's PSOC&#8482; Control C3M5 Microcontroller for power stage control applications.</summary>
-    <prov_capabilities>adc bsp_gen5 cat1 cat1b comp dma flash_256k hal hppass i2c kit_psc3m5_cc1 low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <prov_capabilities>adc bsp_gen5 cat1 cat1b comp dma epc2 flash_256k hal hppass i2c kit_psc3m5_cc1 low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/KIT_PSC3M5_CC1</documentation_url>
     <versions>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.0.1 release</num>
@@ -4804,13 +4820,17 @@
     </chips>
     <name>KIT_PSC3M5_CC2</name>
     <summary>PSOC&#8482; Control C3M5 Motor Control Card - This board has the PSOC&#8482; Control C3M5 device with debugger and 100 pin HD connector.", Equipped with an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control microcontroller from Infineon Technologies AG,", the PSOC&#8482; Control C3M5 Motor Control Card is designed to be use with different power boards to demonstrate the capabilities of", Infineon's PSOC&#8482; Control C3M5 Microcontroller for motor control applications.</summary>
-    <prov_capabilities>adc bsp_gen5 can cat1 cat1b comp dma flash_256k hal hppass i2c kit_psc3m5_cc2 low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <prov_capabilities>adc bsp_gen5 can cat1 cat1b comp dma epc2 flash_256k hal hppass i2c kit_psc3m5_cc2 low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
     <description/>
     <documentation_url>https://www.infineon.com/KIT_PSC3M5_CC2</documentation_url>
     <versions>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.0.1 release</num>
@@ -4866,13 +4886,17 @@
     </chips>
     <name>KIT_PSC3M5_2GO</name>
     <summary>PSOC&amp;#8482; Control C3M5 Compact Kit - This board has the PSOC&amp;#8482; Control C3M5 device with debugger, IPM and BLDC motor.     Equipped with an Arm&amp;#174; Cortex&amp;#174;-M33 based PSOC&amp;#8482; Control microcontroller from Infineon Technologies AG,     The PSOC&amp;#8482; Control C3M5 Compact Kit is designed to demonstrate the capabilities of Infineon's PSOC&amp;#8482; Control C3M5     Microcontroller for motor control applications in a standalone plug and play form factor.     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/p&gt;     &lt;p&gt;Programming this kit requires installing &lt;a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack"&gt;SEGGER J-Link software&lt;/a&gt;.&lt;/p&gt;</summary>
-    <prov_capabilities>adc bsp_gen5 can cat1 cat1b comp dma flash_256k hal hppass i2c kit_psc3m5_2go low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <prov_capabilities>adc bsp_gen5 can cat1 cat1b comp dma epc2 flash_256k hal hppass i2c kit_psc3m5_2go low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;PSOC&amp;#8482; Control C3M5 (Arm&amp;#174; Cortex&amp;#174;-M33 based) Microcontroller&lt;/li&gt;         &lt;li&gt;On-board Debug Probe with USB interface supporting SWD &lt;/li&gt;         &lt;li&gt;Isolated J-Link debugger and UART virtual COM port, with Type C USB connector&lt;/li&gt;         &lt;li&gt;One user button and potentiometer&lt;/li&gt;         &lt;li&gt;Two user LEDs&lt;/li&gt;         &lt;li&gt;USB operation with boost for IPM gate and motor supply&lt;/li&gt;         &lt;li&gt;Multiple clock options&lt;/li&gt;         &lt;li&gt;IPM for driving the motor&lt;/li&gt;         &lt;li&gt;Small BLDC motor running on USB power&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;KIT_PSC3M5_2GO evaluation board&lt;/li&gt;         &lt;li&gt;Screwdriver for potentiometer&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/KIT_PSC3M5_2GO</documentation_url>
     <versions>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.0.1 release</num>
@@ -5155,13 +5179,17 @@
     </chips>
     <name>REF_OPTI_80V20A_GaN</name>
     <summary>This board has the PSOC&#8482; Control C3M5 device, a debugger, UART, power stage and the passive components. It is designed to demonstrate the capabilities of Infineon's GaN switches and PSOC&#8482; Control C3M5 microcontroller for power control applications.</summary>
-    <prov_capabilities>ref_opti_80v20a_gan adc can comp dma flash_256k hal hppass i2c low_power lptimer rtc spi smart_io sram_64k std_crypto uart epc2 psc3 psc3m5 bsp_gen5</prov_capabilities>
+    <prov_capabilities>ref_opti_80v20a_gan adc can cat1 cat1b comp dma flash_256k hal hppass i2c low_power lptimer mcu_gp rtc spi smart_io sram_64k std_crypto uart epc2 psc3 psc3m5 bsp_gen5</prov_capabilities>
     <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;PSC3M5FDS2LGQ1&lt;/li&gt;                &lt;li&gt;High Swing Input&lt;/li&gt;                &lt;li&gt;HRPWM usage to improve steps of duty cycle&lt;/li&gt;                &lt;li&gt;Deadtime reduction&lt;/li&gt;                &lt;li&gt;Communication Interface&lt;/li&gt;                &lt;li&gt;High power density solar optimiser&lt;/li&gt;                &lt;li&gt;100% duty cycle capability&lt;/li&gt;                &lt;li&gt;Optimized cost&lt;/li&gt;                &lt;li&gt;Easy interface with PsoC&lt;/li&gt;                &lt;                &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;                &lt;li&gt;REF_OPTI_80V20A_GaN evaluation board&lt;/li&gt;                &lt;li&gt;USB Type-A to Type-C cable&lt;/li&gt;                &lt;                &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/REF_OPTI_80V20A_GaN</documentation_url>
     <versions>
       <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.0.1 release</num>
@@ -5199,6 +5227,10 @@
       <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.1.0 release</num>
