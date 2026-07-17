@@ -5238,4 +5238,84 @@
       </version>
     </versions>
   </board>
+  <board default_location="local">
+    <id>KIT_PSC3M5_MTR_48V_25A</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M5_MTR_48V_25A</board_uri>
+    <chips>
+      <mcu>PSC3M5FDS2LHQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M5_MTR_48V_25A</name>
+    <summary>KIT_PSC3M5_MTR_48V_25A - PSOC&#8482; Control C3M5 Motor Control Board featuring the PSOC&#8482; Control C3M5 device together with 3 half bridges,     2 in-phase current measurements, an external temperature sensor, a 12V brake, and an on-board encoder (TLI5012 or TLI49012).     Equipped with an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control microcontroller from Infineon Technologies AG,     the board is designed to be used directly with 3-phase motors to demonstrate the capabilities of Infineon's PSOC&#8482;     Control C3M5 Microcontroller for motor control applications.</summary>
+    <prov_capabilities>adc can cat1 cat1b comp dma epc2 flash_256k hal hppass i2c kit_psc3m5_mtr_48v_25a low_power lptimer mcu_gp psc3 psc3m5 rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M5 (Arm&#174; Cortex&#174;-M33 based) Microcontroller</li>
+        <li>10-pin debug connector for J-Link</li>
+        <li>3x IGJ022H10SA2 half bridge GaN</li>
+        <li>3x TLE49771 TMR current sensing</li>
+        <li>1x XT-30 supply connector</li>
+        <li>On-board safety switch with overcurrent detection based on 1EDL8011</li>
+        <li>On-board TLI5012 encoder (exchangeable by TLI49012)</li>
+        <li>1x inputs interface (P2 - button and potentiometer)</li>
+        <li>1x RS485 interface (P3)</li>
+        <li>2x CAN-FD interfaces (P6/P7)</li>
+        <li>Connector for external NTC temperature sensor</li>
+        <li>Connector for external brake (12V, max 150mA)</li>
+        <li>3x general communication connectors for encoders (J1/J2/J3)</li>
+        <li>12V/5V buck converter and 3.3V LDO</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>KIT_PSC3M5_MTR_48V_25A evaluation board</li>
+        <li>Quick start guide</li>
+      </ul><p/>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/evaluation-board/KIT_PSC3M5_MTR_48V_25A</documentation_url>
+    <versions>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>REF_MTR_48V30A_PSC3_GaN</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_REF_MTR_48V_PSOCC3_GAN</board_uri>
+    <chips>
+      <mcu>PSC3M5FDS2LGQ1</mcu>
+    </chips>
+    <name>REF_MTR_48V30A_PSC3_GaN</name>
+    <summary>REF_MTR_48V30A_PSC3_GaN - This reference design contains two boards that can be stacked together, so-called MCU board and power board.     MCU board is equipped with the PSOC&#8482; Control C3M5 device an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control microcontroller from Infineon Technologies AG,     Together with the power board which is equipped with GaN devices and TMR current sensor, the reference design provides a total solution that can demonstrate the capabilities of     Infineon's PSOC&#8482; Control C3M5 Microcontroller and the benefit that GaN devices bring for motor control applications such as drones and robotics.</summary>
+    <prov_capabilities>adc can cat1 cat1b comp dma epc2 flash_256k hal hppass i2c low_power lptimer mcu_gp psc3 psc3m5 ref_mtr_48v_psocc3_gan rtc smart_io spi sram_64k std_crypto uart</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M5 (Arm&#174; Cortex&#174;-M33 based) Microcontroller</li>
+        <li>Multiple connectors for SPI/CAN/UART/I2C</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>REF_MTR_48V30A_PSC3_GaN evaluation board</li>
+        <li>Quick start guide</li>
+      </ul><p/>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/evaluation-board/REF_MTR_48V30A_PSC3_GaN</documentation_url>
+    <versions>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+    </versions>
+  </board>
 </boards>
