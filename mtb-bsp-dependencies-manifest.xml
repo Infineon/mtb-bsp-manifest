@@ -8367,6 +8367,35 @@
     <id>KIT_T2G_B-H-16M_LITE</id>
     <versions>
       <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>cat1cm0p</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1c</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-t2gbh16m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.4.0</commit>
         <dependees>
           <dependee>
