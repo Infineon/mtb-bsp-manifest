@@ -1981,6 +1981,42 @@
          ]
       },
       {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8x6 series.",
+         "name": "pse8x6",
+         "token": "pse8x6",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8x2 series.",
+         "name": "pse8x2",
+         "token": "pse8x2",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8x3 series.",
+         "name": "pse8x3",
+         "token": "pse8x3",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSE8x5 series.",
+         "name": "pse8x5",
+         "token": "pse8x5",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Hardware Blocks",
          "description": "This chip contains Graphics Accelerator Block",
          "name": "gfx",
