@@ -910,7 +910,7 @@
             &lt;li&gt;FMC interface: One FMC HPC Mezzanine connector for interfacing external FPGA FMC boards with FX20, compatible with both LPC and HPC FMC connectors. Additionally, one FMC HPC carrier connector for connecting other add-on carrier boards to FPGA board via FX20 DVK.&lt;/li&gt;
             &lt;li&gt;USB-FS interface: for serial logs&lt;/li&gt;
         &lt;/ul&gt;&lt;p/&gt;    &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt; EZ-USB&#8482; FX20 DVK (Base board and GPIO accessory board)&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;USB-C to USB-C and USB-A to USB-C cables&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/promopages/ez-usb-fx10/</documentation_url>
+    <documentation_url>https://www.infineon.com/products/universal-serial-bus/usb-3-2-peripheral-controllers/ez-usb-fx20-usb-20-gbps-peripheral-controller</documentation_url>
     <versions>
       <version tools_min_version="3.4.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 4.X release</num>
