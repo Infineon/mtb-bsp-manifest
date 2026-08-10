@@ -4913,6 +4913,49 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_PSC3M6_EVAL</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M6_EVAL</board_uri>
+    <chips>
+      <mcu>PSC3M6GES3AHQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M6_EVAL</name>
+    <summary><![CDATA[The PSOC&#8482; Control C3M6 MCU Evaluation Kit (KIT_PSC3M6_EVAL) is based on the PSOC&#8482; Control family of devices. It enables the evaluation and development of applications for the PSOC&#8482; Control C3M6 MCU.<br>]]></summary>
+    <prov_capabilities>adc bsp_gen6 can comp dac dma epc3 flash_512k hal hppass i2c i3c kit_psc3m6_eval led low_power lptimer mcu_gp psc3 psc3m6 rtc smart_io spi sram_128k std_crypto switch uart usb_device usb_host</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M6 (Arm&#174; Cortex&#174;-M33 based) Microcontroller</li>
+        <li>On-board Debug Probe with USB interface supporting SWD</li>
+        <li>J-Link debugger and UART virtual COM port, with USB Type C connector</li>
+        <li>Two user LEDs, two user buttons, and a reset button for the PSC3M6</li>
+        <li>USB device and host function</li>
+        <li>IOs available on expansion header</li>
+        <li>SPI Nor flash</li>
+        <li>Headers compatible with MIKROE&#8217;s mikroBUS shields</li>
+        <li>Headers compatible with Arduino Uno R3</li>
+        <li>Potentiometer that can be used to simulate analog sensor output</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M6 Evaluation Kit</li>
+        <li>USB Type-A to Type-C cable</li>
+        <li>Jumper wires</li>
+      </ul>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M6_EVAL</documentation_url>
+    <versions>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_PSE84_EVAL_EPC2</id>
     <category>PSOC&#8482; Edge BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_PSE84_EVAL_EPC2</board_uri>
@@ -5331,6 +5374,88 @@
       <version tools_min_version="3.5.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_PSC3M6_CC1</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M6_CC1</board_uri>
+    <chips>
+      <mcu>PSC3M6GES3AHQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M6_CC1</name>
+    <summary><![CDATA[The PSOC&#8482; Control C3M6 Digital Power Control Card (KIT_PSC3M6_CC1) is based on the Infineon PSOC&#8482; Control C3M6 microcontroller and features an onboard debugger along with a 120-pin edge connector for seamless integration with compatible power boards. Powered by an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control MCU, the card is designed to evaluate, develop, and demonstrate advanced digital power control applications. When paired with supported power boards, it showcases the capabilities of the PSOC&#8482; Control C3M6 device for power conversion, motor control, and other real-time power stage control applications. The card plugs into a standard 120-pin edge connector, providing a flexible platform for rapid prototyping, system evaluation, and application development using the PSOC&#8482; Control C3M6 MCU.<br>]]></summary>
+    <prov_capabilities>adc bsp_gen6 can comp dac dma epc3 flash_512k hal hppass i2c i3c kit_psc3m6_cc1 led low_power lptimer mcu_gp psc3 psc3m6 rtc smart_io spi sram_128k std_crypto uart usb_device usb_host</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M6 (Arm&#174; Cortex&#174;-M33 based) Microcontroller</li>
+        <li>120-pin edge connector exposing all PSOC&#8482; Control C3M6 IOs</li>
+        <li>On-board XMC4200 debug probe (J-Link) with isolated USB Type-C interface supporting SWD</li>
+        <li>Isolated UART virtual COM port and isolated CAN FD transceiver interface</li>
+        <li>Isolated 5&#160;V power supply with 5&#160;V-to-3.3&#160;V LDOs</li>
+        <li>One status LED, a reset button, and an I2C header</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3P6 Digital Power Control Card</li>
+        <li>PSOC&#8482; Control C3P6 Interface Board</li>
+        <li>Type C to USB A cable</li>
+      </ul>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M6_CC1</documentation_url>
+    <versions>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_PSC3M6_CC2</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M6_CC2</board_uri>
+    <chips>
+      <mcu>PSC3M6GES3AHQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M6_CC2</name>
+    <summary><![CDATA[The PSOC&#8482; Control C3M6 Motor Control Card (KIT_PSC3M6_CC2) is based on the Infineon PSOC&#8482; Control C3M6 microcontroller and features an onboard debugger along with a 100-pin high-density (HD100) board-to-board connector for seamless integration with compatible power boards. Powered by an Arm&#174; Cortex&#174;-M33 based PSOC&#8482; Control MCU, the card is designed to evaluate, develop, and demonstrate motor &amp; power control applications. When paired with supported power boards, it showcases the capabilities of the PSOC&#8482; Control C3M6 device for motor control. The card plugs into a standard 100-pin high-density connector, providing a flexible platform for rapid prototyping, system evaluation, and application development.<br>]]></summary>
+    <prov_capabilities>adc bsp_gen6 can comp dac dma epc3 flash_512k hal hppass i2c i3c kit_psc3m6_cc2 led led2x low_power lptimer mcu_gp pot psc3 psc3m6 rtc smart_io spi sram_128k std_crypto switch uart usb_device usb_host</prov_capabilities>
+    <description><![CDATA[
+      <div class="category">Kit Features:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M6 (Arm&#174; Cortex&#174;-M33 based) Microcontroller (PSC3M6GES3AHQ1)</li>
+        <li>100-pin high-density (HD100) board-to-board connector for compatible power boards</li>
+        <li>On-board J-Link debug probe with isolated USB Type-C interface supporting SWD</li>
+        <li>Isolated UART virtual COM port and isolated CAN FD transceiver interface</li>
+        <li>USB device interface</li>
+        <li>Isolated 5&#160;V power supply with 5&#160;V-to-3.3&#160;V LDOs</li>
+        <li>Includes two user LEDs, two user switches, a reset switch, two potentiometers, and GPIO expansion headers</li>
+        <li>Standardized M1/M3 and M5 interfaces enable direct connection to compatible MADK power cards</li>
+        <li>Supports multiple package footprints for maximum design flexibility</li>
+        <li>Onboard switch enables selection between 5 V and 3.3 V analog signal levels</li>
+        <li>Multi-motor sensor interface with support for Hall sensors and encoders</li>
+      </ul><p/>
+      <div class="category">Kit Contents:</div>
+      <ul>
+        <li>PSOC&#8482; Control C3M6 Motor Drive Control Card</li>
+        <li>Type C to USB A cable</li>
+      </ul>
+    ]]></description>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M6_CC2</documentation_url>
+    <versions>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </board>
