@@ -17077,7 +17077,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat5</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat5</id>
@@ -17106,7 +17106,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat5</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat5</id>
@@ -17135,7 +17135,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat5</id>
-            <commit>latest-v2.X</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat5</id>
