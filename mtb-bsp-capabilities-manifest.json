@@ -253,6 +253,15 @@
          ]
       },
       {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Isolated Universal Asynchronous Receiver Transmitter block.",
+         "name": "isouart",
+         "token": "isouart",
+         "types": [
+            "chip"
+         ]
+      },
+      {
          "category": "Chip Families",
          "description": "This chip is in the CAT1 family (PSOC 6, XMC7200, etc).",
          "name": "cat1",
@@ -671,6 +680,24 @@
          "description": "This chip is in the 89829 family.",
          "name": "cyw89829",
          "token": "cyw89829",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the psc1 family.",
+         "name": "psc1",
+         "token": "psc1",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the psc1m3 family.",
+         "name": "psc1m3",
+         "token": "psc1m3",
          "types": [
             "chip"
          ]
@@ -1364,6 +1391,15 @@
          "description": "This chip is in the PMG1 family (CCG3, CCG6, etc).",
          "name": "pmg1",
          "token": "pmg1",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the PMG1-B2 family.",
+         "name": "pmg1_b2",
+         "token": "pmg1_b2",
          "types": [
             "chip"
          ]
