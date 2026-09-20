@@ -5169,6 +5169,52 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>KIT_PSC3M8_CC1</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M8_CC1</board_uri>
+    <chips>
+      <mcu>PSC3M8GFS3PAHQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M8_CC1</name>
+    <summary>The PSOC&#8482; Control C3 Control Card (KIT_PSC3M8_CC1) is based on the PSOC&#8482; Control family of devices.</summary>
+    <prov_capabilities>adc bsp_gen6 can comp dac dma epc3 flash_512k hal i2c kit_psc3m8_cc1 low_power lptimer mcu_gp multi_core ppca psc3 psc3m8 rtc spi sram_128k std_crypto uart led</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M8_CC1</documentation_url>
+    <versions>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_PSC3M8_EVK</id>
+    <category>PSOC&#8482; Control BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSC3M8_EVK</board_uri>
+    <chips>
+      <mcu>PSC3M8GFS3PAHQ1</mcu>
+    </chips>
+    <name>KIT_PSC3M8_EVK</name>
+    <summary>The PSOC&#8482; Control C3 Starter kit (KIT_PSC3M8_EVK) is based on the PSOC&#8482; Control family of devices.</summary>
+    <prov_capabilities>adc bsp_gen6 can comp dac dma epc3 flash_512k hal i2c kit_psc3m8_evk low_power lptimer mcu_gp multi_core ppca psc3 psc3m8 rtc spi sram_128k std_crypto uart</prov_capabilities>
+    <description/>
+    <documentation_url>https://www.infineon.com/KIT_PSC3M8_EVK</documentation_url>
+    <versions>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>KIT_PSE84_EVAL_EPC2</id>
     <category>PSOC&#8482; Edge BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_KIT_PSE84_EVAL_EPC2</board_uri>

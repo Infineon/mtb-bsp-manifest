@@ -712,8 +712,26 @@
          ]
       },
       {
-         "category": "Chip Families",
-         "description": "This chip is in the psc3m5 family.",
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3P2 series.",
+         "name": "psc3p2",
+         "token": "psc3p2",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3M3 series.",
+         "name": "psc3m3",
+         "token": "psc3m3",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3M5 series.",
          "name": "psc3m5",
          "token": "psc3m5",
          "types": [
@@ -721,10 +739,64 @@
          ]
       },
       {
-         "category": "Chip Families",
-         "description": "This chip is in the psc3m6 family.",
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3P5 series.",
+         "name": "psc3p5",
+         "token": "psc3p5",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3M6 series.",
          "name": "psc3m6",
          "token": "psc3m6",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3P6 series.",
+         "name": "psc3p6",
+         "token": "psc3p6",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3M7 series.",
+         "name": "psc3m7",
+         "token": "psc3m7",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3P7 series.",
+         "name": "psc3p7",
+         "token": "psc3p7",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3M8 series.",
+         "name": "psc3m8",
+         "token": "psc3m8",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Series",
+         "description": "This chip is in the PSC3P8 series.",
+         "name": "psc3p8",
+         "token": "psc3p8",
          "types": [
             "chip"
          ]
@@ -1886,6 +1958,15 @@
          "description": "This chip includes at least one HPPASS (High Performance Programmable Analog Sub System) block",
          "name": "hppass",
          "token": "hppass",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip includes at least one PPCA (Programmable Power Control Accelerator) block",
+         "name": "ppca",
+         "token": "ppca",
          "types": [
             "chip"
          ]
