@@ -5353,6 +5353,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.4.1 release</num>
+        <commit>release-v1.4.1</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
       </version>

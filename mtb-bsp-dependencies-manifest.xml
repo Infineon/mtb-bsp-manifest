@@ -22532,6 +22532,39 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.4.1</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-dsl-pse8xxgp</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>bt-fw-mur-cyw55513</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>se-rt-services-utils</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.4.0</commit>
         <dependees>
           <dependee>
