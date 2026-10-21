@@ -605,6 +605,15 @@
       },
       {
          "category": "Chip Families",
+         "description": "This chip is in the 55512 family.",
+         "name": "cyw55512",
+         "token": "cyw55512",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
          "description": "This chip is in the 55513 family.",
          "name": "cyw55513",
          "token": "cyw55513",

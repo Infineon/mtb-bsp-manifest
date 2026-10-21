@@ -2750,7 +2750,7 @@
     <summary>CYSBSYSKIT-01: Pre-configured Rapid IoT Connect Platform RP01 Feather Kit with a CYSBSYS-RP01 Rapid IoT Connect module which enables a secure, scalable, and reliable connection to cloud. CYSBSYS-RP01 is a pre-certified 802.11ac-friendly dual- band (2.4 and 5.0 GHz) Wi-Fi and Bluetooth&#174;5.0-compliant combo radio module. </summary>
     <prov_capabilities>adc bt cat1 cat1a comp csd cysbsyskit_01 cyw43012 cyw43xxx dma feather flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc sdio smart_io spi sram_1024k switch uart wifi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYS-RP01 module with managed firmware for device management and radio chip. &lt;/li&gt;         &lt;li&gt;512KB Flash and 512KB SRAM for customer application on CM4&lt;/li&gt;         &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;         &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;Battery connector, charging IC, and charging indicator LED&lt;/li&gt;         &lt;li&gt;One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED&lt;/li&gt;         &lt;li&gt;OPTIGA Trust M advanced security controller for secure data storage&lt;/li&gt;         &lt;li&gt;Thermistor for sensing the ambient temperature&lt;/li&gt;         &lt;li&gt;16KB of Emulated EEPROM&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/CYSBSYSKIT-01</documentation_url>
+    <documentation_url>https://www.infineon.com/design-resources/boards-and-kits</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 5.X release</num>
@@ -2826,7 +2826,7 @@
     <summary>The CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Kit allows for evaluation of the CYSBSYS-RP01 Rapid IoT Connect module on a standard Feather form factor. The CYSBSYS-RP01 Rapid IoT Connect module is a turnkey module that enables secure, scalable, and reliable compute and connect.</summary>
     <prov_capabilities>adc bt cat1 cat1a comp csd cysbsyskit_dev_01 cyw43012 cyw43xxx dma feather flash_2048k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash optiga_trust_m pdm psoc6 qspi rtc sdio smart_io spi sram_1024k std_crypto switch uart wifi</prov_capabilities>
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYS-RP01 module&lt;/li&gt;         &lt;li&gt;Free application processor (150-MHz Arm&amp;#174; Cortex&amp;#174;-M4) and secondary processor (100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+)&lt;/li&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;         &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART, and USB-I2C bridge functionality&lt;/li&gt;         &lt;li&gt;A user LED, a user button, and a reset button&lt;/li&gt;         &lt;li&gt;Battery connector, charging IC, and charging indicator LED&lt;/li&gt;         &lt;li&gt;One KitProg3 mode button, one KitProg3 status LED, and one KitProg3 power LED&lt;/li&gt;         &lt;li&gt;OPTIGA Trust M advanced security controller for secure data storage&lt;/li&gt;         &lt;li&gt;Thermistor for sensing the ambient temperature&lt;/li&gt;         &lt;li&gt;Feather compatible pin header&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;CYSBSYSKIT-DEV-01 Rapid IoT Connect Developer Edition Kit&lt;/li&gt;         &lt;/ul&gt;</description>
-    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/CYSBSYSKIT-DEV-01</documentation_url>
+    <documentation_url>https://www.infineon.com/design-resources/boards-and-kits</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen5">
         <num>Latest 5.X release</num>
@@ -5241,6 +5241,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
       </version>
@@ -5279,6 +5283,10 @@
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
       </version>
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.4.0 release</num>
@@ -5321,6 +5329,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
       </version>
@@ -5359,6 +5371,10 @@
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
       </version>
       <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.4.1 release</num>
@@ -5776,6 +5792,30 @@
       <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>KIT_PSE846_EVAL_EPC2</id>
+    <category>PSOC&#8482; Edge BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_PSE846_EVAL_EPC2</board_uri>
+    <chips>
+      <mcu>PSE846GPS2DBZC4</mcu>
+      <radio>FCS962N-LP</radio>
+    </chips>
+    <name>KIT_PSE846_EVAL_EPC2</name>
+    <summary><![CDATA[The PSOC&#8482; Edge E84 Evaluation Kit (KIT_PSE846_EVAL) is based on the PSOC&#8482; Edge family of devices. It enables the evaluation and development of applications for the PSOC&#8482; Edge E84 EPC2 MCU.<br>]]></summary>
+    <prov_capabilities>adc audio bsp_gen6 bt can comp cyw55512 cyw55xxx dac dma epc2 ethernet flash_0k gfx hal i2c i2s i3c kit_pse846_eval_epc2 led low_power lptimer mcu_gp memory_qspi multi_core npu opamp pdm pse8x6 qspi rtc sdhc sdio smart_io spi sram_1024k std_crypto switch tdm uart usb_device usb_host wifi</prov_capabilities>
+    <description><![CDATA[This evaluation kit carries a PSOC&#8482; Edge E84 EPC2 MCU (PSE846GPS2DBZC4) on a SODIMM-based detachable SOM board connected to the baseboard. The MCU SOM also has 128 Mb QSPI flash, 1 Gb Octal flash, 128 Mb Octal RAM, and an on-board FCS962N-LP module with Wi-Fi/Bluetooth&reg; connectivity.<br><br>The baseboard features an M.2 (E-key) interface for external radio modules (based on AIROC&#8482; Wi-Fi & Bluetooth&#174; combo), an on-board programmer/debugger (KitProg3), SWD/JTAG and ETM debug headers, a custom display capacitive touch panel connector, a R-Pi compatible MIPI-DSI connector, analog and PDM microphones, a headphone connector, a speaker, USB Host/Device Type-C connectors, an RJ45 Ethernet connector, a PDM sheild connector, a 6-axis IMU sensor, 3-axis magnetometer, microSD cardholder, user LEDs, and user buttons. The MCU power domain supports operating voltages of 2.7 V, 3.3 V, and 4.2 V, and the peripheral power domain supports operating voltages of 1.8 V and 3.3 V.<br>[KitIds: KIT_PSE846_EVAL]]]></description>
+    <documentation_url>https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/32-bit-psoc-edge-arm/psoc-edge-e84/#!documents</documentation_url>
+    <versions>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.7.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
       </version>
     </versions>
   </board>
