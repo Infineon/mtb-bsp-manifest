@@ -21926,6 +21926,23 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-dsl-psc3m6</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
@@ -23461,6 +23478,23 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-dsl-psc3m6</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
@@ -23484,6 +23518,23 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-dsl-psc3m6</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
             <id>core-lib</id>

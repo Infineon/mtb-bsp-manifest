@@ -82,11 +82,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Liquid Tolerant, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-040T PSOC&amp;#8482; 4000T CAPSENSE&amp;#8482; Evaluation Board with Enclosure&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CKIT-040T</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -171,11 +171,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Trackpad&lt;/li&gt;         &lt;li&gt;EZ-BLE PRoC module&lt;/li&gt;         &lt;li&gt;Potentiometer&lt;/li&gt;         &lt;li&gt;Rechargeable coin-cell battery&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-041-41XX PSOC&amp;#8482; 4100S Pioneer board&lt;/li&gt;         &lt;li&gt;USB Standad-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Water dropper&lt;/li&gt;         &lt;li&gt;Four press-fit connectors (for Arduino headers)&lt;/li&gt;         &lt;li&gt;Four jumper wires&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CKIT-041-41XX</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_64k low_power sram_8k">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_64k low_power sram_8k">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_64k low_power sram_8k">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_64k low_power sram_8k">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -226,11 +226,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Buttons&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Touchpad&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Slider&lt;/li&gt;         &lt;li&gt;Ready-to-Use CAPSENSE&amp;#8482; Proximity&lt;/li&gt;         &lt;li&gt;Thermistor&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-041S-Max PSOC&amp;#8482; 4100S Max Pioneer Board&lt;/li&gt;         &lt;li&gt;CY8CKIT-041S-Max Capacitive Sensing Expansion Board&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires&lt;/li&gt;         &lt;li&gt;40 pin FFC cable&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CKIT-041S-MAX</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 i2s low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -269,11 +269,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;High Performance Analog with Dual ADCs         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-045S PSOC&amp;#8482; 4500S Pioneer board&lt;/li&gt;         &lt;li&gt;USB Standad-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CKIT-045S</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -328,11 +328,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-145-40XX PSOC&amp;#8482; 4000S Prototyping board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CKIT-145-40XX</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_32k low_power sram_4k">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_32k low_power sram_4k">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_32k low_power sram_4k">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 flash_32k low_power sram_4k">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -387,11 +387,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;World's Most Reliable, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;         &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CY8CKIT-149 PSOC&amp;#8482; 4100S Plus Prototyping board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/CY8CKIT-149</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -514,11 +514,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support for single Port USB PD 3.1 Source/ Sink Role (DRP).&lt;/li&gt;         &lt;li&gt;Support 100W sink operation and 27W source operation.&lt;/li&gt;         &lt;li&gt;Support USB bus/DC supply/battery powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-B1 silicon (CYPM1116-48LQXI) in hardware and support for BSP, PDL and Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;li&gt;The kit can provide a 5V/400mA supply to enable customers to power the peripherals/sensors if required. An on-board regulator from IFX can provide this power using the VBUS input. This is an optional requirement to be decided during the design phase.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM116-48LQXI based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/EVAL_PMG1_B1_DRP</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -541,11 +541,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Supports USB PD DRP operation on the USB-C port.&lt;/li&gt;         &lt;li&gt;Supports SPR (Standard Power Range) up to 100W (20V, 5A) of power consumption as both source and sink.&lt;/li&gt;         &lt;li&gt;Kit can be powered from either an external DC adapter (24V) or from USB-C Bus power.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S1 silicon (CYPM1111-40LQXIT) in hardware and support for BSP, PDL and Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;li&gt;The kit can provide two fixed voltage supplies - 5V/2.5A and 3.3V/400mA to enable customers to power external peripherals/sensors if required.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM1111-40LQXIT based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/EVAL_PMG1_S1_DRP</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -568,11 +568,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Supports USB PD DRP operation on both the USB-C ports.&lt;/li&gt;         &lt;li&gt;Supports SPR (Standard Power Range) in source mode and can provide upto 100W (20V@3A) on both ports.&lt;/li&gt;         &lt;li&gt;Supports EPR (Extended Power Range) in sink mode up to 140W (28V@5A) power on both ports.&lt;/li&gt;         &lt;li&gt;Support for two self-capacitance based CAPSENSE&amp;#8482; buttons and one 5-segment slider.&lt;/li&gt;         &lt;li&gt;Kit can be powered from either an external DC adapter (24V) or from USB-C Bus power. &lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S3 silicon (CYPM1321-97BZXIT) in hardware and support for BSP, PDL and         Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;li&gt;The kit can provide two fixed voltage supplies - 5V/2.5A and 3.3V/400mA to enable users to power external peripherals/sensors if required. &lt;/li&gt;         &lt;li&gt;The kit provides an option to bypass the onboard PD regulator and connect an external PD regulator for 140W (28V@5A) source operation.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM1321-97BZXIT based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/EVAL_PMG1_S3_DUALDRP</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -595,11 +595,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S0 silicon (CYPM1011-24LQXI) in hardware and support for BSP, HAL, PDL and Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM1011-24LQXI based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.cypress.com/CY7110</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -646,11 +646,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S1 silicon (CYPM1111-40LQXIT) in hardware and support for BSP, HAL, PDL and Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM1111-40LQXIT based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY7111</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -697,11 +697,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S2 silicon (CYPM1211-40LQXIT) in hardware and support for BSP, HAL, PDL and Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM1211-40LQXIT based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY7112</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -748,11 +748,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.0 compliant Sink which can support up to 100W (20V, 5A) of power consumption.&lt;/li&gt;         &lt;li&gt;Support for two self-capacitance based CAPSENSE&amp;#8482; buttons and one 5-segment slider.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;KitProg3 based programming and debug interface.&lt;/li&gt;         &lt;li&gt;Access to the pins of PMG1-S3 silicon (CYPM1311-48LQXI) in hardware and support for BSP, HAL, PDL and Middleware in ModusToolbox&amp;#8482;.&lt;/li&gt;         &lt;/ul&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;EZ-PD&amp;#8482; CYPM1311-48LQXI based board&lt;/li&gt;         &lt;li&gt;Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>http://www.cypress.com/CY7113</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -795,11 +795,11 @@
     <description>        &lt;div class="category"&gt;Key Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;USB PD 3.1 compliant DRP on both the ports.&lt;/li&gt;         &lt;li&gt;EPR (Extended Power Range) which can support up to 140W (28V, 5A) power on both ports.&lt;/li&gt;         &lt;li&gt;USB Type-C alternate mode support.&lt;/li&gt;         &lt;li&gt;USB bus powered operation.&lt;/li&gt;         &lt;li&gt;SWD based programming and debug interface.&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://www.infineon.com/dgdl/Infineon-USB_PD_DRP_dual-role_power_schematics_using_EZ-PD_PMG1_MCUs-ApplicationNotes-v02_00-EN.pdf?fileId=8ac78c8c83cd30810183ea6518841d1e</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="capsense low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="capsense low_power">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="capsense low_power">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="capsense low_power">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -826,11 +826,11 @@
     <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;This is a generic template, there is no corresponding physical board and hence no board-specific macros. The user is expected to create a custom BSP with various pin/hardware details - Refer to KBA230822. Code examples using kit/board resources will not be shown for this BSP until the manifest data for the BSP is updated to include additional capabilities. Refer to ModusToolbox&amp;#8482; user guide for creating custom manifests.&lt;/li&gt;         &lt;li&gt;This is manifest can also be used to allow the board to show up in the ModusToolbox&amp;#8482; tools&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;NA&lt;/li&gt;         &lt;/ul&gt;</description>
     <documentation_url>https://github.com/Infineon/TARGET_PSOC4-GENERIC</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc4_generic">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc4_generic">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc4_generic">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 psoc4_generic">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -3931,11 +3931,11 @@
     <description>The solution board is Qi v1.3.2 compliant Extended Power Profile transmitter.</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/refwlctx15wc1</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1115_68lqxq">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1115_68lqxq">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1115_68lqxq">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1115_68lqxq">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -4005,11 +4005,11 @@
     <description>The solution board is Qi v1.3.2 compliant Extended Power Profile transmitter.</description>
     <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/ref_wlc_tx50w_n1</documentation_url>
     <versions>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1150_68lqxq">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1150_68lqxq">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1150_68lqxq">
+      <version tools_min_version="3.6.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 cat2 flash_128k i2c low_power spi sram_16k uart wlc1 wlc1150_68lqxq">
         <num>3.6.0 release</num>
         <commit>release-v3.6.0</commit>
       </version>
@@ -5171,6 +5171,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5710,6 +5714,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5751,6 +5759,10 @@
       <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version tools_min_version="3.8.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
